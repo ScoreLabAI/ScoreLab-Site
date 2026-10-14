@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /account
+Disallow: /dashboard
+Disallow: /diagnostic
+Disallow: /practice
+Disallow: /progress
+Disallow: /onboarding
+Disallow: /results
