@@ -24,6 +24,8 @@ src/lib/             server functions (.functions.ts) and server-only logic (.se
 src/components/      shared UI, including DesmosCalculator.tsx
 src/integrations/    Supabase client + auth middleware (auto-generated)
 supabase/migrations/ database schema, RLS policies, and triggers
+question-bank/       question .json files, auto-imported on push (see its README)
+scripts/             standalone CI scripts (bun scripts/import-questions.ts)
 ```
 
 Server-only code must not be imported statically from route files. Route files

@@ -1,7 +1,9 @@
 // Client-safe schema + validation for manually authored question uploads.
+import type { Json } from "@/integrations/supabase/types";
 
 export const VALID_SECTIONS = ["math", "reading_writing"] as const;
 export const VALID_ANSWERS = ["A", "B", "C", "D"] as const;
+export const VALID_VISUAL_TYPES = ["graph", "table", "geometry"] as const;
 
 export interface ImportQuestion {
   section: string;
@@ -21,6 +23,10 @@ export interface ImportQuestion {
   distractor_d_explanation?: string | null;
   is_diagnostic?: boolean;
   module_type?: string;
+  has_visual?: boolean;
+  visual_type?: string | null;
+  visual_data?: Json | null;
+  visual_svg?: string | null;
 }
 
 export interface ImportIssue {
@@ -38,9 +44,7 @@ export function parseQuestionsPayload(raw: string): ImportQuestion[] {
   } catch {
     throw new Error("Not valid JSON — check for trailing commas or missing brackets");
   }
-  const arr = Array.isArray(json)
-    ? json
-    : (json as { questions?: unknown })?.questions;
+  const arr = Array.isArray(json) ? json : (json as { questions?: unknown })?.questions;
   if (!Array.isArray(arr)) {
     throw new Error('Expected a JSON array of questions, or an object like { "questions": [...] }');
   }
@@ -63,6 +67,17 @@ export function validateImportQuestion(q: ImportQuestion): string | null {
   if (!VALID_ANSWERS.includes(correct as (typeof VALID_ANSWERS)[number])) {
     return `correct_answer must be A, B, C, or D (got "${q.correct_answer}")`;
   }
+  if (q.has_visual) {
+    if (!VALID_VISUAL_TYPES.includes(q.visual_type as (typeof VALID_VISUAL_TYPES)[number])) {
+      return `visual_type must be "graph", "table", or "geometry" when has_visual is true (got "${q.visual_type}")`;
+    }
+    if (q.visual_data == null) return "visual_data is required when has_visual is true";
+    if (q.visual_type !== "table" && !q.visual_svg) {
+      return `visual_svg is required when visual_type is "${q.visual_type}" (table is the only type without a rendered SVG)`;
+    }
+  } else if (q.visual_type != null || q.visual_data != null || q.visual_svg != null) {
+    return "visual_type, visual_data, and visual_svg must be empty when has_visual is false";
+  }
   return null;
 }
 
@@ -84,7 +99,11 @@ export const IMPORT_TEMPLATE = `{
       "distractor_b_explanation": "",
       "distractor_c_explanation": "Why C is wrong.",
       "distractor_d_explanation": "Why D is wrong.",
-      "is_diagnostic": true
+      "is_diagnostic": true,
+      "has_visual": false,
+      "visual_type": null,
+      "visual_data": null,
+      "visual_svg": null
     }
   ]
 }`;
