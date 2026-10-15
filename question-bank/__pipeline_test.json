@@ -11,7 +11,7 @@
       "answer_c": "4",
       "answer_d": "5",
       "correct_answer": "C",
-      "_note": "retrigger after enabling Actions",
+      "_note": "retrigger after fixing secret location",
       "explanation": "Add 3 to both sides: 4x = 16. Divide by 4: x = 4.",
       "distractor_a_explanation": "Results from dividing 13 by 4 without adding 3 first, then rounding down.",
       "distractor_b_explanation": "Results from subtracting 3 and 4 incorrectly.",
