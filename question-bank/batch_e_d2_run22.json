@@ -1,0 +1,26 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Advanced Math",
+  "skill_subcategory": "Nonlinear equations in one variable and systems of equations in two variables",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A mosaic artist is laying out a rectangular glass-tile panel. The length of the panel is 3 feet more than its width. The area of the panel is 54 square feet. What is the width, in feet, of the panel?",
+  "answer_a": "3",
+  "answer_b": "6",
+  "answer_c": "9",
+  "answer_d": "18",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Let w be the width, in feet, of the panel. It's given that the length is 3 feet more than the width, so the length is w + 3. The area is the length times the width, so w(w + 3) = 54. This can be rewritten as w^2 + 3w - 54 = 0, which factors as (w + 9)(w - 6) = 0. So w = -9 or w = 6. Since a width can't be negative, the width is 6 feet.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of feet by which the length exceeds the width, not the width.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the length of the panel (6 + 3), not the width.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from dividing the area, 54, by 3 instead of solving the quadratic equation."
+ }
+]
