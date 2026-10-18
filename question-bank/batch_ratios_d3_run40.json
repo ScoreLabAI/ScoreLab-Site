@@ -1,0 +1,26 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Ratios, rates, proportional relationships, and units",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A marine fuel depot makes ethanol-gasoline blends from two storage tanks, tank A and tank B. The ethanol content of the fuel in each tank, as a percent of volume, is not labeled. A technician combined 20 liters of fuel from tank A with 30 liters of fuel from tank B, and the resulting blend was 22% ethanol by volume. A second blend, made by combining 40 liters of fuel from tank A with 10 liters of fuel from tank B, was 34% ethanol by volume. The technician now combines 3.5 liters of fuel from tank A with 4.5 liters of fuel from tank B. How many milliliters of ethanol are in this new blend?",
+  "answer_a": "1,760",
+  "answer_b": "1,850",
+  "answer_c": "2,150",
+  "answer_d": "2,240",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Let a be the fraction of ethanol by volume in tank A and b be the fraction in tank B. For the first blend, 20 liters from tank A and 30 liters from tank B make 50 liters that are 22% ethanol, so 20a + 30b = 0.22(50) = 11. For the second blend, 40 liters from tank A and 10 liters from tank B make 50 liters that are 34% ethanol, so 40a + 10b = 0.34(50) = 17. Multiplying the first equation by 2 gives 40a + 60b = 22. Subtracting 40a + 10b = 17 from this equation gives 50b = 5, so b = 0.1. Substituting 0.1 for b in 20a + 30b = 11 gives 20a + 3 = 11, so a = 0.4. Therefore, the fuel in tank A is 40% ethanol and the fuel in tank B is 10% ethanol. The new blend contains 3.5(0.4) + 4.5(0.1) = 1.4 + 0.45 = 1.85 liters of ethanol. Since 1 liter is 1,000 milliliters, this is 1.85(1,000) = 1,850 milliliters. Therefore, there are 1,850 milliliters of ethanol in the new blend.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the amount of ethanol that would be in the new blend if its 8 liters were 22% ethanol, the concentration of the first blend, not the concentration of the new blend: 0.22(8) = 1.76 liters, or 1,760 milliliters.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from reversing the two tank concentrations after solving the system, that is, using 10% for tank A and 40% for tank B: 3.5(0.1) + 4.5(0.4) = 0.35 + 1.8 = 2.15 liters, or 2,150 milliliters.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from assuming the new blend's concentration is the average of the two given blend concentrations, (22% + 34%) / 2 = 28%, and applying it to the 8 liters: 0.28(8) = 2.24 liters, or 2,240 milliliters. This ignores that the new blend uses different amounts of fuel from each tank.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
