@@ -1,0 +1,101 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "Every member of a community recreation center was asked whether they swim and whether they take yoga. Of all members, 60% swim. Of the members who swim, 40% also take yoga. Of the members who take yoga, 80% also swim. A total of 119 members neither swim nor take yoga. How many members take exactly one of the two activities?",
+  "answer_a": "21",
+  "answer_b": "126",
+  "answer_c": "147",
+  "answer_d": "231",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Let N represent the total number of members. It's given that 60% of members swim, so 0.6N members swim. It's also given that 40% of the swimmers also take yoga, so 0.4(0.6N) = 0.24N members do both activities. Because 80% of the yoga takers also swim, 0.8 times the number of yoga takers equals 0.24N, so 0.3N members take yoga. By inclusion-exclusion, the number of members who do at least one activity is 0.6N + 0.3N - 0.24N = 0.66N. The remaining 0.34N members do neither, and it's given that this number is 119. Therefore, 0.34N = 119, so N = 350. Members who swim only: 0.6(350) - 0.24(350) = 210 - 84 = 126. Members who take yoga only: 0.3(350) - 84 = 105 - 84 = 21. Therefore, the number of members who take exactly one of the two activities is 126 + 21 = 147.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of members who take yoga but do not swim (105 - 84 = 21), which counts only one of the two groups of members who do exactly one activity.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the number of members who swim but do not take yoga (210 - 84 = 126), which leaves out the members who take yoga only.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of members who do at least one activity (210 + 105 - 84 = 231). It includes the 84 members who do both, who should not be counted as taking exactly one activity."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A community college offers evening certificate programs in welding and in HVAC repair. In the fall, the two programs had a combined enrollment of 600 students. From fall to spring, the welding enrollment increased by a number of students equal to 30% of the fall HVAC enrollment, and the HVAC enrollment decreased by a number of students equal to 20% of the fall welding enrollment. The combined spring enrollment of the two programs was 620 students. What was the welding enrollment in the spring?",
+  "answer_a": "216",
+  "answer_b": "280",
+  "answer_c": "320",
+  "answer_d": "404",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. Let w and h represent the fall enrollments in welding and HVAC, respectively. It's given that the combined fall enrollment was 600, so w + h = 600. The welding enrollment increased by 0.30h and the HVAC enrollment decreased by 0.20w, so the combined spring enrollment is (w + 0.30h) + (h - 0.20w) = 620. Since w + h = 600, the combined change is 620 - 600 = 20, so 0.30h - 0.20w = 20. Substituting h = 600 - w gives 0.30(600 - w) - 0.20w = 20, or 180 - 0.50w = 20. Therefore, w = 320 and h = 280. The spring welding enrollment is w + 0.30h = 320 + 0.30(280) = 320 + 84 = 404. Therefore, the welding enrollment in the spring was 404 students.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the spring HVAC enrollment, 280 - 0.20(320) = 216, not the spring welding enrollment.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from switching the two percentages, using an increase of 20% of the HVAC enrollment and a decrease of 30% of the welding enrollment, which gives a fall welding enrollment of 200 and a spring welding enrollment of 200 + 0.20(400) = 280.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the fall welding enrollment, found by solving the system but not adding the 30% increase to it.",
+  "distractor_d_explanation": ""
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Lodging",
+    "First-time campers",
+    "Returning campers",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Cabin",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Tent site",
+     "120",
+     "",
+     ""
+    ],
+    [
+     "Total",
+     "",
+     "",
+     "600"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A state park surveyed 600 overnight campers about the lodging they booked. Each camper was either a first-time camper or a returning camper, and each booked either a tent site or a cabin. Some of the results are shown in the table.\n\nOf all first-time campers surveyed, 40% booked a cabin. Of all campers surveyed who booked a cabin, 75% were returning campers. Of the returning campers surveyed, what percent booked a tent site?",
+  "answer_a": "30%",
+  "answer_b": "40%",
+  "answer_c": "60%",
+  "answer_d": "75%",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Let x represent the number of first-time campers who booked a cabin. It's given that 120 first-time campers booked a tent site, so the number of first-time campers surveyed is x + 120. It's given that 40% of first-time campers booked a cabin, so x = 0.40(x + 120). Solving gives 0.6x = 48, so x = 80. Now let y represent the number of returning campers who booked a cabin. Returning campers were 75% of all campers who booked a cabin, so y = 0.75(80 + y). Solving gives 0.25y = 60, so y = 240. Of the 600 campers surveyed, 80 + 120 = 200 were first-time campers, so 600 - 200 = 400 were returning campers. Of these, 240 booked a cabin, so 400 - 240 = 160 booked a tent site. Therefore, the percent of returning campers who booked a tent site is 160/400 = 0.40, or 40%.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from dividing 120, the number of first-time campers who booked a tent site, by 400, the number of returning campers, instead of dividing the 160 returning campers who booked a tent site by 400.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the percent of returning campers who booked a cabin (240/400), not the percent who booked a tent site.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the percent of cabin bookings made by returning campers, which is given in the question, not the percent of returning campers who booked a tent site."
+ }
+]
