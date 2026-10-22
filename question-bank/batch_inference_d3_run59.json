@@ -1,0 +1,181 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A cooperative in a highland region has 4,000 coffee growers. Two different random samples of these growers were surveyed independently about whether they plan to replant with a drought-resistant variety next season. In the first survey, 60% of the sampled growers said they plan to replant, with a margin of error of 7 percentage points. In the second survey, 50% of the sampled growers said they plan to replant, with a margin of error of 6 percentage points. Assume that, for each survey, the true percent of all 4,000 growers who plan to replant is within the interval given by that survey's estimate plus or minus its margin of error. Based on both surveys, what is the greatest possible number of the cooperative's growers who do NOT plan to replant?",
+  "answer_a": "1,760",
+  "answer_b": "1,880",
+  "answer_c": "2,120",
+  "answer_d": "2,240",
+  "correct_answer": "B",
+  "explanation": "The true percent who plan to replant must lie within both surveys' intervals. The first survey gives 60 - 7 = 53% to 60 + 7 = 67%. The second gives 50 - 6 = 44% to 50 + 6 = 56%. The percent consistent with both is the overlap, 53% to 56%. The number who do NOT plan to replant is greatest when the percent who do plan is least, which is 53%. That means 100% - 53% = 47% do not plan to replant. Then 0.47 \u00d7 4,000 = 1,880. The correct choice is B.",
+  "distractor_a_explanation": "Takes the correct overlap of 53% to 56%, but uses the wrong end of it for the complement. Subtracting the greatest value, 56%, from 100% gives 44%, and 0.44 \u00d7 4,000 = 1,760. The non-planning count is greatest at the least planning percent, 53%, not the greatest.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Correctly finds the overlap and its least value, 53%, then computes the count who DO plan to replant: 0.53 \u00d7 4,000 = 2,120. This skips the complement step; the question asks for growers who do NOT plan to replant.",
+  "distractor_d_explanation": "Uses only the second survey, since it has the smaller margin of error, and ignores the first survey's interval. Its least value is 44%, so 100% - 44% = 56% are taken as not planning to replant, and 0.56 \u00d7 4,000 = 2,240. The true percent must also be at least 53% to fit the first survey, so 56% not planning is too large.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "Larkspur Logistics has 14,000 employees at three distribution centers. A researcher obtained a list of the 3,800 employees at the Tacoma center and selected a random sample of 500 of them. Each sampled employee reported whether he or she packs lunch from home at least 4 days per week and reported daily added-sugar intake over a typical week. The employees themselves chose whether to pack lunch; the researcher did not assign anyone to a group. The sample mean daily added-sugar intake was 41.2 grams for employees who pack lunch and 52.6 grams for employees who do not. The margin of error for the difference between these two means is 3.1 grams. Which of the following conclusions is best supported by the data?",
+  "answer_a": "Packing lunch from home causes Tacoma center employees to have a lower mean daily added-sugar intake than they otherwise would.",
+  "answer_b": "Tacoma center employees who pack lunch have a lower mean daily added-sugar intake than those who do not, though the cause of the difference is not established.",
+  "answer_c": "Employees at all three Larkspur centers who pack lunch have a lower mean daily added-sugar intake than those who do not, though the cause of the difference is not established.",
+  "answer_d": "Tacoma center employees who pack lunch and those who do not likely have the same mean daily added-sugar intake, because sample means vary by chance.",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the 500 employees were randomly selected from the list of all 3,800 Tacoma center employees, so the results can be generalized to the Tacoma center employees. The difference in sample means is 52.6 - 41.2 = 11.4 grams, which is greater than the margin of error of 3.1 grams. The interval for the difference in population means is 11.4 plus or minus 3.1, or 8.3 to 14.5 grams, which does not include 0. So there is a real difference in mean intake among Tacoma center employees. However, employees chose for themselves whether to pack lunch and were not randomly assigned to groups, so the data show an association only and cannot establish that packing lunch is the cause. Therefore, Tacoma center employees who pack lunch have a lower mean daily added-sugar intake than those who do not, though the cause of the difference is not established.",
+  "distractor_a_explanation": "Choice A is incorrect. This claims a cause-and-effect relationship, which requires random assignment of employees to the groups. Here employees chose whether to pack lunch, so other habits that go along with packing lunch could explain the difference.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. The sample was selected only from the 3,800 employees at the Tacoma center, so the results cannot be generalized to employees at all three centers, whose habits and food options may differ.",
+  "distractor_d_explanation": "Choice D is incorrect. The difference in sample means, 11.4 grams, is greater than the margin of error of 3.1 grams, so it is too large to be explained by chance variation alone. The interval of 8.3 to 14.5 grams does not include 0, which means a difference of 0 is not plausible.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A streaming company surveyed a random sample of 800 of its subscribers to estimate the percentage who would use a new offline-viewing feature. The survey's margin of error was 6 percentage points. For a fixed confidence level, the margin of error is inversely proportional to the square root of the sample size. The company plans to run a new survey of a random sample of subscribers at the same confidence level, with a margin of error of 3 percentage points. Based on this relationship, how many additional subscribers, beyond the original 800, must be included in the new sample?",
+  "answer_a": "1,600",
+  "answer_b": "2,400",
+  "answer_c": "3,200",
+  "answer_d": "4,000",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the margin of error is inversely proportional to the square root of the sample size, so the margin of error m and the sample size n are related by m = k/\u221an for some constant k. For the original survey, 6 = k/\u221a800. For the new survey, 3 = k/\u221an, where n is the new sample size. Dividing the first equation by the second gives 6/3 = \u221an/\u221a800, so 2 = \u221a(n/800). Squaring both sides gives n/800 = 4, so n = 4(800) = 3,200. This is the total size of the new sample. Since 800 subscribers were in the original sample, the number of additional subscribers needed is 3,200 - 800 = 2,400. Therefore, 2,400 additional subscribers must be included in the new sample.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from assuming that cutting the margin of error in half requires doubling the sample size, giving a total of 2(800) = 1,600 subscribers, and reporting that total instead of the number of additional subscribers. The sample size must be multiplied by 4, not 2, and the question asks for the additional subscribers beyond the original 800.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the total sample size needed, 4(800) = 3,200, not the number of additional subscribers. The 800 subscribers already surveyed must be subtracted from this total.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from correctly finding the new total sample size of 4(800) = 3,200 but then adding the original 800 subscribers instead of subtracting them. The question asks for the number of additional subscribers beyond the original 800, so the original 800 should be subtracted from the total.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A county has 15,200 households, and 2,500 of them own an electric vehicle (EV). A utility company surveyed a random sample of EV-owning households only about whether they would enroll in a new overnight-charging program. Based on the survey, the company estimated that between 1,400 and 1,600 of the EV-owning households in the county would enroll. This estimate was found by applying the sample percent and its margin of error to all 2,500 EV-owning households. A later survey of a new random sample of EV-owning households gave the same sample percent but a margin of error that was half as large as in the first survey. Assuming no household without an EV would enroll, which of the following is the greatest plausible percent of all households in the county that would enroll, based on the later survey? Round your answer to the nearest tenth of a percent.",
+  "answer_a": "9.9%",
+  "answer_b": "10.2%",
+  "answer_c": "10.5%",
+  "answer_d": "62%",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the interval for the number of EV-owning households that would enroll is 1,400 to 1,600, and that this interval comes from applying the sample percent and margin of error to 2,500 households. The midpoint of the interval, (1,400 + 1,600)/2 = 1,500, corresponds to the sample percent: 1,500/2,500 = 0.60, or 60%. The half-width, (1,600 - 1,400)/2 = 100, corresponds to the margin of error: 100/2,500 = 0.04, or 4 percentage points. The later survey has the same sample percent, 60%, and a margin of error half as large, 2 percentage points. So the greatest plausible percent of EV-owning households that would enroll is 60% + 2% = 62%, which is 0.62(2,500) = 1,550 households. Since no household without an EV would enroll, the greatest plausible number of enrolling households in the whole county is 1,550. As a percent of all 15,200 households, this is 1,550/15,200 \u2248 0.102, or about 10.2%. Therefore, the greatest plausible percent of all households in the county that would enroll is about 10.2%.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from using only the sample percent, 60%, and ignoring the margin of error: 0.60(2,500) = 1,500 households, and 1,500/15,200 is approximately 9.9%.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using the first survey's upper endpoint, 1,600 households, instead of halving the margin of error: 1,600/15,200 is approximately 10.5%.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the greatest plausible percent of EV-owning households, 60% + 2% = 62%, not the percent of all households in the county.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A university alumni association has 12,000 members on its mailing list. In a survey of 900 randomly selected members, 56% said they plan to attend this year's homecoming weekend. To estimate a margin of error, the association's analyst simulated 1,000 random samples of 900 members each, recording the percent of each sample who said they plan to attend. The table summarizes the 1,000 simulated sample percents. The analyst defines the margin of error as the greatest distance from the survey result of 56% to the lowest or highest simulated sample percent that remains after the 25 lowest and the 25 highest of the 1,000 simulated sample percents are set aside (so the remaining 950 are the middle 95%). Based on the survey result and this margin of error, what is the greatest number of alumni association members on the mailing list who could plausibly plan to attend?",
+  "answer_a": "6,720",
+  "answer_b": "7,080",
+  "answer_c": "7,200",
+  "answer_d": "7,440",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. There are 1,000 simulated samples, so the middle 95% consists of 950 samples, and 25 samples are set aside at each end. Adding frequencies from the low end of the table gives 5 + 8 + 12 = 25 samples with sample percents of 50%, 51%, or 52%. Adding from the high end gives 12 + 8 + 5 = 25 samples with sample percents of 60%, 61%, or 62%. The remaining 950 samples have sample percents from 53% to 59%. The distance from the survey result of 56% to each end of this range is 3 percentage points, so the margin of error is 3 percentage points. The greatest plausible percent of members who plan to attend is 56% + 3% = 59%. Therefore, the greatest plausible number of the 12,000 members is 0.59(12,000) = 7,080.",
+  "distractor_a_explanation": "Choice A is incorrect. This is 56% of 12,000, the estimate from the survey result alone, which does not use the margin of error to find the greatest plausible number.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from including the bins at 52% and 60% in the middle 95%, which gives a range from 52% to 60% and a margin of error of 4 percentage points; the greatest plausible percent is then 60%, and 0.60(12,000) = 7,200. But those bins are needed to reach the 25 samples set aside at each end, so they are not part of the middle 95%.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from using the full range of all 1,000 simulated sample percents, 50% to 62%, which gives a margin of error of 6 percentage points; the greatest plausible percent is then 62%, and 0.62(12,000) = 7,440. The 25 lowest and 25 highest samples should have been set aside first.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Sample percent",
+    "Number of simulated samples"
+   ],
+   "rows": [
+    [
+     "50%",
+     "5"
+    ],
+    [
+     "51%",
+     "8"
+    ],
+    [
+     "52%",
+     "12"
+    ],
+    [
+     "53%",
+     "60"
+    ],
+    [
+     "54%",
+     "120"
+    ],
+    [
+     "55%",
+     "160"
+    ],
+    [
+     "56%",
+     "270"
+    ],
+    [
+     "57%",
+     "160"
+    ],
+    [
+     "58%",
+     "120"
+    ],
+    [
+     "59%",
+     "60"
+    ],
+    [
+     "60%",
+     "12"
+    ],
+    [
+     "61%",
+     "8"
+    ],
+    [
+     "62%",
+     "5"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]
