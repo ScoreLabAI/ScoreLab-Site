@@ -1,0 +1,113 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "School level",
+    "Teachers in district",
+    "Teachers surveyed",
+    "Estimate of mean weekly hours"
+   ],
+   "rows": [
+    [
+     "Elementary",
+     "1,800",
+     "120",
+     "46.2 \u00b1 1.4"
+    ],
+    [
+     "High school",
+     "1,200",
+     "180",
+     "50.1 to 54.5"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A study of teacher workload in the Ridgemont School District surveyed a random sample of elementary school teachers and a separate random sample of high school teachers about the number of hours they work each week. The table shows the number of teachers in the district at each school level, the number of teachers surveyed, and the estimate of the mean weekly hours for all teachers at that level. For elementary school, the estimate is the sample mean with its margin of error. For high school, the estimate is given as an interval. Both estimates were calculated at the same confidence level, and each gives a range of plausible values for the mean weekly hours at that school level. Based on the table, what is the greatest plausible value for the mean weekly hours of all teachers in the district, elementary and high school combined, in hours?",
+  "answer_a": "48.64",
+  "answer_b": "50.36",
+  "answer_c": "51.05",
+  "answer_d": "51.74",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the estimate for each school level is a range of plausible values for that level's mean weekly hours. The greatest plausible value for elementary school teachers is the sample mean plus the margin of error, 46.2 + 1.4 = 47.6 hours. The greatest plausible value for high school teachers is the upper end of the given interval, 54.5 hours. The overall mean is a weighted mean, and the weights are the numbers of teachers in the district, not the numbers surveyed. There are 1,800 + 1,200 = 3,000 teachers in the district, so the greatest plausible overall mean is (1,800(47.6) + 1,200(54.5)) / 3,000 = 151,080 / 3,000 = 50.36 hours. Therefore, the greatest plausible value for the mean weekly hours of all teachers in the district is 50.36 hours.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the weighted mean of the elementary sample mean, 46.2, and the midpoint of the high school interval, 52.3, using the district totals as weights. It doesn't use the upper end of either range, so it isn't the greatest plausible value.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the ordinary average of the two greatest plausible values, (47.6 + 54.5) / 2 = 51.05. It gives the two school levels equal weight, even though there are 1,800 elementary teachers and only 1,200 high school teachers in the district.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the weighted mean of the two greatest plausible values using the numbers of teachers surveyed, 120 and 180, as weights: 0.4(47.6) + 0.6(54.5) = 51.74. The weights must come from the numbers of teachers in the district, not the sizes of the samples."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "App",
+    "Estimated percent still active at 90 days",
+    "Margin of error (percentage points)"
+   ],
+   "rows": [
+    [
+     "Zenith",
+     "58%",
+     "5"
+    ],
+    [
+     "Orbit",
+     "54%",
+     "6"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A developer surveyed a random sample of users of each of two mobile apps, Zenith and Orbit, and asked whether each user was still opening the app at least once a week 90 days after installing it. The table shows the estimated percent of all users of each app who were still active at 90 days, along with the margin of error for each estimate. Both margins of error were calculated at the same confidence level.\n\nWhich of the following statements must be supported by the data in the table?\n\nI. Among all users, the 90-day retention rate of Zenith is greater than that of Orbit.\nII. Among all Zenith users, the 90-day retention rate is greater than 50%.\nIII. Among all Orbit users, the 90-day retention rate is exactly 54%.",
+  "answer_a": "I only",
+  "answer_b": "II only",
+  "answer_c": "I and III only",
+  "answer_d": "II and III only",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Each interval is the sample estimate plus or minus its margin of error. For Zenith, the interval is 58 - 5 = 53 to 58 + 5 = 63 percent. For Orbit, the interval is 54 - 6 = 48 to 54 + 6 = 60 percent. Statement I is not supported. The two intervals overlap from 53 to 60, so the true retention rates could be equal or Orbit's could be higher; the data do not show that Zenith's rate is greater, even though its estimate is larger. Statement II is supported. The entire interval for Zenith, 53 to 63 percent, lies above 50 percent, so every plausible value for the retention rate among all Zenith users is greater than 50%. Statement III is not supported. The 54% is only the sample estimate; the retention rate among all Orbit users could be any value from 48% to 60%, so it cannot be said to be exactly 54%. Therefore, only statement II must be supported.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from concluding that Zenith's retention is greater because its estimate (58%) is larger than Orbit's (54%), without noticing that the intervals 53 to 63 and 48 to 60 overlap. This choice also omits statement II, which is supported because the Zenith interval lies entirely above 50%.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. Statement I is not supported because the intervals overlap, so a difference between the two apps cannot be concluded. Statement III is not supported because 54% is only the sample estimate, and the retention rate among all Orbit users could be any value from 48% to 60%. This choice also omits statement II, which is supported.",
+  "distractor_d_explanation": "Choice D is incorrect. Statement II is supported, but statement III is not. The 54% is only the sample estimate; the retention rate among all Orbit users could be any value from 48% to 60%, so it cannot be said to be exactly 54%."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A ferry line serves an island with 6,000 regular commuters, of whom 2,500 hold a monthly pass. The ferry line selected a random sample of 400 of the 2,500 monthly pass holders and asked each whether they were satisfied with the current weekday schedule. In the sample, 320 pass holders said they were satisfied. The margin of error for an estimated proportion is given by 2\u221a(p(1 \u2212 p)/n), where p is the sample proportion and n is the sample size. Based on the sample proportion and this margin of error, what is the greatest plausible number of the 2,500 monthly pass holders who are NOT satisfied with the current weekday schedule?",
+  "answer_a": "500",
+  "answer_b": "600",
+  "answer_c": "1,440",
+  "answer_d": "2,100",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that 320 of the 400 sampled pass holders were satisfied, so the sample proportion is p = 320/400 = 0.80. The margin of error is 2\u221a(0.80(0.20)/400) = 2\u221a0.0004 = 2(0.02) = 0.04. So the plausible proportion of pass holders who are satisfied is between 0.80 \u2212 0.04 = 0.76 and 0.80 + 0.04 = 0.84. The proportion who are NOT satisfied is the complement, so it is between 1 \u2212 0.84 = 0.16 and 1 \u2212 0.76 = 0.24. The sample was drawn only from the 2,500 monthly pass holders, so the estimate applies to those 2,500 people and not to all 6,000 commuters. The greatest plausible number who are not satisfied is 0.24(2,500) = 600. Therefore, the greatest plausible number of monthly pass holders who are not satisfied is 600.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of pass holders not satisfied based on the sample proportion alone, 0.20(2,500) = 500, without adding the margin of error to find the greatest plausible value.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This applies the greatest plausible not-satisfied proportion, 0.24, to all 6,000 commuters, 0.24(6,000) = 1,440, even though the sample was taken only from the 2,500 monthly pass holders.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the greatest plausible number of pass holders who are satisfied, 0.84(2,500) = 2,100, not the greatest plausible number who are not satisfied."
+ }
+]
