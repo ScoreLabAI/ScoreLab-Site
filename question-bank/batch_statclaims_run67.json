@@ -1,0 +1,53 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Evaluating statistical claims",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Researchers at the Dunleigh Driving Institute recruited 240 volunteers who had held a learner's permit for less than one month. The researchers randomly assigned 120 of the volunteers to complete simulator training and the other 120 to watch instructional videos. After the training, each volunteer took a hazard-detection test scored from 0 to 100. The table shows the mean score for each group, with a 95% confidence interval for each group's mean, and a 95% confidence interval for the difference in mean scores (simulator minus video). Based on the table, which conclusion is best supported?",
+  "answer_a": "Simulator training likely raised mean scores, but only for volunteers like those studied.",
+  "answer_b": "Simulator training likely caused higher mean scores among all novice drivers, because the difference interval excludes 0.",
+  "answer_c": "The data do not show a clear difference in mean scores, because the two group intervals overlap.",
+  "answer_d": "The mean scores differ, but simulator training likely did not cause the difference, since all participants volunteered.",
+  "correct_answer": "A",
+  "explanation": "Choice A is correct. The 95% confidence interval for the difference in mean scores (simulator minus video) is 0.6 to 6.2. This interval does not contain 0, so the data provide convincing evidence that the true mean scores differ; the overlap of the two group intervals does not change this, because the interval for the difference is the one that answers the question. Because the volunteers were randomly assigned to the two types of training, the difference can reasonably be attributed to the training itself. However, the participants were volunteers and were not randomly selected from all novice drivers, so the conclusion applies only to volunteers like those in the study. Therefore, simulator training likely raised mean scores, but only for volunteers like those studied.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect. Random assignment supports a cause-and-effect conclusion, but the participants were volunteers and were not randomly selected from all novice drivers, so the conclusion cannot be generalized to all novice drivers.",
+  "distractor_c_explanation": "Choice C is incorrect. This relies on the overlap of the two group intervals, but whether the groups differ is determined by the interval for the difference in means, and that interval (0.6 to 6.2) does not contain 0.",
+  "distractor_d_explanation": "Choice D is incorrect. Volunteering limits who the conclusion applies to, not whether a cause-and-effect conclusion is supported; because the volunteers were randomly assigned to the two types of training, a causal conclusion is supported for volunteers like those studied.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Group",
+    "Number of volunteers",
+    "Mean score",
+    "95% confidence interval"
+   ],
+   "rows": [
+    [
+     "Simulator training",
+     "120",
+     "79.7",
+     "(77.7, 81.7)"
+    ],
+    [
+     "Instructional video",
+     "120",
+     "76.3",
+     "(74.3, 78.3)"
+    ],
+    [
+     "Difference (simulator minus video)",
+     "--",
+     "3.4",
+     "(0.6, 6.2)"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]
