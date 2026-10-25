@@ -11,6 +11,8 @@ import { toast } from "sonner";
 import { useAuth } from "@/lib/auth-context";
 import { startDiagnostic, submitModule1, completeDiagnostic } from "@/lib/diagnostic.functions";
 import { DesmosCalculator } from "@/components/DesmosCalculator";
+import { QuestionVisual } from "@/components/QuestionVisual";
+import type { Json } from "@/integrations/supabase/types";
 
 export const Route = createFileRoute("/diagnostic")({
   component: DiagnosticPage,
@@ -28,10 +30,18 @@ interface DiagnosticQuestion {
   skill_category: string;
   skill_subcategory: string | null;
   difficulty: number;
+  has_visual: boolean;
+  visual_type: string | null;
+  visual_data: Json | null;
+  visual_svg: string | null;
 }
 
 type Phase = "intro" | "module1" | "module1-done" | "module2" | "complete";
-type Answer = { questionId: string; selectedAnswer: "A" | "B" | "C" | "D" | null; timeSpentSeconds: number };
+type Answer = {
+  questionId: string;
+  selectedAnswer: "A" | "B" | "C" | "D" | null;
+  timeSpentSeconds: number;
+};
 
 interface Results {
   total: number;
@@ -52,7 +62,10 @@ function DiagnosticPage() {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [busy, setBusy] = useState(false);
   const [results, setResults] = useState<Results | null>(null);
-  const [m2Difficulty, setM2Difficulty] = useState<{ rw: "easy" | "hard"; math: "easy" | "hard" } | null>(null);
+  const [m2Difficulty, setM2Difficulty] = useState<{
+    rw: "easy" | "hard";
+    math: "easy" | "hard";
+  } | null>(null);
   const questionStartTime = useRef(Date.now());
   const questionTimes = useRef(new Map<string, number>());
 
@@ -95,7 +108,7 @@ function DiagnosticPage() {
 
   const handleSelect = (ans: "A" | "B" | "C" | "D") => {
     const q = questions[currentIdx];
-    setAnswers(prev => new Map(prev).set(q.id, ans));
+    setAnswers((prev) => new Map(prev).set(q.id, ans));
   };
 
   const handleNext = () => {
@@ -121,7 +134,7 @@ function DiagnosticPage() {
     try {
       const payload = {
         sessionId,
-        answers: questions.map<Answer>(qq => ({
+        answers: questions.map<Answer>((qq) => ({
           questionId: qq.id,
           selectedAnswer: answers.get(qq.id) ?? null,
           timeSpentSeconds: questionTimes.current.get(qq.id) ?? 0,
@@ -154,7 +167,7 @@ function DiagnosticPage() {
     try {
       const payload = {
         sessionId,
-        answers: questions.map<Answer>(qq => ({
+        answers: questions.map<Answer>((qq) => ({
           questionId: qq.id,
           selectedAnswer: answers.get(qq.id) ?? null,
           timeSpentSeconds: questionTimes.current.get(qq.id) ?? 0,
@@ -171,7 +184,12 @@ function DiagnosticPage() {
     }
   };
 
-  if (loading) return <div className="min-h-screen flex items-center justify-center text-muted-foreground">Loading…</div>;
+  if (loading)
+    return (
+      <div className="min-h-screen flex items-center justify-center text-muted-foreground">
+        Loading…
+      </div>
+    );
 
   return (
     <div className="min-h-screen bg-secondary/30">
@@ -215,7 +233,9 @@ function IntroCard({ onStart, busy }: { onStart: () => void; busy: boolean }) {
       </p>
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         <div className="rounded-md border p-4">
-          <div className="text-xs uppercase tracking-wider text-muted-foreground">Reading & Writing</div>
+          <div className="text-xs uppercase tracking-wider text-muted-foreground">
+            Reading & Writing
+          </div>
           <div className="mt-1 font-semibold">2 modules · 27 questions each</div>
         </div>
         <div className="rounded-md border p-4">
@@ -224,15 +244,29 @@ function IntroCard({ onStart, busy }: { onStart: () => void; busy: boolean }) {
         </div>
       </div>
       <div className="mt-6 rounded-md bg-secondary/50 p-4 text-sm text-muted-foreground">
-        Module 2 difficulty adapts based on your Module 1 performance — just like the real digital SAT.
-        Plan for ~45 minutes. You can navigate within a module but can&apos;t go back after submitting.
+        Module 2 difficulty adapts based on your Module 1 performance — just like the real digital
+        SAT. Plan for ~45 minutes. You can navigate within a module but can&apos;t go back after
+        submitting.
       </div>
       <div className="mt-6 flex gap-3">
         <Button asChild variant="outline" className="flex-1">
-          <Link to="/dashboard"><ArrowLeft className="mr-2 h-4 w-4" />Cancel</Link>
+          <Link to="/dashboard">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Cancel
+          </Link>
         </Button>
         <Button onClick={onStart} disabled={busy} className="flex-1">
-          {busy ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" />Loading…</> : <>Start diagnostic<ArrowRight className="ml-2 h-4 w-4" /></>}
+          {busy ? (
+            <>
+              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              Loading…
+            </>
+          ) : (
+            <>
+              Start diagnostic
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </>
+          )}
         </Button>
       </div>
     </Card>
@@ -252,7 +286,19 @@ function QuestionCard(props: {
   answeredCount: number;
   busy: boolean;
 }) {
-  const { question, index, total, selected, onSelect, onPrev, onNext, onSubmit, phase, answeredCount, busy } = props;
+  const {
+    question,
+    index,
+    total,
+    selected,
+    onSelect,
+    onPrev,
+    onNext,
+    onSubmit,
+    phase,
+    answeredCount,
+    busy,
+  } = props;
   const isLast = index === total - 1;
   const moduleLabel = phase === "module1" ? "Module 1" : "Module 2";
   const sectionLabel = question.section === "math" ? "Math" : "Reading & Writing";
@@ -270,10 +316,18 @@ function QuestionCard(props: {
       </div>
       <Progress value={((index + 1) / total) * 100} className="mt-3" />
 
-      <div className="mt-6 whitespace-pre-wrap text-base leading-relaxed">{question.question_text}</div>
+      <div className="mt-6 whitespace-pre-wrap text-base leading-relaxed">
+        {question.question_text}
+      </div>
+      <QuestionVisual
+        hasVisual={question.has_visual}
+        visualType={question.visual_type}
+        visualData={question.visual_data}
+        visualSvg={question.visual_svg}
+      />
 
       <div className="mt-6 space-y-2">
-        {(["A", "B", "C", "D"] as const).map(letter => {
+        {(["A", "B", "C", "D"] as const).map((letter) => {
           const text = question[`answer_${letter.toLowerCase()}` as "answer_a"];
           const isSelected = selected === letter;
           return (
@@ -295,15 +349,31 @@ function QuestionCard(props: {
 
       <div className="mt-6 flex items-center justify-between gap-3">
         <Button variant="outline" onClick={onPrev} disabled={index === 0 || busy}>
-          <ArrowLeft className="mr-2 h-4 w-4" />Previous
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Previous
         </Button>
-        <div className="text-xs text-muted-foreground">{answeredCount} / {total} answered</div>
+        <div className="text-xs text-muted-foreground">
+          {answeredCount} / {total} answered
+        </div>
         {isLast ? (
           <Button onClick={onSubmit} disabled={busy}>
-            {busy ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" />Submitting…</> : <>Submit module<Flag className="ml-2 h-4 w-4" /></>}
+            {busy ? (
+              <>
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                Submitting…
+              </>
+            ) : (
+              <>
+                Submit module
+                <Flag className="ml-2 h-4 w-4" />
+              </>
+            )}
           </Button>
         ) : (
-          <Button onClick={onNext} disabled={busy}>Next<ArrowRight className="ml-2 h-4 w-4" /></Button>
+          <Button onClick={onNext} disabled={busy}>
+            Next
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
         )}
       </div>
     </Card>
@@ -318,7 +388,9 @@ function Module1DoneCard({ onContinue }: { onContinue: () => void }) {
       <p className="mt-2 text-muted-foreground">
         Module 2 has been adapted to your performance. Ready to continue?
       </p>
-      <Button onClick={onContinue} className="mt-6">Start Module 2<ArrowRight className="ml-2 h-4 w-4" /></Button>
+      <Button onClick={onContinue} className="mt-6">
+        Start Module 2<ArrowRight className="ml-2 h-4 w-4" />
+      </Button>
     </Card>
   );
 }
@@ -327,12 +399,16 @@ function ResultsCard({ results }: { results: Results }) {
   return (
     <div className="space-y-6">
       <Card className="p-8 text-center">
-        <div className="text-xs uppercase tracking-wider text-muted-foreground">Your baseline score</div>
+        <div className="text-xs uppercase tracking-wider text-muted-foreground">
+          Your baseline score
+        </div>
         <div className="mt-2 text-6xl font-bold tracking-tight">{results.total}</div>
         <div className="mt-1 text-sm text-muted-foreground">out of 1600</div>
         <div className="mt-6 grid grid-cols-2 gap-4">
           <div className="rounded-md border p-4">
-            <div className="text-xs uppercase tracking-wider text-muted-foreground">Reading & Writing</div>
+            <div className="text-xs uppercase tracking-wider text-muted-foreground">
+              Reading & Writing
+            </div>
             <div className="mt-1 text-3xl font-bold">{results.readingWriting}</div>
             <div className="text-xs text-muted-foreground">{results.rwCorrect} correct</div>
           </div>
@@ -348,14 +424,19 @@ function ResultsCard({ results }: { results: Results }) {
         <h3 className="font-semibold">Skill breakdown</h3>
         <div className="mt-4 space-y-3">
           {results.skills
-            .sort((a, b) => (a.correct / a.total) - (b.correct / b.total))
+            .sort((a, b) => a.correct / a.total - b.correct / b.total)
             .map((s, i) => {
               const pct = Math.round((s.correct / s.total) * 100);
               return (
                 <div key={i}>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="font-medium">{s.category}{s.sub ? ` · ${s.sub}` : ""}</span>
-                    <span className="text-muted-foreground">{s.correct}/{s.total} · {pct}%</span>
+                    <span className="font-medium">
+                      {s.category}
+                      {s.sub ? ` · ${s.sub}` : ""}
+                    </span>
+                    <span className="text-muted-foreground">
+                      {s.correct}/{s.total} · {pct}%
+                    </span>
                   </div>
                   <Progress value={pct} className="mt-1 h-2" />
                 </div>
@@ -365,8 +446,12 @@ function ResultsCard({ results }: { results: Results }) {
       </Card>
 
       <div className="flex gap-3">
-        <Button asChild variant="outline" className="flex-1"><Link to="/dashboard">Back to dashboard</Link></Button>
-        <Button asChild className="flex-1"><Link to="/progress">View progress</Link></Button>
+        <Button asChild variant="outline" className="flex-1">
+          <Link to="/dashboard">Back to dashboard</Link>
+        </Button>
+        <Button asChild className="flex-1">
+          <Link to="/progress">View progress</Link>
+        </Button>
       </div>
     </div>
   );

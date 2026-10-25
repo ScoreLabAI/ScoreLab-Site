@@ -288,9 +288,9 @@ export type Database = {
           interval_days: number;
           last_reviewed_at: string | null;
           next_review_date: string;
-          question_id: string;
           repetitions: number;
-          skill_category: string | null;
+          skill_category: string;
+          skill_subcategory: string;
           student_id: string;
         };
         Insert: {
@@ -300,9 +300,9 @@ export type Database = {
           interval_days?: number;
           last_reviewed_at?: string | null;
           next_review_date?: string;
-          question_id: string;
           repetitions?: number;
-          skill_category?: string | null;
+          skill_category: string;
+          skill_subcategory?: string;
           student_id: string;
         };
         Update: {
@@ -312,19 +312,12 @@ export type Database = {
           interval_days?: number;
           last_reviewed_at?: string | null;
           next_review_date?: string;
-          question_id?: string;
           repetitions?: number;
-          skill_category?: string | null;
+          skill_category?: string;
+          skill_subcategory?: string;
           student_id?: string;
         };
         Relationships: [
-          {
-            foreignKeyName: "review_schedule_question_id_fkey";
-            columns: ["question_id"];
-            isOneToOne: false;
-            referencedRelation: "questions";
-            referencedColumns: ["id"];
-          },
           {
             foreignKeyName: "review_schedule_student_id_fkey";
             columns: ["student_id"];
@@ -387,7 +380,7 @@ export type Database = {
           id: string;
           last_updated: string;
           skill_category: string;
-          skill_subcategory: string | null;
+          skill_subcategory: string;
           student_id: string;
           total_attempts: number;
         };
@@ -396,7 +389,7 @@ export type Database = {
           id?: string;
           last_updated?: string;
           skill_category: string;
-          skill_subcategory?: string | null;
+          skill_subcategory?: string;
           student_id: string;
           total_attempts?: number;
         };
@@ -405,7 +398,7 @@ export type Database = {
           id?: string;
           last_updated?: string;
           skill_category?: string;
-          skill_subcategory?: string | null;
+          skill_subcategory?: string;
           student_id?: string;
           total_attempts?: number;
         };
