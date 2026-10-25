@@ -1,0 +1,107 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A public library system has two branches, Lakeshore and Hillcrest. From 2023 to 2024, the number of active card holders at Lakeshore increased by 10%, and the number of active card holders at Hillcrest decreased by 20%. As a result, the combined number of active card holders at the two branches decreased by 2%. In 2024, the two branches had a combined total of 2,450 active card holders. How many active card holders did Lakeshore have in 2023?",
+  "answer_a": "1,000",
+  "answer_b": "1,470",
+  "answer_c": "1,500",
+  "answer_d": "1,650",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Let L and H be the numbers of active card holders at Lakeshore and Hillcrest in 2023. The combined change is 0.10L - 0.20H = -0.02(L + H), which simplifies to 0.12L = 0.18H, so L:H = 3:2. The combined 2024 total is 98% of the combined 2023 total, so the 2023 total is 2,450 / 0.98 = 2,500. Lakeshore had 3/5 of this total: (3/5)(2,500) = 1,500. Check: Lakeshore in 2024 is 1.10(1,500) = 1,650, Hillcrest in 2024 is 0.80(1,000) = 800, and 1,650 + 800 = 2,450.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the 2023 number of card holders at Hillcrest (2/5 of 2,500), not Lakeshore. It results from reversing the ratio to 2:3 when finding the Lakeshore share.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from correctly finding the 3:2 ratio but applying the 3/5 share to the 2024 total of 2,450 instead of the 2023 total of 2,500: (3/5)(2,450) = 1,470.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of card holders at Lakeshore in 2024 (1.10 x 1,500 = 1,650), not the number in 2023, which is what the question asks for."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Department",
+    "Percent of all employees",
+    "Percent of department working remotely",
+    "Number working remotely"
+   ],
+   "rows": [
+    [
+     "Engineering",
+     "45%",
+     "60%",
+     "—"
+    ],
+    [
+     "Sales",
+     "30%",
+     "—",
+     "—"
+    ],
+    [
+     "Support",
+     "25%",
+     "20%",
+     "120"
+    ],
+    [
+     "All departments",
+     "100%",
+     "—",
+     "1,128"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "The table summarizes the employees of a regional logistics company by department, including the number in each department who work remotely. Some entries are missing. Based on the table, what percent of the Sales department's employees work remotely?",
+  "answer_a": "15",
+  "answer_b": "47",
+  "answer_c": "50",
+  "answer_d": "60",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The Support department makes up 25% of all employees, and 20% of Support employees work remotely. It's given that 120 Support employees work remotely, so if N is the total number of employees, 0.25 * 0.20 * N = 120, or 0.05N = 120. Therefore, N = 2,400. Engineering is 45% of 2,400, or 1,080 employees, and 60% of them work remotely, which is 648 employees. The total number working remotely is 1,128, so the number of Sales employees working remotely is 1,128 - 648 - 120 = 360. Sales is 30% of 2,400, or 720 employees. Therefore, the percent of Sales employees who work remotely is 360/720 = 0.50, or 50%.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the percent of all 2,400 employees who are Sales employees working remotely (360/2,400 = 15%), not the percent of Sales employees who work remotely.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the percent of all employees in the company who work remotely (1,128/2,400 = 47%), not the percent of Sales employees.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from dividing the 360 remote Sales employees by 600, the number of Support employees, instead of by 720, the number of Sales employees."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Percentages",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A confectionery has a batch of sugar syrup that is 25% sugar by mass. A technician adds 40 kilograms (kg) of water to the batch, and the syrup is then 20% sugar by mass. The technician then dissolves pure sugar into the diluted syrup until the syrup is 36% sugar by mass. How many kg of pure sugar did the technician dissolve into the diluted syrup?",
+  "answer_a": "27.5",
+  "answer_b": "32",
+  "answer_c": "50",
+  "answer_d": "160",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Let m represent the mass, in kg, of the original batch. The batch is 25% sugar, so it contains 0.25m kg of sugar. Adding 40 kg of water doesn't change the amount of sugar, but the mass of the syrup becomes m + 40 kg, and it's given that the syrup is then 20% sugar. This gives 0.25m = 0.20(m + 40), or 0.25m = 0.20m + 8. Subtracting 0.20m from both sides gives 0.05m = 8, so m = 160. The diluted syrup therefore has a mass of 160 + 40 = 200 kg and contains 0.20(200) = 40 kg of sugar. Let x represent the mass, in kg, of pure sugar dissolved into the diluted syrup. Both the amount of sugar and the total mass of the syrup increase by x, so the new syrup contains 40 + x kg of sugar out of a total of 200 + x kg. Since the new syrup is 36% sugar, 40 + x = 0.36(200 + x), or 40 + x = 72 + 0.36x. Subtracting 0.36x and 40 from both sides gives 0.64x = 32, so x = 50. Therefore, the technician dissolved 50 kg of pure sugar into the diluted syrup.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from using 160 kg, the mass of the original batch before the water was added, as the mass of the syrup when the sugar is dissolved: 40 + x = 0.36(160 + x) gives x = 27.5.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from treating the added sugar as if it doesn't increase the total mass of the syrup: 40 + x = 0.36(200) = 72 gives x = 32.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from treating the 40 kg of added water as if it were 40 kg of sugar in the first step, writing 0.25m = 0.20m + 40 instead of 0.25m = 0.20m + 0.20(40) = 0.20m + 8, so that m = 800 and the diluted syrup is 840 kg with 200 kg of sugar. Then 200 + x = 0.36(840 + x) gives x = 160."
+ }
+]

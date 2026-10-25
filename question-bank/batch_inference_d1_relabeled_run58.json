@@ -1,0 +1,64 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Job role",
+    "Drive alone",
+    "Public transit",
+    "Bike or walk",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Nurse",
+     "72",
+     "30",
+     "18",
+     "120"
+    ],
+    [
+     "Technician",
+     "30",
+     "24",
+     "6",
+     "60"
+    ],
+    [
+     "Administrative",
+     "54",
+     "36",
+     "30",
+     "120"
+    ],
+    [
+     "Total",
+     "156",
+     "90",
+     "54",
+     "300"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A hospital administrator selected a random sample of 300 employees from all of the hospital's staff and asked each how they usually commute to work. The table summarizes the responses by job role. The hospital has 1,350 nurses in all. Based on the sample, which of the following is the best estimate of the number of nurses at the hospital who usually commute by a method other than driving alone?",
+  "answer_a": "216",
+  "answer_b": "540",
+  "answer_c": "648",
+  "answer_d": "810",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. The nurses in the sample are the only responses that describe how nurses commute, so the estimate should use the proportion within that group. Of the 120 nurses in the sample, 30 take public transit and 18 bike or walk, so 30 + 18 = 48 nurses commute by a method other than driving alone. The sample proportion for nurses is 48/120 = 0.4. Applying this proportion to all 1,350 nurses at the hospital gives 0.4(1,350) = 540. Therefore, about 540 nurses at the hospital usually commute by a method other than driving alone.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from dividing the 48 nurses who don't drive alone by all 300 employees in the sample (48/300 = 0.16) instead of by the 120 nurses, and then multiplying by 1,350. The estimate for nurses should use the proportion of nurses in the sample, not of the whole sample.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using the proportion of all sampled employees who don't drive alone, (90 + 54)/300 = 0.48, and applying it to the 1,350 nurses. That proportion describes all job roles combined, not nurses specifically.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the estimated number of nurses who usually drive alone, 72/120 = 0.6 and 0.6(1,350) = 810, not the number who commute by another method. It results from not finding the complement."
+ }
+]

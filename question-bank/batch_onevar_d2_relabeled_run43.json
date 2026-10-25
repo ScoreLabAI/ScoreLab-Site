@@ -1,0 +1,77 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A student recorded the number of minutes she spent practicing piano in each of the first 5 weeks: 6, 8, 10, 12, and 14. The mean of these 5 values is 10 minutes. In the sixth week, she practiced for 40 minutes. What is the mean, in minutes, of all 6 values?",
+  "answer_a": "10",
+  "answer_b": "15",
+  "answer_c": "18",
+  "answer_d": "25",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the mean of the first 5 values is 10, so their sum is 5(10) = 50. Adding the sixth value, 40, gives a total of 50 + 40 = 90 for 6 values. The new mean is 90/6 = 15. Therefore, the mean of all 6 values is 15 minutes.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the mean of the original 5 values, not the mean after the sixth value, 40, is included.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from dividing the new total, 90, by 5 instead of by 6, the new number of values.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the average of the old mean, 10, and the new value, 40, which ignores that the old mean represents 5 values and the new value represents only 1.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The table shows the number of goals scored by a school soccer team in each of its 20 matches this season. What is the mean number of goals scored per match?",
+  "answer_a": "1",
+  "answer_b": "1.8",
+  "answer_c": "2",
+  "answer_d": "7.2",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the table shows the number of goals scored in each of 20 matches. The total number of goals is the sum of each number of goals multiplied by the number of matches in which it occurred: 0(3) + 1(6) + 2(5) + 3(4) + 4(2) = 0 + 6 + 10 + 12 + 8 = 36. The mean is the total number of goals divided by the total number of matches, 36/20 = 1.8. Therefore, the mean number of goals scored per match is 1.8.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the mode, the number of goals that occurred most often (in 6 matches), not the mean.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the mean of the five listed numbers of goals, (0 + 1 + 2 + 3 + 4)/5 = 2, which ignores how many matches had each number of goals.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from dividing the total number of goals, 36, by the number of rows in the table, 5, instead of by the total number of matches, 20.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Goals scored",
+    "Number of matches"
+   ],
+   "rows": [
+    [
+     "0",
+     "3"
+    ],
+    [
+     "1",
+     "6"
+    ],
+    [
+     "2",
+     "5"
+    ],
+    [
+     "3",
+     "4"
+    ],
+    [
+     "4",
+     "2"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]

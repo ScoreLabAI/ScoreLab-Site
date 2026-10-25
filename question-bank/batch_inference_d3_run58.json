@@ -1,0 +1,123 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Survey",
+    "Sample size",
+    "Respondents who would enroll",
+    "Margin of error"
+   ],
+   "rows": [
+    [
+     "First",
+     "400",
+     "148",
+     "6 percentage points"
+    ],
+    [
+     "Second",
+     "1,600",
+     "656",
+     "Not reported"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A power company serves 18,500 customer accounts that have a smart thermostat. The company conducted two surveys, each of a different random sample of these customers, to estimate the percent who would enroll in a program that lets the company adjust thermostat settings during peak demand. Both surveys used the same confidence level, and for the same confidence level the margin of error is inversely proportional to the square root of the sample size. The results are shown in the table. The margin of error for the second survey was not reported. Based on the first survey's margin of error and the results of the second survey, what is the minimum plausible number of the 18,500 customers who would enroll in the program?",
+  "answer_a": "5,735",
+  "answer_b": "6,475",
+  "answer_c": "7,030",
+  "answer_d": "7,585",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that for the same confidence level, the margin of error is inversely proportional to the square root of the sample size, n. The second sample size, 1,600, is 4 times the first sample size, 400, so the second survey's margin of error is 1/sqrt(4) = 1/2 of the first survey's margin of error. Therefore, the second survey's margin of error is 6/2 = 3 percentage points. It's given that 656 of the 1,600 respondents in the second survey would enroll, which is 656/1,600 = 41%. The interval of plausible percents is 41% plus or minus 3 percentage points, or 38% to 44%. The minimum plausible percent is 38%, so the minimum plausible number of customers who would enroll is 0.38(18,500) = 7,030.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the minimum plausible number based on the first survey's results, not the second: 37% minus the first survey's margin of error of 6 percentage points is 31%, and 0.31(18,500) = 5,735.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from subtracting the first survey's margin of error of 6 percentage points from the second survey's percent of 41%, giving 35%, without adjusting the margin of error for the larger sample size: 0.35(18,500) = 6,475.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of customers corresponding to the second survey's sample percent of 41% alone, 0.41(18,500) = 7,585, without subtracting any margin of error."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Group",
+    "Number of students",
+    "Mean gain in score"
+   ],
+   "rows": [
+    [
+     "Tutoring",
+     "120",
+     "14.2"
+    ],
+    [
+     "Regular program only",
+     "120",
+     "9.6"
+    ],
+    [
+     "Difference (tutoring minus regular program only)",
+     "N/A",
+     "4.6"
+    ],
+    [
+     "Margin of error for the difference",
+     "N/A",
+     "3.1"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A school has 1,850 students. The school's reading specialist invited all students to volunteer for an after-school reading program, and 240 students volunteered. The specialist randomly assigned 120 of the volunteers to receive tutoring in addition to the regular program and the other 120 volunteers to receive the regular program only. At the end of the term, each volunteer's gain in score on a reading assessment was recorded. The table shows the results.\n\nWhich of the following conclusions is best supported by the data?",
+  "answer_a": "The tutoring caused a higher mean gain for all students at the school than the regular program would have.",
+  "answer_b": "The tutoring caused a higher mean gain for these volunteers than the regular program did.",
+  "answer_c": "The tutoring is associated with a higher mean gain for these volunteers, but it cannot be said to have caused the higher gain because they chose to volunteer.",
+  "answer_d": "The tutoring did not clearly raise these volunteers' mean gain, because the margin of error allows the two groups' mean gains to overlap.",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the 240 volunteers were randomly assigned to the tutoring group or the regular-program-only group. Because of random assignment, the two groups can be expected to differ only in whether they received tutoring, so a difference in outcomes can be attributed to the tutoring itself. The difference in mean gains is 14.2 - 9.6 = 4.6 points, and the margin of error for the difference is 3.1 points. Since 4.6 is greater than 3.1, the interval for the true difference, 4.6 plus or minus 3.1, runs from 1.5 to 7.7 and does not include 0, so the difference is larger than chance variation alone would likely produce. Because the students in the experiment were volunteers and not randomly selected from all 1,850 students, the conclusion applies only to students like these volunteers. Therefore, the tutoring caused a higher mean gain for these volunteers than the regular program did.",
+  "distractor_a_explanation": "Choice A is incorrect. Random assignment supports a cause-and-effect conclusion, but only for the group that was assigned. The participants were volunteers, not a random sample of all students at the school, so the result can't be generalized to all 1,850 students.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This confuses how students entered the study with how they were placed in groups. Volunteering limits who the conclusion applies to, but because the volunteers were randomly assigned to the two groups, a cause-and-effect conclusion is justified for the volunteers.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from applying the margin of error for the difference to each group's mean separately: 14.2 plus or minus 3.1 gives 11.1 to 17.3, and 9.6 plus or minus 3.1 gives 6.5 to 12.7, and these ranges overlap. The margin of error is for the difference in means, and the difference of 4.6 is greater than the margin of error of 3.1."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A county has 12,400 residents, and the number of residents is the same in 2019 and 2024. In 2019, a survey of a random sample of residents estimated that 64% of the county's residents did not participate in the curbside composting program, with a margin of error of 5 percentage points. In 2024, a second survey of a random sample of residents estimated that 47% of the county's residents participated in the program, with a margin of error of 3 percentage points. Assuming that the true percent for each year is within that survey's margin of error, what is the smallest possible increase in the number of county residents participating in the composting program from 2019 to 2024?",
+  "answer_a": "372",
+  "answer_b": "744",
+  "answer_c": "1,364",
+  "answer_d": "2,108",
+  "correct_answer": "A",
+  "explanation": "Choice A is correct. It's given that 64% of residents did not participate in 2019, so 100% - 64% = 36% participated, with a margin of error of 5 percentage points. The true 2019 participation percent is therefore between 36% - 5% = 31% and 36% + 5% = 41%. The true 2024 participation percent is between 47% - 3% = 44% and 47% + 3% = 50%. The increase is smallest when 2019 participation is as high as possible (41%) and 2024 participation is as low as possible (44%), which is an increase of 44% - 41% = 3 percentage points. Since 3% of 12,400 is 0.03(12,400) = 372, the smallest possible increase in the number of residents participating is 372.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect. This results from adjusting only the 2019 estimate for its margin of error: 47% - 41% = 6% (using the highest 2019 value but leaving the 2024 estimate at 47% instead of 44%), and then finding 6% of 12,400, which is 744. Both margins of error must be accounted for.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the increase between the two survey estimates, 47% - 36% = 11%, applied to 12,400 residents (0.11(12,400) = 1,364). It ignores the margins of error, so it is the estimated increase, not the smallest possible increase.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from not converting the 2019 nonparticipation estimate to a participation estimate: the difference |64% - 47%| = 17% is taken as the increase, and 17% of 12,400 is 2,108. The 64% describes residents who did not participate, not residents who participated."
+ }
+]

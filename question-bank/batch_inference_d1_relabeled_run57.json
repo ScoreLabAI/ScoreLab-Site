@@ -1,0 +1,121 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A soil scientist tested a random sample of garden plots in a large community garden and used the sample to estimate the mean soil pH for all plots in the garden. The scientist reported that the interval from 5.9 to 6.5 was the estimate for the population mean, with the sample mean at the center of the interval. Suppose the scientist had used the same sample mean but a margin of error twice as large. What would be the lower endpoint of the resulting interval?",
+  "answer_a": "5.0",
+  "answer_b": "5.3",
+  "answer_c": "5.6",
+  "answer_d": "5.9",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that the reported interval is centered at the sample mean, so the sample mean is the midpoint of 5.9 and 6.5, which is (5.9 + 6.5)/2 = 6.2. The margin of error is the distance from the sample mean to either endpoint, so it is 6.5 - 6.2 = 0.3. A margin of error twice as large is 2(0.3) = 0.6. The lower endpoint of the new interval is the sample mean minus the new margin of error, 6.2 - 0.6 = 5.6. Therefore, the lower endpoint of the resulting interval would be 5.6.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from doubling the full width of the original interval (0.6 \u00d7 2 = 1.2) instead of doubling the margin of error, and then subtracting that amount from the sample mean (6.2 - 1.2 = 5.0).",
+  "distractor_b_explanation": "Choice B is incorrect. This results from correctly doubling the margin of error to 0.6 but subtracting it from the original lower endpoint (5.9 - 0.6 = 5.3) instead of from the sample mean.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the lower endpoint of the original interval, not of the interval with the margin of error doubled."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "An airport authority surveyed a random sample of the 6,000 travelers who passed through Terminal C on a particular day. Based on the sample, the authority estimated that 42% of all 6,000 travelers that day would prefer a self-service bag-drop kiosk over a staffed counter. The margin of error for this estimate is 3 percentage points. Based on the estimate and its margin of error, what is the least number of the 6,000 travelers that is consistent with the authority's results?",
+  "answer_a": "180",
+  "answer_b": "2,340",
+  "answer_c": "2,520",
+  "answer_d": "2,700",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the estimate is 42% and the margin of error is 3 percentage points. The interval of plausible percentages for all travelers is therefore from 42% - 3% = 39% to 42% + 3% = 45%. The least number of travelers consistent with the results corresponds to the lower end of this interval, 39%, of the 6,000 travelers. Since 0.39(6,000) = 2,340, the least number of travelers consistent with the authority's results is 2,340.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of travelers equal to the margin of error alone, 3% of 6,000, rather than the number corresponding to the lower end of the interval.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is 42% of 6,000, the number corresponding to the sample estimate itself. It doesn't account for the margin of error, which is needed to find the least value consistent with the results.",
+  "distractor_d_explanation": "Choice D is incorrect. This is 45% of 6,000, the number corresponding to the upper end of the interval, so it is the greatest number consistent with the results, not the least."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Stall type visited most often",
+    "Number of customers"
+   ],
+   "rows": [
+    [
+     "Produce",
+     "42"
+    ],
+    [
+     "Baked goods",
+     "30"
+    ],
+    [
+     "Prepared food",
+     "27"
+    ],
+    [
+     "Crafts",
+     "21"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A farmers market has 2,400 regular customers. A market manager selected a random sample of 120 of these customers and asked each one which type of stall they visit most often. The results are shown in the table. Based on the sample, which of the following is the best estimate of the number of the market's regular customers who visit the produce stalls or the prepared-food stalls most often?",
+  "answer_a": "840",
+  "answer_b": "1,020",
+  "answer_c": "1,380",
+  "answer_d": "1,440",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that the sample is random, so the sample proportions can be used to estimate the proportions for all 2,400 regular customers. The table shows 42 sampled customers who visit the produce stalls most often and 27 who visit the prepared-food stalls most often, for a total of 42 + 27 = 69 customers out of the 120 sampled. The proportion of the sample in these two categories is 69/120 = 0.575. Applying this proportion to the 2,400 regular customers gives 0.575(2,400) = 1,380. Therefore, the best estimate of the number of regular customers who visit the produce stalls or the prepared-food stalls most often is 1,380.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the estimate for the produce stalls alone (42/120 = 0.35, and 0.35(2,400) = 840); it leaves out the customers who visit the prepared-food stalls.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the estimate for the baked-goods and craft stalls (30 + 21 = 51 customers, and 51/120 times 2,400 = 1,020), which are the two categories not asked about, or equivalently 2,400 - 1,380.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from adding the wrong pair of rows, produce (42) and baked goods (30), to get 72, and then 72/120 times 2,400 = 1,440, instead of using the produce and prepared-food rows."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A manufacturer produced 1,350 identical wiring harnesses in one month. A quality engineer selected a random sample of the harnesses and timed the assembly of each. Based on the sample, the engineer calculated a 95% confidence interval for the mean assembly time of all 1,350 harnesses: 36.9 minutes to 41.5 minutes. The engineer will use the sample mean, which is the midpoint of this interval, as the estimate of the mean assembly time for all 1,350 harnesses. Based on this estimate, what is the total assembly time, in minutes, for all 1,350 harnesses?",
+  "answer_a": "3,105",
+  "answer_b": "49,815",
+  "answer_c": "52,920",
+  "answer_d": "56,025",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The sample mean is the midpoint of the confidence interval, so the estimated mean assembly time is (36.9 + 41.5)/2 = 78.4/2 = 39.2 minutes per harness. The estimated total assembly time for all 1,350 harnesses is the estimated mean multiplied by the number of harnesses: 39.2 x 1,350 = 52,920. Therefore, the estimated total assembly time for all 1,350 harnesses is 52,920 minutes.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the margin of error, (41.5 - 36.9)/2 = 2.3 minutes, multiplied by 1,350, rather than the estimated mean multiplied by 1,350.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from multiplying the lower endpoint of the interval, 36.9, by 1,350 instead of using the midpoint of the interval as the estimated mean.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from multiplying the upper endpoint of the interval, 41.5, by 1,350 instead of using the midpoint of the interval as the estimated mean."
+ }
+]

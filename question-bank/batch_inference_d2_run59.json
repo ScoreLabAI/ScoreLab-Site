@@ -1,0 +1,74 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A transit agency wants to compare one-way trip times on two bus routes. Independent random samples of riders were taken from each route. For Route 14, the sample mean one-way trip time was 41.0 minutes with a margin of error of 2.5 minutes. For Route 22, the sample mean one-way trip time was 33.5 minutes with a margin of error of 2.0 minutes. Both margins of error were calculated for a 95% confidence level. Assume that the population mean one-way trip time for each route is within its interval. A commuter rides the same route to work and back home each workday, so she makes 2 one-way trips per workday, and the mean trip time is the same in both directions. Based on these samples, what is the greatest plausible difference, in hours, between the total time she would spend riding Route 14 and the total time she would spend riding Route 22 over 20 workdays?",
+  "answer_a": "2",
+  "answer_b": "4",
+  "answer_c": "5",
+  "answer_d": "8",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. It's given that the interval for the population mean one-way trip time on Route 14 is 41.0 \u00b1 2.5, or 38.5 to 43.5 minutes, and the interval for Route 22 is 33.5 \u00b1 2.0, or 31.5 to 35.5 minutes. The greatest plausible difference between the population means occurs when the Route 14 mean is at the top of its interval and the Route 22 mean is at the bottom of its interval: 43.5 - 31.5 = 12 minutes per one-way trip. The commuter makes 2 one-way trips per workday for 20 workdays, which is 40 one-way trips. So the greatest plausible difference in total riding time is 12 \u00d7 40 = 480 minutes. Since there are 60 minutes in an hour, 480 \u00f7 60 = 8 hours. Therefore, the greatest plausible difference is 8 hours.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the least plausible difference, not the greatest. Subtracting the top of the Route 22 interval from the bottom of the Route 14 interval gives 38.5 - 35.5 = 3 minutes per trip, and 3 \u00d7 40 = 120 minutes, or 2 hours.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from finding the correct greatest difference of 12 minutes per trip but counting only 20 one-way trips (one per workday) instead of 40. Then 12 \u00d7 20 = 240 minutes, or 4 hours.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the difference between the sample means, 41.0 - 33.5 = 7.5 minutes per trip, carried through the conversion (7.5 \u00d7 40 = 300 minutes, or 5 hours). It ignores the margins of error, so it is the estimated difference, not the greatest plausible difference.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A county elections office wanted to estimate how many eligible adults are registered to vote in each of two counties. For each county, the office selected a random sample of eligible adults and recorded the percent of the sample who were registered. The table shows the number of eligible adults in each county, the sample size, the sample percent, and the margin of error for the sample percent. Assume the percent of all eligible adults in each county who are registered is within the stated margin of error of the sample percent. Based on these results, what is the greatest plausible value for the number of registered eligible adults in Alder County minus the number of registered eligible adults in Birch County?",
+  "answer_a": "8,960",
+  "answer_b": "12,040",
+  "answer_c": "12,320",
+  "answer_d": "15,120",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. It's given that the percent registered in each county is within the stated margin of error of the sample percent. For Alder County, the plausible percents range from 72 - 4 = 68 to 72 + 4 = 76. For Birch County, the plausible percents range from 65 - 5 = 60 to 65 + 5 = 70. The difference (Alder minus Birch) is greatest when Alder's count is as large as possible and Birch's count is as small as possible. The greatest plausible number registered in Alder County is 76% of 42,000, or 0.76(42,000) = 31,920. The least plausible number registered in Birch County is 60% of 28,000, or 0.60(28,000) = 16,800. Therefore, the greatest plausible difference is 31,920 - 16,800 = 15,120.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the difference that results from reversing the endpoints, using the lower endpoint for Alder County (0.68(42,000) = 28,560) and the upper endpoint for Birch County (0.70(28,000) = 19,600), which gives the least plausible difference, not the greatest.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the difference of the estimates from the sample percents alone, 0.72(42,000) - 0.65(28,000) = 30,240 - 18,200, which ignores the margins of error.",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using the upper endpoint for both counties, 0.76(42,000) - 0.70(28,000) = 31,920 - 19,600, rather than using the lower endpoint for Birch County to make the difference as large as possible.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "County",
+    "Eligible adults",
+    "Sample size",
+    "Sample percent registered",
+    "Margin of error"
+   ],
+   "rows": [
+    [
+     "Alder",
+     "42,000",
+     "600",
+     "72%",
+     "4 percentage points"
+    ],
+    [
+     "Birch",
+     "28,000",
+     "400",
+     "65%",
+     "5 percentage points"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]

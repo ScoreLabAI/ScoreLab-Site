@@ -1,0 +1,251 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A cooler at a school picnic contains 10 bottles of juice: 6 lemonade and 4 orange. Two bottles are selected at random from the cooler, one after the other, without replacement. What is the probability that both bottles selected are the same flavor?",
+  "answer_a": "1/3",
+  "answer_b": "7/15",
+  "answer_c": "13/25",
+  "answer_d": "5/9",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the cooler has 6 lemonade and 4 orange bottles, and two bottles are selected without replacement. The probability that both are lemonade is (6/10)(5/9) = 30/90. The probability that both are orange is (4/10)(3/9) = 12/90. These outcomes cannot happen together, so the probability that both bottles are the same flavor is 30/90 + 12/90 = 42/90, which simplifies to 7/15. Therefore, the probability that both bottles are the same flavor is 7/15.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that both bottles are lemonade, (6/10)(5/9) = 1/3, and it leaves out the probability that both bottles are orange.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from selecting with replacement, (6/10)(6/10) + (4/10)(4/10) = 52/100 = 13/25, rather than without replacement, which changes the number of bottles remaining after the first selection.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the probability that the second bottle is lemonade given that the first bottle was lemonade, 5/9, not the probability that both bottles are the same flavor.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The table shows the number of projects entered in a regional science fair, by grade level of the student and project category. One of the Robotics projects will be selected at random for a demonstration. To the nearest hundredth, what is the probability that the selected project was entered by a 10th-grade student?",
+  "answer_a": "0.19",
+  "answer_b": "0.35",
+  "answer_c": "0.44",
+  "answer_d": "0.55",
+  "correct_answer": "D",
+  "explanation": "The selection is restricted to Robotics projects, so the denominator is the Robotics column total: 12 + 22 + 6 = 40. Of these, 22 were entered by 10th-grade students. The probability is 22/40 = 0.55. Choice D is correct.",
+  "distractor_a_explanation": "Choice A is incorrect. 0.19 is 22/115, the fraction of all projects that are both Robotics and 10th grade. This uses the grand total as the denominator instead of restricting to Robotics projects.",
+  "distractor_b_explanation": "Choice B is incorrect. 0.35 is 40/115, the fraction of all projects that are Robotics. This finds the probability of a Robotics project rather than the probability of a 10th-grade entry given Robotics.",
+  "distractor_c_explanation": "Choice C is incorrect. 0.44 is 22/50, the fraction of 10th-grade projects that are Robotics. This divides by the 10th-grade row total, reversing the condition.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Grade level",
+    "Robotics",
+    "Chemistry",
+    "Biology"
+   ],
+   "rows": [
+    [
+     "9th grade",
+     "12",
+     "18",
+     "8"
+    ],
+    [
+     "10th grade",
+     "22",
+     "12",
+     "16"
+    ],
+    [
+     "11th grade",
+     "6",
+     "15",
+     "6"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A streaming service surveyed its subscribers about their main viewing device and their plan type. The table shows the relative frequency of each combination of device and plan, with row and column totals. One subscriber whose main device is a TV will be selected at random. Based on the table, what is the probability that the selected subscriber has the premium plan?",
+  "answer_a": "0.30",
+  "answer_b": "0.42",
+  "answer_c": "0.70",
+  "answer_d": "0.76",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Only subscribers whose main device is a TV are considered, and that group makes up 0.60 of all subscribers. Of all subscribers, 0.42 are TV viewers with the premium plan. The conditional probability is 0.42/0.60 = 0.70.",
+  "distractor_a_explanation": "Choice A is incorrect. 0.30 is 1 - 0.70, the probability that a TV subscriber has the ad-supported plan (0.18/0.60), not the premium plan. It results from finding the complement of the asked-for probability.",
+  "distractor_b_explanation": "Choice B is incorrect. 0.42 is the joint relative frequency of TV and premium among all subscribers. It is not divided by the 0.60 TV total, so it ignores that the selection is restricted to TV subscribers.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. 0.76 is 0.42/0.55, the probability that a premium subscriber has TV as the main device. This divides by the premium column total instead of the TV row total, reversing the condition.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Main device",
+    "Ad-supported plan",
+    "Premium plan",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Phone",
+     "0.27",
+     "0.13",
+     "0.40"
+    ],
+    [
+     "TV",
+     "0.18",
+     "0.42",
+     "0.60"
+    ],
+    [
+     "Total",
+     "0.45",
+     "0.55",
+     "1.00"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "On a fishing trip, Dara casts a line into a pond 3 times. On each cast, the probability that she catches a fish is 0.2, and the results of the casts are independent of one another. What is the probability that Dara catches a fish on at least one of the 3 casts?",
+  "answer_a": "0.008",
+  "answer_b": "0.488",
+  "answer_c": "0.512",
+  "answer_d": "0.600",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the probability of catching a fish on each cast is 0.2, so the probability of not catching a fish on a single cast is 1 - 0.2 = 0.8. Because the casts are independent, the probability of not catching a fish on any of the 3 casts is (0.8)(0.8)(0.8) = 0.512. Catching at least one fish is the complement of catching none, so the probability is 1 - 0.512 = 0.488. Therefore, the probability that Dara catches a fish on at least one cast is 0.488.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that Dara catches a fish on all 3 casts, (0.2)(0.2)(0.2) = 0.008, not on at least one cast.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the probability that Dara catches no fish on any of the 3 casts, (0.8)(0.8)(0.8) = 0.512; the final step of subtracting this value from 1 was omitted.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from adding the three probabilities, 0.2 + 0.2 + 0.2 = 0.6; probabilities of independent events that can occur together can't simply be added to find the probability of at least one occurring.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A transportation agency surveyed 250 electric vehicle drivers at a public charging station about the type of vehicle they drive and the type of charger they used. The results are shown in the table. Next month, 500 SUV drivers are expected to charge at this station. Based on the survey results, how many of these 500 SUV drivers would be expected to use a fast charger?",
+  "answer_a": "104",
+  "answer_b": "184",
+  "answer_c": "200",
+  "answer_d": "300",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The question asks about SUV drivers only, so the relevant survey results are the 130 SUV drivers in the sample (52 + 78 = 130). Of these, 52 used a fast charger, so the estimated probability that an SUV driver uses a fast charger is 52/130 = 0.4. Therefore, of 500 SUV drivers, the number expected to use a fast charger is 0.4(500) = 200.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from dividing the 52 SUV drivers who used a fast charger by all 250 surveyed drivers (52/250 = 0.208) instead of by the 130 SUV drivers, and then multiplying by 500.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from using the proportion of all surveyed drivers who used a fast charger (92/250 = 0.368) instead of the proportion among SUV drivers, and then multiplying by 500.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the expected number of SUV drivers who would use a standard charger (78/130 = 0.6, and 0.6(500) = 300), not a fast charger.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Vehicle type",
+    "Fast charger",
+    "Standard charger",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Sedan",
+     "40",
+     "80",
+     "120"
+    ],
+    [
+     "SUV",
+     "52",
+     "78",
+     "130"
+    ],
+    [
+     "Total",
+     "92",
+     "158",
+     "250"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A campground has 80 hikers staying for the weekend. Of these hikers, 35 brought a camera, 28 brought binoculars, and 12 brought both a camera and binoculars. If one of the 80 hikers is selected at random, what is the probability that the selected hiker brought neither a camera nor binoculars?",
+  "answer_a": "3/20",
+  "answer_b": "17/80",
+  "answer_c": "29/80",
+  "answer_d": "51/80",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Add the camera and binoculars groups, then subtract the 12 hikers counted twice: 35 + 28 - 12 = 51 hikers brought a camera, binoculars, or both. The remaining 80 - 51 = 29 hikers brought neither. The probability is 29/80.",
+  "distractor_a_explanation": "Choice A is incorrect. 3/20 equals 12/80, the probability that a hiker brought both items. The question asks about hikers who brought neither.",
+  "distractor_b_explanation": "Choice B is incorrect. 17/80 comes from computing 80 - 35 - 28 = 17, which subtracts the 12 hikers who brought both items twice; the overlap must be added back (or subtracted only once from the sum 35 + 28).",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. 51/80 is the probability that a hiker brought a camera, binoculars, or both. The question asks for the complement, hikers who brought neither.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A language-learning app surveyed 800 of its users. Of those users, 60% have a paid subscription. Of the users who have a paid subscription, 25% chose the annual plan. Based on these percentages, how many of the 800 users surveyed are expected to have a paid subscription on the annual plan?",
+  "answer_a": "120",
+  "answer_b": "200",
+  "answer_c": "360",
+  "answer_d": "480",
+  "correct_answer": "A",
+  "explanation": "Choice A is correct. It's given that 60% of the 800 users surveyed have a paid subscription, which is 0.60(800) = 480 users. It's also given that 25% of these subscribers chose the annual plan, which is 0.25(480) = 120 users. Therefore, 120 of the users surveyed are expected to have a paid subscription on the annual plan.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect. This is 25% of all 800 users surveyed, not 25% of the users who have a paid subscription.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the number of subscribers who did not choose the annual plan, 0.75(480) = 360, not the number who did.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of users who have a paid subscription, 0.60(800) = 480, not the number of those users who chose the annual plan.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

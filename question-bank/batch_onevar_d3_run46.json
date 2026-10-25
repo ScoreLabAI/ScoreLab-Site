@@ -1,0 +1,152 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A wildlife biologist set a trail camera for 7 nights and recorded the number of deer photographed each night. Each night's count was a positive integer. For the 7 counts, the mean was 14, the median was 9, and the only mode was 5. What is the greatest possible number of deer photographed on a single night?",
+  "answer_a": "55",
+  "answer_b": "57",
+  "answer_c": "60",
+  "answer_d": "68",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the mean of the 7 counts is 14, so the 7 counts sum to 7(14) = 98. Order the counts from least to greatest as a1, a2, ..., a7. The median is 9, so a4 = 9, and a5, a6, and a7 are each at least 9. The mode is 5, and 5 is less than 9, so the value 5 can appear only among a1, a2, and a3. Because 5 is the only mode, it must appear at least twice, and no other value can appear as often as 5 does. To make a7 as large as possible, the other six counts must have the least possible sum. Make 5 appear exactly twice and take a1 = 1, a2 = 5, a3 = 5. Then a5 and a6 must be at least 9, but a5 = 9 would make 9 appear twice (with a4), tying with 5, and a5 = a6 = 10 would make 10 appear twice, also a tie. The least allowed values are a5 = 10 and a6 = 11, so 9, 10, and 11 each appear once. The six smaller counts then sum to 1 + 5 + 5 + 9 + 10 + 11 = 41. Using three 5s gives a sum of at least 43 (for example 5, 5, 5, 9, 9, 10), and larger values in a1 through a3 only increase the sum, so 41 is the minimum. Therefore, the greatest possible count is a7 = 98 - 41 = 57. The counts 1, 5, 5, 9, 10, 11, 57 have mean 14, median 9, and unique mode 5, so this is attainable.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from assuming that 5 must appear three times (5, 5, 5, 9, 9, 10, which sum to 43) so that 9 can appear twice, giving 98 - 43 = 55. Using 1, 5, 5 for the three least counts is allowed and gives a smaller sum, so a larger maximum is possible.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using 1, 5, 5, 9, 9, 9 (sum 38) for the six smaller counts, giving 98 - 38 = 60. In that list 9 appears three times and 5 only twice, so 5 would not be the only mode.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from ignoring the mode and using the smallest possible counts 1, 1, 1, 9, 9, 9 (sum 30), giving 98 - 30 = 68. In that list 1 and 9 each appear three times and 5 does not appear at all, so the mode condition is violated.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "A regional debate league has six member schools. The number of students each school sent to the spring tournament is a positive integer. For these six numbers, the range is 24, the mean is 12, and the median is 11.5. The data set has exactly one mode. What is the greatest possible value of the second-smallest of the six numbers?",
+  "answer_a": "8",
+  "answer_b": "9",
+  "answer_c": "10",
+  "answer_d": "11",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Let the six numbers in increasing order be a, b, c, d, e, f. It's given that the mean is 12, so the sum is 6(12) = 72. The median is 11.5, so c + d = 23. Because c is at most d, c is at most 11 and d is at least 12. The range is 24, so f = a + 24. Substituting into the sum gives a + b + 23 + e + a + 24 = 72, which simplifies to 2a + b + e = 25. Since e is at least d, e is at least 12, so b is at most 13 - 2a. If a = 1, then b + e = 23. To get b = 11, e = 12, c = 11, and d = 12, giving 1, 11, 11, 12, 12, 25, which has two modes. To get b = 10, e = 13; then either c = 11 and d = 12, giving 1, 10, 11, 12, 13, 25 with no mode, or c = 10 and d = 13, giving 1, 10, 10, 13, 13, 25 with two modes. So a = 1 doesn't work for b = 10 or b = 11. If a = 2, then b + e = 21, so b is at most 21 - 12 = 9. Taking b = 9, e = 12, c = 11, and d = 12 gives 2, 9, 11, 12, 12, 26. This has a sum of 72, a range of 24, a median of 11.5, and exactly one mode (12). If a is 3 or more, then b + e is at most 19, so b is at most 7. Therefore, the greatest possible value of the second-smallest number is 9.",
+  "distractor_a_explanation": "Choice A is incorrect. A second-smallest value of 8 is attainable, for example with 2, 8, 10, 13, 13, 26 (sum 72, range 24, median 11.5, exactly one mode, 13). It is not the greatest possible value, however, because 2, 9, 11, 12, 12, 26 also meets every condition and has a second-smallest value of 9. This choice results from stopping at the first valid list found instead of maximizing.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using the smallest possible value a = 1 and taking b = 10, which gives 1, 10, 11, 12, 13, 25. This list has the correct sum, range, and median, but all six values are different, so it has no mode and doesn't satisfy the condition of exactly one mode.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from using a = 1 and making b as large as possible, giving 1, 11, 11, 12, 12, 25. This list has the correct sum, range, and median, but both 11 and 12 appear twice, so it has two modes rather than exactly one.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "The table shows the number of dogs adopted per week at an animal shelter over a period of weeks. The frequency of weeks with exactly 3 adoptions is x, where x is a nonnegative integer. For how many values of x is the mean number of dogs adopted per week greater than the median number of dogs adopted per week?",
+  "answer_a": "3",
+  "answer_b": "4",
+  "answer_c": "5",
+  "answer_d": "6",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. The total number of weeks is 2 + 4 + 2 + x + 2 = 10 + x, and the total number of adoptions is 0(2) + 1(4) + 2(2) + 3x + 4(2) = 16 + 3x, so the mean is (16 + 3x)/(10 + x). The median depends on x, so each case must be checked. The cumulative frequencies of the values 0, 1, and 2 are 2, 6, and 8. For x = 0, 1, and 2, the median is 1, 1, and 1.5, and the means are 1.6, about 1.73, and about 1.83, so the mean is greater than the median in all three cases. For x = 3, the median is 2 and the mean is 25/13, which is about 1.92, so the mean is less. For x = 4, the median is 2 and the mean is 28/14 = 2, so they are equal, not greater. For x = 5, the median is 2 (the 8th of 15 values) and the mean is 31/15, which is about 2.07, so the mean is greater. For x = 6, the median is 2.5 and the mean is 34/16 = 2.125, so the mean is less. For x = 7 or more, the median is 3, and the mean is less than 3 because (16 + 3x)/(10 + x) < 3 is equivalent to 16 < 30. Therefore, the mean is greater than the median only for x = 0, 1, 2, and 5, which is 4 values.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from assuming the mean stays greater than the median until the first failure and stopping there: x = 0, 1, and 2 give 3 values, but this misses that the mean is greater again when x = 5.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This counts x = 4 as well, where the mean and median are both exactly 2. The mean is equal to the median there, not greater, so that value does not satisfy the condition.",
+  "distractor_d_explanation": "Choice D is incorrect. This counts every x from 0 through 5 (6 values), without checking that the mean is not greater than the median at x = 3 and x = 4.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Dogs adopted in a week",
+    "Number of weeks"
+   ],
+   "rows": [
+    [
+     "0",
+     "2"
+    ],
+    [
+     "1",
+     "4"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "x"
+    ],
+    [
+     "4",
+     "2"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "visual_svg": null,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Pallets in delivery",
+    "Number of deliveries"
+   ],
+   "rows": [
+    [
+     "20",
+     "4"
+    ],
+    [
+     "24",
+     "2"
+    ],
+    [
+     "28",
+     "5"
+    ],
+    [
+     "32",
+     "k"
+    ],
+    [
+     "36",
+     "8"
+    ]
+   ]
+  },
+  "question_text": "A loading dock logged the number of pallets in each delivery it received one week. The table shows how many deliveries carried each pallet count, where k is a positive integer.\n\nTwo deliveries were then removed from the log. One of the removed deliveries had 12 more pallets than the other. For the deliveries that remain, the mean number of pallets per delivery is 30 and the median is 32. What is the greater of the two pallet counts that were removed?",
+  "answer_a": "20",
+  "answer_b": "24",
+  "answer_c": "32",
+  "answer_d": "36",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. Let k be the number of deliveries with 32 pallets. The original log has 4 + 2 + 5 + k + 8 = 19 + k deliveries carrying 4(20) + 2(24) + 5(28) + 32k + 8(36) = 556 + 32k pallets in all. Removing two deliveries leaves 17 + k deliveries. If the removed counts are x and x + 12, their total is 2x + 12, and a mean of 30 gives 556 + 32k - (2x + 12) = 30(17 + k). This simplifies to 2x = 34 + 2k, so x = k + 17. Both removed counts must appear in the table, so the pair is either 20 and 32 or 24 and 36. That gives two candidates: x = 20 with k = 3, or x = 24 with k = 7. Now use the median. If k = 3 and the deliveries with 20 and 32 pallets are removed, 20 deliveries remain, and the 10th and 11th values are 28 and 32, so the median is 30, not 32. If k = 7 and the deliveries with 24 and 36 pallets are removed, 24 deliveries remain with 4, 1, 5, 7, and 7 deliveries at 20, 24, 28, 32, and 36 pallets, so the 12th and 13th values are both 32 and the median is 32. The mean is also (780 - 60)/24 = 30. So the removed counts are 24 and 36, and the greater is 36.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from using only the mean equation and choosing the candidate k = 3, which removes deliveries of 20 and 32 pallets, then reporting its smaller count. That candidate fails the median check (its median is 30, not 32).",
+  "distractor_b_explanation": "Choice B is incorrect. This is the smaller of the two removed counts in the correct pair (24 and 36). It comes from correctly finding k = 7 and x = 24 but not adding 12 to get the greater count.",
+  "distractor_c_explanation": "Choice C is incorrect. This results from using only the mean equation and choosing the candidate k = 3, which removes deliveries of 20 and 32 pallets, then reporting its greater count. That candidate leaves a median of 30, not 32, so it fails the median condition.",
+  "distractor_d_explanation": ""
+ }
+]

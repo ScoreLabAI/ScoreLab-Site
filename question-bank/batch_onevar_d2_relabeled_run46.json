@@ -1,0 +1,152 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "In a regional spelling bee practice round, eight finalists spelled the following numbers of words correctly: 12, 15, 17, 19, 21, 22, 24, and 30. The judges then corrected two entries in the records. The finalist whose score was recorded as 15 had it changed to the mean of the original eight scores, and the finalist whose score was recorded as 19 had it changed to 14. Compared with the original data set, which of the following describes the effect of these two corrections on the mean, the median, and the standard deviation of the eight scores?",
+  "answer_a": "The mean decreases, the median increases, and the standard deviation increases.",
+  "answer_b": "The mean is unchanged, the median increases, and the standard deviation decreases.",
+  "answer_c": "The mean is unchanged, the median increases, and the standard deviation increases.",
+  "answer_d": "The mean is unchanged, the median is unchanged, and the standard deviation increases.",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The original scores sum to 12 + 15 + 17 + 19 + 21 + 22 + 24 + 30 = 160, so the original mean is 160/8 = 20. The score 15 is changed to the mean, 20, which adds 5 to the sum, and the score 19 is changed to 14, which subtracts 5 from the sum. The sum is still 160, so the mean is unchanged at 20. For the median, the original ordered scores are 12, 15, 17, 19, 21, 22, 24, 30, so the median is (19 + 21)/2 = 20. The new ordered scores are 12, 14, 17, 20, 21, 22, 24, 30, so the median is (20 + 21)/2 = 20.5, which is greater than 20. For the standard deviation, compare the sums of the squared deviations from the mean of 20. Originally, the squared deviations are 64, 25, 9, 1, 1, 4, 16, and 100, which sum to 220. After the corrections, the squared deviations are 64, 36, 9, 0, 1, 4, 16, and 100, which sum to 230. Replacing 15 with 20 removes 25 from the sum, but moving 19 to 14 changes its squared deviation from 1 to 36 and adds 35, a net increase of 10. Because the mean is the same and the sum of squared deviations increases, the standard deviation increases. Therefore, the mean is unchanged, the median increases, and the standard deviation increases.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from accounting only for the change from 19 to 14, which lowers the sum by 5, and ignoring that changing 15 to 20 raises the sum by 5. The two changes offset exactly, so the mean stays 20.",
+  "distractor_b_explanation": "Choice B is incorrect. This may result from focusing on the 25 removed from the sum of squared deviations when 15 is replaced by the mean, without accounting for the 35 added when 19 moves from 1 below the mean to 6 below the mean. The sum of squared deviations goes from 220 to 230, so the standard deviation increases, not decreases.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This may result from reasoning that one score moves up by 5 and another moves down by 5, so the middle of the data is unchanged. The middle two ordered scores change from 19 and 21 to 20 and 21, so the median changes from 20 to 20.5.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A transit agency surveyed 40 riders of a commuter train line and asked each to rate the line from 1 to 5. The frequency table shows the number of riders who gave each rating, where x and y are the numbers of riders who gave ratings of 2 and 4, respectively. The mean of the 40 ratings is 2.75. What is the median of the 40 ratings?",
+  "answer_a": "2",
+  "answer_b": "2.5",
+  "answer_c": "2.75",
+  "answer_d": "3",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that 40 riders were surveyed, so 6 + x + 9 + y + 5 = 40, which simplifies to x + y = 20. It's also given that the mean rating is 2.75, so the sum of the ratings is 40(2.75) = 110. From the table, this sum is 1(6) + 2x + 3(9) + 4y + 5(5) = 58 + 2x + 4y, so 58 + 2x + 4y = 110, which simplifies to x + 2y = 26. Subtracting x + y = 20 from x + 2y = 26 gives y = 6, and then x = 14. The frequencies are therefore 6, 14, 9, 6, and 5. Because there are 40 ratings, the median is the average of the 20th and 21st ratings when the ratings are listed in order. The first 6 ratings are 1, and the next 14 ratings are 2, so the first 20 ratings are 1 or 2 and the 20th rating is 2. The 21st rating is the first of the 9 ratings of 3, so it is 3. Therefore, the median is (2 + 3)/2 = 2.5.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the 20th rating only. With x = 14, the first 20 ratings are 6 ones and 14 twos, but because there are 40 ratings (an even number), the median is the average of the 20th and 21st ratings, and the 21st rating is 3.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the mean of the ratings, which is given in the problem, not the median.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from assuming x = y = 10 instead of solving for both unknowns. Then the cumulative frequencies are 6, 16, 25, so both the 20th and 21st ratings are 3, giving a median of 3. This does not use the given mean, and it does not match the actual values x = 14 and y = 6.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Rating",
+    "Number of riders"
+   ],
+   "rows": [
+    [
+     "1",
+     "6"
+    ],
+    [
+     "2",
+     "x"
+    ],
+    [
+     "3",
+     "9"
+    ],
+    [
+     "4",
+     "y"
+    ],
+    [
+     "5",
+     "5"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A cycling club recorded the one-way commute distance, in whole kilometers, of each of its 20 members. The table shows only the distance interval for each member. The mean of the 20 distances was reported as exactly 26.45 kilometers. Based on this information, what is the least possible value, in kilometers, of the longest commute distance among the 20 members?",
+  "answer_a": "40",
+  "answer_b": "43",
+  "answer_c": "44",
+  "answer_d": "47",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that the mean of the 20 distances is 26.45 kilometers, so the sum of all 20 distances is 20(26.45) = 529 kilometers. The 18 members in the first four intervals can contribute at most the sum of their upper endpoints: 3(9) + 6(19) + 5(29) + 4(39) = 27 + 114 + 145 + 156 = 442 kilometers. So the 2 members in the 40-49 interval must account for at least 529 - 442 = 87 kilometers. The longest of two whole-number distances with a sum of at least 87 is at least 44, because two distances of 43 or less would sum to at most 86. A longest distance of 44 is possible: the two top distances can be 43 and 44 (sum 87, both in the 40-49 interval) while the other 18 members are at their upper endpoints. Therefore, the least possible value of the longest commute distance is 44 kilometers.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the lower endpoint of the 40-49 interval, which would be the longest distance only if the two top distances were both 40. That gives a sum of 80, but the top two distances must sum to at least 87.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from dividing 87 by 2 to get 43.5 and rounding down to 43. Two distances of 43 sum to only 86, not 87, so at least one of the two distances must be 44.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from placing the entire excess of 7 kilometers above 40 on a single member (40 + 47 = 87) rather than splitting the total as evenly as possible between the two members in the 40-49 interval.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Distance interval (km)",
+    "Number of members"
+   ],
+   "rows": [
+    [
+     "0-9",
+     "3"
+    ],
+    [
+     "10-19",
+     "6"
+    ],
+    [
+     "20-29",
+     "5"
+    ],
+    [
+     "30-39",
+     "4"
+    ],
+    [
+     "40-49",
+     "2"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "During one day of an apple harvest, three picking crews at an orchard recorded the number of bushels each picker collected. Crew B has 1.5 times as many pickers as Crew A, and Crew C has 8 fewer pickers than Crew B. The mean number of bushels per picker was 60 for Crew A and 44 for Crew C. For Crews A and B combined, the mean number of bushels per picker was 66. For all three crews combined, the mean number of bushels per picker was 59. How many pickers are in Crew C?",
+  "answer_a": "24",
+  "answer_b": "28",
+  "answer_c": "36",
+  "answer_d": "82",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Let n be the number of pickers in Crew A. Then Crew B has 1.5n pickers and Crew C has 1.5n - 8 pickers. Crews A and B together have 2.5n pickers who averaged 66 bushels each, so they collected 66(2.5n) = 165n bushels. Crew A collected 60n of these bushels, so Crew B collected 165n - 60n = 105n bushels (a mean of 70 bushels per picker for Crew B). Crew C collected 44(1.5n - 8) = 66n - 352 bushels. All three crews together have n + 1.5n + (1.5n - 8) = 4n - 8 pickers and collected 59(4n - 8) = 236n - 472 bushels. Therefore, 165n + 66n - 352 = 236n - 472, which gives 231n - 352 = 236n - 472, so 5n = 120 and n = 24. The number of pickers in Crew C is 1.5(24) - 8 = 28.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of pickers in Crew A (the value of n), not the number in Crew C.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the number of pickers in Crew B (1.5 * 24), not the number in Crew C.",
+  "distractor_d_explanation": "Choice D is incorrect and may result from treating 66 as the simple average of the Crew A and Crew B means, which gives a Crew B mean of 2(66) - 60 = 72 instead of 70, which is valid only if Crews A and B were the same size, but Crew B is larger. With that value, 60n + 108n + 44(1.5n - 8) = 59(4n - 8) simplifies to 234n - 352 = 236n - 472, so n = 60 and Crew C would have 1.5(60) - 8 = 82 pickers.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

@@ -1,0 +1,166 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Lines, angles, and triangles",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A triangular pennant hangs from a flagpole. In the figure, the two sides that are each 10 feet long have equal length, and the angle between them measures 40°. What is the measure, in degrees, of one of the two angles at the base of the pennant?",
+  "answer_a": "50",
+  "answer_b": "70",
+  "answer_c": "100",
+  "answer_d": "140",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the pennant is an isosceles triangle with two equal sides of length 10 feet, so the angles opposite those sides, the two base angles, are congruent. The sum of the angle measures in a triangle is 180°. If x represents the measure of each base angle, then 40 + x + x = 180. Subtracting 40 from both sides gives 2x = 140, so x = 70. Therefore, each base angle measures 70°.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the result of treating the triangle as if it had a right angle and subtracting 40 from 90, rather than using the fact that the three angles sum to 180°.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the measure of the third angle that results from assuming a base angle also measures 40°, not the measure of a base angle.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the sum of the two base angles (180 - 40), not the measure of one base angle; it results from not dividing by 2.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "triangle",
+   "side_lengths": [
+    6.84,
+    10,
+    10
+   ],
+   "side_labels": [
+    "",
+    "10 ft",
+    "10 ft"
+   ],
+   "angle_labels": [
+    "40°",
+    "",
+    ""
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T14:53:31.430015</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 26.181818 242.86737 \nL 333.818182 242.86737 \nL 261.853423 45.13263 \nL 26.181818 242.86737 \n\" clip-path=\"url(#pc53f0ff64e)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 10 ft -->\n    <g transform=\"translate(168.107812 242.86737) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-288\" d=\"M 2119 3494 \nL 1313 3494 \nL 1313 3834 \nC 1313 4172 1463 4353 1809 4353 \nC 1966 4353 2053 4319 2113 4300 \nL 2269 4781 \nC 2184 4819 2009 4875 1744 4875 \nC 1234 4875 750 4566 750 3959 \nL 750 3494 \nL 63 3494 \nL 63 3013 \nL 750 3013 \nL 750 0 \nL 1313 0 \nL 1313 3013 \nL 2119 3013 \nL 2119 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-37b\" d=\"M 1869 3494 \nL 1150 3494 \nL 1150 4325 \nL 588 4325 \nL 588 3494 \nL 63 3494 \nL 63 3013 \nL 588 3013 \nL 588 863 \nC 588 291 944 -44 1547 -44 \nC 1691 -44 1850 -22 1966 19 \nL 1850 494 \nC 1756 475 1634 456 1563 456 \nC 1266 456 1150 594 1150 906 \nL 1150 3013 \nL 1869 3013 \nL 1869 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-540\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(103.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(131.890625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(165.484375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 10 ft -->\n    <g transform=\"translate(132.125433 144) scale(0.12 -0.12)\">\n     <use xlink:href=\"#Inter-Regular-540\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(103.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(131.890625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(165.484375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- 40° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(31.181818 237.86737) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-544\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(64.59375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(127.6875 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pc53f0ff64e\">\n   <rect x=\"10.8\" y=\"35.245893\" width=\"338.4\" height=\"217.508213\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Lines, angles, and triangles",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A skateboard ramp at a skate park forms a right triangle with the ground and a vertical support wall, as shown. The angle the ramp makes with the ground measures 35°. What is the measure, in degrees, of the angle the ramp makes with the vertical support wall?",
+  "answer_a": "35",
+  "answer_b": "55",
+  "answer_c": "125",
+  "answer_d": "145",
+  "correct_answer": "B",
+  "explanation": "The ground and the support wall meet at a right angle, so the triangle is a right triangle. The three angles of any triangle add up to 180°, so the two acute angles of a right triangle add up to 90°. The angle with the ground is 35°, so the angle with the support wall is 90° - 35° = 55°. The correct answer is 55.",
+  "distractor_a_explanation": "This is the measure of the angle the ramp makes with the ground, which the problem already gives. The question asks for the other acute angle, which is 90° - 35° = 55°.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "This adds 35° to the right angle (90° + 35° = 125°). The angles of a triangle must add up to 180°, so the missing angle is found by subtracting both known angles from 180°: 180° - 90° - 35° = 55°.",
+  "distractor_d_explanation": "This subtracts only the 35° angle from 180° (180° - 35° = 145°) and forgets the 90° right angle. The missing angle is 180° - 90° - 35° = 55°.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "right_triangle",
+   "side_lengths": [
+    10,
+    7,
+    12.2
+   ],
+   "side_labels": [
+    "",
+    "",
+    ""
+   ],
+   "angle_labels": [
+    "90°",
+    "35°",
+    ""
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T14:53:32.146399</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 25.690367 248.232567 \nL 323.497701 248.232567 \nL 25.690367 39.767433 \nL 25.690367 248.232567 \n\" clip-path=\"url(#pe64c1efc7f)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 90° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(30.690367 243.232567) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-54a\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(62.015625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(125.109375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 35° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(328.497701 243.232567) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-543\"/>\n     <use xlink:href=\"#Inter-Regular-545\" transform=\"translate(61.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(122.5625 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pe64c1efc7f\">\n   <rect x=\"10.8\" y=\"29.344176\" width=\"327.588068\" height=\"229.311648\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Lines, angles, and triangles",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A triangular flower bed in a community garden has interior angles that measure 2x°, 3x°, and 4x°, as shown in the figure. What is the measure, in degrees, of the largest angle of the flower bed?",
+  "answer_a": "20",
+  "answer_b": "40",
+  "answer_c": "60",
+  "answer_d": "80",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. The sum of the interior angle measures of any triangle is 180°. It's given that the interior angles of the flower bed measure 2x°, 3x°, and 4x°. It follows that 2x + 3x + 4x = 180, or 9x = 180. Dividing both sides of this equation by 9 yields x = 20. The largest angle is the one with the greatest coefficient, 4x°. Substituting 20 for x gives 4(20) = 80. Therefore, the measure of the largest angle of the flower bed is 80°.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the value of x, not the measure of the largest angle. The largest angle is 4x°, which is 4(20) = 80°.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the measure of the smallest angle, 2x°, not the largest angle.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the measure of the middle angle, 3x°, not the largest angle.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "triangle",
+   "side_lengths": [
+    6.43,
+    8.66,
+    9.85
+   ],
+   "side_labels": [
+    "",
+    "",
+    ""
+   ],
+   "angle_labels": [
+    "2x°",
+    "3x°",
+    "4x°"
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T14:53:32.568053</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 25.721382 228.339578 \nL 324.14903 228.339578 \nL 226.687631 59.660422 \nL 25.721382 228.339578 \n\" clip-path=\"url(#p443d2d1e32)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 2x° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(30.721382 223.339578) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-3e3\" d=\"M 203 0 \nL 853 0 \nL 1372 784 \nC 1528 1022 1634 1234 1741 1431 \nC 1856 1234 1972 1022 2125 784 \nL 2638 0 \nL 3291 0 \nL 2066 1763 \nL 3234 3494 \nL 2591 3494 \nL 2147 2816 \nC 1984 2569 1878 2344 1766 2134 \nC 1644 2344 1525 2569 1366 2816 \nL 931 3494 \nL 275 3494 \nL 1431 1794 \nL 203 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-3e3\" transform=\"translate(60.984375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(115.578125 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 3x° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(329.14903 223.339578) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-543\"/>\n     <use xlink:href=\"#Inter-Regular-3e3\" transform=\"translate(61.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(116.359375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- 4x° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(231.687631 54.660422) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-544\"/>\n     <use xlink:href=\"#Inter-Regular-3e3\" transform=\"translate(64.59375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(119.1875 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p443d2d1e32\">\n   <rect x=\"10.8\" y=\"51.226464\" width=\"328.270412\" height=\"185.547072\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Lines, angles, and triangles",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Triangle ABC is shown. Triangle ABC is similar to triangle DEF, where vertices A, B, and C correspond to vertices D, E, and F, respectively. In triangle ABC, AB = 6, BC = 12, and CA = 10. In triangle DEF, DE = 9. What is the length of EF?",
+  "answer_a": "8",
+  "answer_b": "15",
+  "answer_c": "18",
+  "answer_d": "21",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Because triangle ABC is similar to triangle DEF with A, B, and C corresponding to D, E, and F, side AB corresponds to side DE and side BC corresponds to side EF. It's given that AB = 6 and DE = 9, so every side of triangle DEF is 9/6 = 3/2 times the corresponding side of triangle ABC. Since BC = 12, EF = (3/2)(12) = 18. Therefore, the length of EF is 18.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from using the ratio upside down (6/9 instead of 9/6), which makes the side of the larger triangle shorter than the corresponding side of the smaller triangle.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from adding the difference between DE and AB (9 - 6 = 3) to BC instead of multiplying by the scale factor. Corresponding sides of similar triangles are proportional, not a fixed amount longer.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the sum of BC and DE (12 + 9), which doesn't use the scale factor between the triangles.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "triangle",
+   "side_lengths": [
+    12,
+    10,
+    6
+   ],
+   "side_labels": [
+    "BC = 12",
+    "CA = 10",
+    "AB = 6"
+   ],
+   "angle_labels": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T14:53:33.195155</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 116.629019 265.344375 \nL 259.213727 265.344375 \nL 100.786273 28.231875 \nL 116.629019 265.344375 \n\" clip-path=\"url(#p8336ad1d66)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- AB = 6 -->\n    <g transform=\"translate(168.78981 265.344375) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-2\" d=\"M 163 0 \nL 794 0 \nL 1244 1300 \nL 3163 1300 \nL 3628 0 \nL 4253 0 \nL 2541 4656 \nL 1853 4656 \nL 163 0 \nz\nM 1425 1819 \nL 1753 2763 \nC 1853 3050 1997 3494 2194 4181 \nC 2391 3506 2528 3075 2641 2763 \nL 2978 1819 \nL 1425 1819 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-41\" d=\"M 563 0 \nL 2266 0 \nC 3363 0 3825 538 3825 1241 \nC 3825 1972 3316 2372 2881 2400 \nL 2881 2444 \nC 3288 2553 3644 2825 3644 3422 \nC 3644 4103 3184 4656 2213 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 525 \nL 1156 2113 \nL 2281 2113 \nC 2878 2113 3253 1713 3253 1247 \nC 3253 844 2975 525 2250 525 \nL 1156 525 \nz\nM 1156 2613 \nL 1156 4131 \nL 2200 4131 \nC 2803 4131 3075 3813 3075 3409 \nC 3075 2928 2681 2613 2181 2613 \nL 1156 2613 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-5ff\" d=\"M 706 1394 \nL 3531 1394 \nL 3531 1913 \nL 706 1913 \nL 706 1394 \nz\nM 706 2750 \nL 3531 2750 \nL 3531 3269 \nL 706 3269 \nL 706 2750 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-547\" d=\"M 2019 -63 \nC 2969 -63 3588 634 3588 1503 \nC 3588 2403 2925 3044 2128 3044 \nC 1644 3044 1231 2813 981 2425 \nL 944 2425 \nC 944 3544 1375 4194 2091 4194 \nC 2575 4194 2866 3888 2969 3484 \nL 3550 3484 \nC 3438 4216 2872 4719 2091 4719 \nC 1034 4719 381 3788 381 2150 \nC 381 434 1241 -63 2019 -63 \nz\nM 2019 459 \nC 1447 459 1028 947 1028 1497 \nC 1028 2041 1469 2528 2034 2528 \nC 2597 2528 3013 2072 3013 1503 \nC 3013 922 2578 459 2019 459 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-2\"/>\n     <use xlink:href=\"#Inter-Regular-41\" transform=\"translate(69 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(134.4375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-5ff\" transform=\"translate(162.5625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(228.71875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-547\" transform=\"translate(256.84375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- BC = 12 -->\n    <g transform=\"translate(158.247187 146.788125) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-49\" d=\"M 2447 -63 \nC 3400 -63 4163 519 4325 1466 \nL 3731 1466 \nC 3600 831 3056 488 2447 488 \nC 1613 488 959 1134 959 2325 \nC 959 3519 1609 4169 2447 4169 \nC 3053 4169 3600 3828 3731 3191 \nL 4325 3191 \nC 4159 4150 3391 4719 2447 4719 \nC 1253 4719 381 3803 381 2325 \nC 381 850 1253 -63 2447 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-41\"/>\n     <use xlink:href=\"#Inter-Regular-49\" transform=\"translate(65.4375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(138.484375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-5ff\" transform=\"translate(166.609375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(232.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(260.890625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-541\" transform=\"translate(301.5625 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- CA = 10 -->\n    <g transform=\"translate(86.731709 146.788125) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-49\"/>\n     <use xlink:href=\"#Inter-Regular-2\" transform=\"translate(71.09375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(140.09375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-5ff\" transform=\"translate(168.21875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(234.375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(262.5 0)\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(303.171875 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_4\">\n    <!-- A -->\n    <g style=\"fill: #2563eb\" transform=\"translate(121.629019 260.344375) scale(0.11 -0.11)\">\n     <use xlink:href=\"#Inter-Regular-2\"/>\n    </g>\n   </g>\n   <g id=\"text_5\">\n    <!-- B -->\n    <g style=\"fill: #2563eb\" transform=\"translate(264.213727 260.344375) scale(0.11 -0.11)\">\n     <use xlink:href=\"#Inter-Regular-41\"/>\n    </g>\n   </g>\n   <g id=\"text_6\">\n    <!-- C -->\n    <g style=\"fill: #2563eb\" transform=\"translate(105.786273 23.231875) scale(0.11 -0.11)\">\n     <use xlink:href=\"#Inter-Regular-49\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p8336ad1d66\">\n   <rect x=\"92.864901\" y=\"16.37625\" width=\"174.270198\" height=\"260.82375\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ }
+]

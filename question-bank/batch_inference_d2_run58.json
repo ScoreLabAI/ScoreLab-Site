@@ -1,0 +1,116 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Candidate",
+    "Percent of sample planning to vote for candidate"
+   ],
+   "rows": [
+    [
+     "Okafor",
+     "47%"
+    ],
+    [
+     "Lindqvist",
+     "42%"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "Before the election for student body president at Marlow Community College, a student government committee surveyed enrolled students. Two separate random samples of enrolled students were taken: one sample was asked whether they plan to vote for Okafor, and the other was asked whether they plan to vote for Lindqvist. The table shows the percent of each sample that said yes. The margin of error for each estimate is 5 percentage points. Based on these results, which of the following statements is best supported?",
+  "answer_a": "Okafor has greater support than Lindqvist among all enrolled students at the college.",
+  "answer_b": "It is plausible that Okafor and Lindqvist have equal support among all enrolled students at the college.",
+  "answer_c": "Fewer than half of all enrolled students at the college support Okafor.",
+  "answer_d": "Among all enrolled students at the college, Okafor's support exceeds Lindqvist's by exactly 5 percentage points.",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that each estimate has a margin of error of 5 percentage points. For Okafor, the estimate of 47% gives an interval of 47 - 5 = 42% to 47 + 5 = 52%. For Lindqvist, the estimate of 42% gives an interval of 42 - 5 = 37% to 42 + 5 = 47%. These two intervals overlap from 42% to 47%, so a single value in that range, such as 45%, is plausible for both candidates' support among all enrolled students. Therefore, it is plausible that the two candidates have equal support among all enrolled students.",
+  "distractor_a_explanation": "Choice A is incorrect. This compares only the sample percents, 47% and 42%, and ignores the margin of error. Because the intervals 42% to 52% and 37% to 47% overlap, the data don't establish that Okafor's support is greater.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from comparing only the sample percent, 47%, with 50% and ignoring the margin of error. Okafor's interval, 42% to 52%, includes values above 50%, so it can't be concluded that fewer than half of all enrolled students support Okafor.",
+  "distractor_d_explanation": "Choice D is incorrect. This treats the difference between the two sample percents, 47 - 42 = 5, as the exact difference for all enrolled students. The samples are only estimates, and the margins of error mean the actual difference could be quite different from 5 percentage points."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A university has about 9,000 undergraduate students. To estimate how much sleep students get, researchers obtained a list of the 2,400 undergraduates who live in the university's residence halls and randomly selected 300 students from that list. Each selected student reported the number of hours slept per night during the previous week. The mean of the sample was 6.8 hours per night, with an associated margin of error of 0.3 hours. Based on these results, which of the following conclusions is best supported?",
+  "answer_a": "The mean number of hours slept per night by all undergraduates at the university is between 6.5 and 7.1.",
+  "answer_b": "Living in a residence hall causes students to sleep a mean of 6.8 hours per night.",
+  "answer_c": "The mean number of hours slept per night by undergraduates who live in the residence halls is between 6.5 and 7.1.",
+  "answer_d": "Every undergraduate who lives in the residence halls sleeps between 6.5 and 7.1 hours per night.",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The 300 students were randomly selected from the list of the 2,400 undergraduates who live in the residence halls, so the results can be generalized to that population and no further. The sample mean is 6.8 hours and the margin of error is 0.3 hours, so the plausible values for the population mean are from 6.8 - 0.3 = 6.5 to 6.8 + 0.3 = 7.1 hours per night. Therefore, it is reasonable to conclude that the mean number of hours slept per night by undergraduates who live in the residence halls is between 6.5 and 7.1.",
+  "distractor_a_explanation": "Choice A is incorrect. The interval is computed correctly, but the sample was selected only from students who live in the residence halls, not from all 9,000 undergraduates, so the result cannot be generalized to the whole university.",
+  "distractor_b_explanation": "Choice B is incorrect. The study only measured sleep for a random sample; it did not compare students who live in residence halls with students who do not, and it did not assign students to housing, so it cannot establish that living in a residence hall causes any amount of sleep.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. The interval 6.5 to 7.1 describes plausible values for the population mean, not the sleep of each individual student, and individual students can sleep far fewer or far more hours than the mean."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Percentile of simulated sample proportions",
+    "Sample proportion"
+   ],
+   "rows": [
+    [
+     "2.5th",
+     "0.34"
+    ],
+    [
+     "25th",
+     "0.40"
+    ],
+    [
+     "50th",
+     "0.43"
+    ],
+    [
+     "75th",
+     "0.46"
+    ],
+    [
+     "97.5th",
+     "0.52"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "On a Saturday, 8,000 people visited a science center's aquarium. Staff surveyed a random sample of 120 of these visitors, and approximately 43% said the jellyfish exhibit was their favorite. To see how much sample results vary, the staff used a simulation of 1,000 random samples of 120 visitors each and recorded the proportion in each sample that chose the jellyfish exhibit. The table shows selected percentiles of the 1,000 sample proportions. Based on the middle 95% of the simulated sample proportions, what is the greatest plausible number of the 8,000 visitors who would NOT choose the jellyfish exhibit as their favorite?",
+  "answer_a": "3,840",
+  "answer_b": "4,160",
+  "answer_c": "4,560",
+  "answer_d": "5,280",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. The middle 95% of the simulated sample proportions lies between the 2.5th percentile, 0.34, and the 97.5th percentile, 0.52. The center of this interval is (0.34 + 0.52)/2 = 0.43, and the margin of error is (0.52 - 0.34)/2 = 0.09. So the plausible proportion of all 8,000 visitors who would choose the jellyfish exhibit is between 0.34 and 0.52. The visitors who would NOT choose it make up the complement, so the plausible proportion of those visitors is between 1 - 0.52 = 0.48 and 1 - 0.34 = 0.66. The greatest plausible number is therefore 0.66(8,000) = 5,280.",
+  "distractor_a_explanation": "Choice A is incorrect. This is 0.48(8,000), the least plausible number of visitors who would not choose the jellyfish exhibit, not the greatest.",
+  "distractor_b_explanation": "Choice B is incorrect. This is 0.52(8,000), the greatest plausible number of visitors who would choose the jellyfish exhibit, not the number who would not choose it.",
+  "distractor_c_explanation": "Choice C is incorrect. This is 0.57(8,000), the number of visitors who would not choose the jellyfish exhibit based on the sample percentage alone (1 - 0.43 = 0.57), without adding the margin of error of 0.09.",
+  "distractor_d_explanation": ""
+ }
+]

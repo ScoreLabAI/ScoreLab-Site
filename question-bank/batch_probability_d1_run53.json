@@ -1,0 +1,101 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "In a survey of the residents of an apartment complex, 35% of the residents said that they own a bicycle. If one of the surveyed residents is chosen at random, what is the probability that the resident does NOT own a bicycle?",
+  "answer_a": "0.065",
+  "answer_b": "0.35",
+  "answer_c": "0.65",
+  "answer_d": "0.70",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The probability that the chosen resident owns a bicycle is 35% = 0.35. Owning a bicycle and not owning a bicycle are the only two possibilities, so their probabilities add to 1. The probability that the resident does not own a bicycle is therefore 1 - 0.35 = 0.65.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from correctly finding 100% - 35% = 65% but then converting 65% to a decimal incorrectly (moving the decimal point three places instead of two), giving 0.065 instead of 0.65.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the probability that the resident owns a bicycle, not the probability that the resident does not own a bicycle.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from doubling the probability of owning a bicycle (2 x 0.35 = 0.70) instead of subtracting it from 1.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "At a trail race, the 20 runners are given bib numbers 1 through 20, with each number used exactly once. One runner is selected at random to receive a free pair of running shoes. What is the probability that the selected runner's bib number is a multiple of 4?",
+  "answer_a": "1/5",
+  "answer_b": "1/4",
+  "answer_c": "3/10",
+  "answer_d": "1/2",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Each of the 20 bib numbers is equally likely to be selected. The multiples of 4 from 1 through 20 are 4, 8, 12, 16, and 20, which is 5 numbers. The probability is the number of favorable outcomes divided by the total number of outcomes, or 5/20, which simplifies to 1/4. Therefore, the probability that the selected runner's bib number is a multiple of 4 is 1/4.",
+  "distractor_a_explanation": "Choice A is incorrect. This is 4/20, which results from counting only 4, 8, 12, and 16 as multiples of 4 and leaving out 20 (or from counting the multiples of 5 instead).",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is 6/20, the probability that the bib number is a multiple of 3 (3, 6, 9, 12, 15, 18), not a multiple of 4.",
+  "distractor_d_explanation": "Choice D is incorrect. This is 10/20, the probability that the bib number is a multiple of 2 (an even number), not a multiple of 4.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A community clinic recorded whether each of 150 adults who visited in one week received a flu vaccine. The results, grouped by age, are shown in the table. One of these adults is selected at random. What is the probability that the selected adult is 40 or older and received the flu vaccine?",
+  "answer_a": "0.16",
+  "answer_b": "0.30",
+  "answer_c": "0.46",
+  "answer_d": "0.64",
+  "correct_answer": "B",
+  "explanation": "The probability that a randomly selected adult has both attributes is the number of adults who are 40 or older and received the vaccine divided by the total number of adults. The table shows 45 adults who are 40 or older and received the vaccine, out of 150 adults in all. So the probability is 45/150 = 0.30. Choice B is correct.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that the adult is under 40 and received the vaccine (24/150 = 0.16), not 40 or older. It uses the wrong cell of the table.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the probability that the adult received the flu vaccine, regardless of age (69/150 = 0.46). It uses the column total instead of the single cell for adults 40 or older.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the probability that an adult who is 40 or older received the vaccine (45/70, about 0.64). It divides by the row total instead of the total number of all adults, but the question asks about a person chosen from all 150 adults.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Age group",
+    "Received vaccine",
+    "Did not receive vaccine",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Under 40",
+     "24",
+     "56",
+     "80"
+    ],
+    [
+     "40 or older",
+     "45",
+     "25",
+     "70"
+    ],
+    [
+     "Total",
+     "69",
+     "81",
+     "150"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]
