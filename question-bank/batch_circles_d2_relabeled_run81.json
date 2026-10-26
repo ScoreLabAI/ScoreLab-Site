@@ -1,0 +1,210 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Circles",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "In the xy-plane, the circle shown has equation (x - 3)^2 + (y + 2)^2 = 100, and point P(9, 6) lies on the circle. Line t is tangent to the circle at P. What is the x-coordinate of the x-intercept of line t?",
+  "answer_a": "1",
+  "answer_b": "4.5",
+  "answer_c": "13.5",
+  "answer_d": "17",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. The equation of the circle is (x - 3)^2 + (y + 2)^2 = 100, so the center of the circle is C(3, -2). The radius CP has slope (6 - (-2))/(9 - 3) = 8/6 = 4/3. A tangent line is perpendicular to the radius at the point of tangency, so the slope of line t is the negative reciprocal of 4/3, which is -3/4. Line t passes through P(9, 6), so its equation is y - 6 = -(3/4)(x - 9). At the x-intercept, y = 0, so -6 = -(3/4)(x - 9). Multiplying each side by -4/3 gives 8 = x - 9, so x = 17. Therefore, the x-coordinate of the x-intercept of line t is 17.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from taking the reciprocal of the radius slope but not changing its sign, so the slope used for line t is 3/4 instead of -3/4. Then 0 - 6 = (3/4)(x - 9) gives x - 9 = -8, so x = 1.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from using the slope of the radius, 4/3, as the slope of line t, which makes line t parallel to the radius rather than perpendicular to it. Then 0 - 6 = (4/3)(x - 9) gives x - 9 = -4.5, so x = 4.5.",
+  "distractor_c_explanation": "Choice C is incorrect. This results from changing the sign of the radius slope but not taking the reciprocal, so the slope used for line t is -4/3 instead of -3/4. Then 0 - 6 = -(4/3)(x - 9) gives x - 9 = 4.5, so x = 13.5.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "circle",
+   "radius": 10,
+   "radius_label": "",
+   "center_label": "C",
+   "points": [
+    {
+     "angle": 53,
+     "label": "P"
+    }
+   ],
+   "segments": [
+    {
+     "from": "O",
+     "to": "P",
+     "label": ""
+    }
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-26T19:56:12.729200</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#pe9b5018869)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <defs>\n     <path id=\"m015f698dc8\" d=\"M 0 2 \nC 0.530406 2 1.03916 1.789267 1.414214 1.414214 \nC 1.789267 1.03916 2 0.530406 2 0 \nC 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 \nC 1.03916 -1.789267 0.530406 -2 0 -2 \nC -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 \nC -1.789267 -1.03916 -2 -0.530406 -2 0 \nC -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 \nC -1.03916 1.789267 -0.530406 2 0 2 \nz\n\" style=\"stroke: #0f1f3d\"/>\n    </defs>\n    <g clip-path=\"url(#pe9b5018869)\">\n     <use xlink:href=\"#m015f698dc8\" x=\"180\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_2\">\n    <g clip-path=\"url(#pe9b5018869)\">\n     <use xlink:href=\"#m015f698dc8\" x=\"241.662893\" y=\"62.170577\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_3\">\n    <path d=\"M 180 144 \nL 241.662893 62.170577 \n\" clip-path=\"url(#pe9b5018869)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- C -->\n    <g transform=\"translate(168 158) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-49\" d=\"M 2447 -63 \nC 3400 -63 4163 519 4325 1466 \nL 3731 1466 \nC 3600 831 3056 488 2447 488 \nC 1613 488 959 1134 959 2325 \nC 959 3519 1609 4169 2447 4169 \nC 3053 4169 3600 3828 3731 3191 \nL 4325 3191 \nC 4159 4150 3391 4719 2447 4719 \nC 1253 4719 381 3803 381 2325 \nC 381 850 1253 -63 2447 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-49\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- P -->\n    <g transform=\"translate(242.477413 59.781493) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-178\" d=\"M 563 0 \nL 1156 0 \nL 1156 1684 \nL 2159 1684 \nC 3244 1684 3744 2344 3744 3175 \nC 3744 4003 3244 4656 2156 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 2206 \nL 1156 4134 \nL 2125 4134 \nC 2869 4134 3153 3725 3153 3175 \nC 3153 2622 2869 2206 2131 2206 \nL 1156 2206 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-178\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pe9b5018869\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Circles",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "In the figure shown, circle O has points A and B on it. Point P lies outside the circle, and segments PA and PB are tangent to the circle at A and B, respectively (segments PA and PB are not drawn in the figure). It is given that PA = 6√3 centimeters and that angle APB measures 60°. What is the area, in square centimeters, of quadrilateral OAPB?",
+  "answer_a": "18√3",
+  "answer_b": "54",
+  "answer_c": "36√3",
+  "answer_d": "72√3",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Tangent segments drawn to a circle from the same external point are congruent, so PA = PB = 6√3. A radius drawn to a point of tangency is perpendicular to the tangent, so triangle OAP is a right triangle with the right angle at A. Because OP bisects angle APB, angle APO measures 30°, so triangle OAP is a 30-60-90 triangle in which the leg OA is opposite the 30° angle. Then tan 30° = OA/PA, so OA = 6√3 · (1/√3) = 6, and the radius is 6 centimeters. Quadrilateral OAPB is made of two congruent right triangles, OAP and OBP, each with legs 6 and 6√3. The area of one triangle is (1/2)(6)(6√3) = 18√3, so the area of the quadrilateral is 2(18√3) = 36√3 square centimeters. Therefore, the area of quadrilateral OAPB is 36√3.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the area of only one of the two congruent right triangles, OAP, not the area of the whole quadrilateral OAPB, which consists of triangles OAP and OBP.",
+  "distractor_b_explanation": "Choice B is incorrect. This may result from treating PA = 6√3 as the hypotenuse of the 30-60-90 triangle and applying sine instead of tangent, which gives OA = 6√3 · sin 30° = 3√3. The area of the two triangles would then be 2 · (1/2)(3√3)(6√3) = 54.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This may result from correctly finding OP = 12 and AB = 6√3 but then calculating the area of the quadrilateral as the product of its diagonals, 12 · 6√3 = 72√3, without multiplying by 1/2.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "circle",
+   "radius": 6,
+   "radius_label": "",
+   "center_label": "O",
+   "points": [
+    {
+     "angle": 60,
+     "label": "A"
+    },
+    {
+     "angle": -60,
+     "label": "B"
+    }
+   ],
+   "segments": [
+    {
+     "from": "O",
+     "to": "A",
+     "label": ""
+    },
+    {
+     "from": "O",
+     "to": "B",
+     "label": ""
+    }
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-26T19:56:13.692535</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#pd1c8c34010)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <defs>\n     <path id=\"m9754d525d3\" d=\"M 0 2 \nC 0.530406 2 1.03916 1.789267 1.414214 1.414214 \nC 1.789267 1.03916 2 0.530406 2 0 \nC 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 \nC 1.03916 -1.789267 0.530406 -2 0 -2 \nC -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 \nC -1.789267 -1.03916 -2 -0.530406 -2 0 \nC -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 \nC -1.03916 1.789267 -0.530406 2 0 2 \nz\n\" style=\"stroke: #0f1f3d\"/>\n    </defs>\n    <g clip-path=\"url(#pd1c8c34010)\">\n     <use xlink:href=\"#m9754d525d3\" x=\"180\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_2\">\n    <g clip-path=\"url(#pd1c8c34010)\">\n     <use xlink:href=\"#m9754d525d3\" x=\"231.230769\" y=\"55.265705\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_3\">\n    <g clip-path=\"url(#pd1c8c34010)\">\n     <use xlink:href=\"#m9754d525d3\" x=\"231.230769\" y=\"232.734295\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_4\">\n    <path d=\"M 180 144 \nL 231.230769 55.265705 \n\" clip-path=\"url(#pd1c8c34010)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_5\">\n    <path d=\"M 180 144 \nL 231.230769 232.734295 \n\" clip-path=\"url(#pd1c8c34010)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- O -->\n    <g transform=\"translate(168 158) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-142\" d=\"M 2450 -63 \nC 3644 -63 4513 850 4513 2325 \nC 4513 3803 3644 4719 2450 4719 \nC 1256 4719 381 3803 381 2325 \nC 381 850 1256 -63 2450 -63 \nz\nM 2450 488 \nC 1613 488 959 1138 959 2325 \nC 959 3519 1613 4169 2450 4169 \nC 3281 4169 3934 3522 3934 2325 \nC 3934 1134 3281 488 2450 488 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-142\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- A -->\n    <g transform=\"translate(231.230769 52.337502) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-2\" d=\"M 163 0 \nL 794 0 \nL 1244 1300 \nL 3163 1300 \nL 3628 0 \nL 4253 0 \nL 2541 4656 \nL 1853 4656 \nL 163 0 \nz\nM 1425 1819 \nL 1753 2763 \nC 1853 3050 1997 3494 2194 4181 \nC 2391 3506 2528 3075 2641 2763 \nL 2978 1819 \nL 1425 1819 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-2\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- B -->\n    <g transform=\"translate(231.230769 243.662498) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-41\" d=\"M 563 0 \nL 2266 0 \nC 3363 0 3825 538 3825 1241 \nC 3825 1972 3316 2372 2881 2400 \nL 2881 2444 \nC 3288 2553 3644 2825 3644 3422 \nC 3644 4103 3184 4656 2213 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 525 \nL 1156 2113 \nL 2281 2113 \nC 2878 2113 3253 1713 3253 1247 \nC 3253 844 2975 525 2250 525 \nL 1156 525 \nz\nM 1156 2613 \nL 1156 4131 \nL 2200 4131 \nC 2803 4131 3075 3813 3075 3409 \nC 3075 2928 2681 2613 2181 2613 \nL 1156 2613 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-41\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pd1c8c34010\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Circles",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A city park has a circular running track. The track is the region between two concentric circles, which have the same center O. A straight fence, represented by chord AB of the larger circle, is 28 meters long and touches the smaller circle at exactly one point. In the figure shown, only the larger circle, its center O, and chord AB are drawn; the smaller circle is not shown. What is the area, in square meters, of the track?",
+  "answer_a": "14π",
+  "answer_b": "28π",
+  "answer_c": "196π",
+  "answer_d": "784π",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. Let R be the radius of the larger circle and r be the radius of the smaller circle. Since chord AB touches the smaller circle at exactly one point, AB is tangent to the smaller circle. The radius of the smaller circle drawn to the point of tangency is perpendicular to AB, and a perpendicular from the center of a circle to a chord bisects the chord. So the point of tangency is the midpoint M of AB, and AM = 28/2 = 14. In right triangle OMA, OM = r, OA = R, and AM = 14, so by the Pythagorean theorem, r^2 + 14^2 = R^2, or R^2 - r^2 = 196. The area of the track is the area of the larger circle minus the area of the smaller circle, which is πR^2 - πr^2 = π(R^2 - r^2) = 196π. Therefore, the area of the track is 196π square meters.",
+  "distractor_a_explanation": "Choice A is incorrect. This is π times the half-chord length, 14, which results from not squaring the length when applying the area formula.",
+  "distractor_b_explanation": "Choice B is incorrect. This is 2π times the half-chord length, 14, which results from using the circumference formula 2πr instead of an area formula.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is π times the square of the full chord length, 28, which results from using the full chord instead of the half-chord as the leg of the right triangle.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "circle",
+   "radius": 17.5,
+   "radius_label": "",
+   "center_label": "O",
+   "points": [
+    {
+     "angle": 36.87,
+     "label": "B"
+    },
+    {
+     "angle": 143.13,
+     "label": "A"
+    }
+   ],
+   "segments": [
+    {
+     "from": "A",
+     "to": "B",
+     "label": "28"
+    }
+   ]
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-26T19:56:14.822471</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#peff42c8c18)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <defs>\n     <path id=\"mb4c48019b3\" d=\"M 0 2 \nC 0.530406 2 1.03916 1.789267 1.414214 1.414214 \nC 1.789267 1.03916 2 0.530406 2 0 \nC 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 \nC 1.03916 -1.789267 0.530406 -2 0 -2 \nC -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 \nC -1.789267 -1.03916 -2 -0.530406 -2 0 \nC -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 \nC -1.03916 1.789267 -0.530406 2 0 2 \nz\n\" style=\"stroke: #0f1f3d\"/>\n    </defs>\n    <g clip-path=\"url(#peff42c8c18)\">\n     <use xlink:href=\"#mb4c48019b3\" x=\"180\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_2\">\n    <g clip-path=\"url(#peff42c8c18)\">\n     <use xlink:href=\"#mb4c48019b3\" x=\"261.969121\" y=\"82.52293\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_3\">\n    <g clip-path=\"url(#peff42c8c18)\">\n     <use xlink:href=\"#mb4c48019b3\" x=\"98.030879\" y=\"82.52293\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_4\">\n    <path d=\"M 98.030879 82.52293 \nL 261.969121 82.52293 \n\" clip-path=\"url(#peff42c8c18)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- O -->\n    <g transform=\"translate(168 158) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-142\" d=\"M 2450 -63 \nC 3644 -63 4513 850 4513 2325 \nC 4513 3803 3644 4719 2450 4719 \nC 1256 4719 381 3803 381 2325 \nC 381 850 1256 -63 2450 -63 \nz\nM 2450 488 \nC 1613 488 959 1138 959 2325 \nC 959 3519 1613 4169 2450 4169 \nC 3281 4169 3934 3522 3934 2325 \nC 3934 1134 3281 488 2450 488 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-142\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- B -->\n    <g transform=\"translate(264.369112 81.722919) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-41\" d=\"M 563 0 \nL 2266 0 \nC 3363 0 3825 538 3825 1241 \nC 3825 1972 3316 2372 2881 2400 \nL 2881 2444 \nC 3288 2553 3644 2825 3644 3422 \nC 3644 4103 3184 4656 2213 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 525 \nL 1156 2113 \nL 2281 2113 \nC 2878 2113 3253 1713 3253 1247 \nC 3253 844 2975 525 2250 525 \nL 1156 525 \nz\nM 1156 2613 \nL 1156 4131 \nL 2200 4131 \nC 2803 4131 3075 3813 3075 3409 \nC 3075 2928 2681 2613 2181 2613 \nL 1156 2613 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-41\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- A -->\n    <g transform=\"translate(87.630888 81.722919) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-2\" d=\"M 163 0 \nL 794 0 \nL 1244 1300 \nL 3163 1300 \nL 3628 0 \nL 4253 0 \nL 2541 4656 \nL 1853 4656 \nL 163 0 \nz\nM 1425 1819 \nL 1753 2763 \nC 1853 3050 1997 3494 2194 4181 \nC 2391 3506 2528 3075 2641 2763 \nL 2978 1819 \nL 1425 1819 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-2\"/>\n    </g>\n   </g>\n   <g id=\"text_4\">\n    <!-- 28 -->\n    <g style=\"fill: #2563eb\" transform=\"translate(184 77.52293) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-549\" transform=\"translate(60.984375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"peff42c8c18\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ },
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Circles",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "In the figure shown, points A, B, and C lie on a circle with center O and diameter 30 centimeters. Point C lies on the major arc AB. The measure of central angle AOB is (9x + 12) degrees, and the measure of inscribed angle ACB is (4x + 12) degrees. What is the length, in centimeters, of minor arc AB?",
+  "answer_a": "5π",
+  "answer_b": "10π",
+  "answer_c": "20π",
+  "answer_d": "30π",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Central angle AOB and inscribed angle ACB intercept the same arc AB, so the central angle is twice the inscribed angle. Therefore, 9x + 12 = 2(4x + 12), which simplifies to 9x + 12 = 8x + 24, so x = 12. The measure of central angle AOB is 9(12) + 12 = 120 degrees, which is 120/360 = 1/3 of a full rotation. The diameter is 30 centimeters, so the radius is 15 centimeters and the circumference is 2π(15) = 30π centimeters. Therefore, the length of minor arc AB is (1/3)(30π) = 10π centimeters.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from using the inscribed angle, 4(12) + 12 = 60 degrees, as the arc's angle instead of the central angle: (60/360)(30π) = 5π.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from treating the diameter, 30 centimeters, as the radius, so the circumference is computed as 2π(30) = 60π and the arc is (120/360)(60π) = 20π.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the circumference of the entire circle, 2π(15) = 30π, not the length of arc AB; it results from forgetting to multiply by the fraction 120/360 of the circle.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "circle",
+   "radius": 15,
+   "center_label": "O",
+   "points": [
+    {
+     "angle": 30,
+     "label": "A"
+    },
+    {
+     "angle": 150,
+     "label": "B"
+    },
+    {
+     "angle": 270,
+     "label": "C"
+    }
+   ],
+   "segments": [
+    {
+     "from": "O",
+     "to": "A",
+     "label": ""
+    },
+    {
+     "from": "O",
+     "to": "B",
+     "label": ""
+    },
+    {
+     "from": "C",
+     "to": "A",
+     "label": ""
+    },
+    {
+     "from": "C",
+     "to": "B",
+     "label": ""
+    }
+   ],
+   "central_angle": {
+    "from": 30,
+    "to": 150,
+    "label": "(9x + 12)°"
+   }
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-26T19:56:17.394605</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 180 144 \nL 268.734295 92.769231 \nL 266.860174 89.652258 \nL 264.876609 86.603762 \nL 262.786101 83.627586 \nL 260.591282 80.727478 \nL 258.29492 77.907093 \nL 255.899907 75.169984 \nL 253.40926 72.519601 \nL 250.826118 69.959282 \nL 248.153736 67.492255 \nL 245.395481 65.121626 \nL 242.554828 62.850383 \nL 239.635357 60.681388 \nL 236.640745 58.617374 \nL 233.574767 56.660941 \nL 230.441285 54.814555 \nL 227.244247 53.080541 \nL 223.987682 51.461086 \nL 220.675693 49.958228 \nL 217.312453 48.573862 \nL 213.902199 47.309733 \nL 210.449229 46.167432 \nL 206.957894 45.1484 \nL 203.432591 44.25392 \nL 199.877764 43.485119 \nL 196.297891 42.842966 \nL 192.697482 42.328269 \nL 189.081075 41.941679 \nL 185.453226 41.683681 \nL 181.818506 41.5546 \nL 178.181494 41.5546 \nL 174.546774 41.683681 \nL 170.918925 41.941679 \nL 167.302518 42.328269 \nL 163.702109 42.842966 \nL 160.122236 43.485119 \nL 156.567409 44.25392 \nL 153.042106 45.1484 \nL 149.550771 46.167432 \nL 146.097801 47.309733 \nL 142.687547 48.573862 \nL 139.324307 49.958228 \nL 136.012318 51.461086 \nL 132.755753 53.080541 \nL 129.558715 54.814555 \nL 126.425233 56.660941 \nL 123.359255 58.617374 \nL 120.364643 60.681388 \nL 117.445172 62.850383 \nL 114.604519 65.121626 \nL 111.846264 67.492255 \nL 109.173882 69.959282 \nL 106.59074 72.519601 \nL 104.100093 75.169984 \nL 101.70508 77.907093 \nL 99.408718 80.727478 \nL 97.213899 83.627586 \nL 95.123391 86.603762 \nL 93.139826 89.652258 \nL 91.265705 92.769231 \nz\n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: #2563eb; opacity: 0.12; stroke: #2563eb; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <defs>\n     <path id=\"m51336d1d7f\" d=\"M 0 2 \nC 0.530406 2 1.03916 1.789267 1.414214 1.414214 \nC 1.789267 1.03916 2 0.530406 2 0 \nC 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 \nC 1.03916 -1.789267 0.530406 -2 0 -2 \nC -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 \nC -1.789267 -1.03916 -2 -0.530406 -2 0 \nC -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 \nC -1.03916 1.789267 -0.530406 2 0 2 \nz\n\" style=\"stroke: #0f1f3d\"/>\n    </defs>\n    <g clip-path=\"url(#pa81e292df9)\">\n     <use xlink:href=\"#m51336d1d7f\" x=\"180\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_2\">\n    <g clip-path=\"url(#pa81e292df9)\">\n     <use xlink:href=\"#m51336d1d7f\" x=\"268.734295\" y=\"92.769231\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_3\">\n    <g clip-path=\"url(#pa81e292df9)\">\n     <use xlink:href=\"#m51336d1d7f\" x=\"91.265705\" y=\"92.769231\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_4\">\n    <g clip-path=\"url(#pa81e292df9)\">\n     <use xlink:href=\"#m51336d1d7f\" x=\"180\" y=\"246.461538\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_5\">\n    <path d=\"M 180 144 \nL 268.734295 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_6\">\n    <path d=\"M 180 144 \nL 91.265705 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_7\">\n    <path d=\"M 180 246.461538 \nL 268.734295 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_8\">\n    <path d=\"M 180 246.461538 \nL 91.265705 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_9\">\n    <path d=\"M 180 144 \nL 268.734295 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_10\">\n    <path d=\"M 180 144 \nL 91.265705 92.769231 \n\" clip-path=\"url(#pa81e292df9)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- O -->\n    <g transform=\"translate(168 158) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-142\" d=\"M 2450 -63 \nC 3644 -63 4513 850 4513 2325 \nC 4513 3803 3644 4719 2450 4719 \nC 1256 4719 381 3803 381 2325 \nC 381 850 1256 -63 2450 -63 \nz\nM 2450 488 \nC 1613 488 959 1138 959 2325 \nC 959 3519 1613 4169 2450 4169 \nC 3281 4169 3934 3522 3934 2325 \nC 3934 1134 3281 488 2450 488 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-142\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- A -->\n    <g transform=\"translate(271.662498 92.769231) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-2\" d=\"M 163 0 \nL 794 0 \nL 1244 1300 \nL 3163 1300 \nL 3628 0 \nL 4253 0 \nL 2541 4656 \nL 1853 4656 \nL 163 0 \nz\nM 1425 1819 \nL 1753 2763 \nC 1853 3050 1997 3494 2194 4181 \nC 2391 3506 2528 3075 2641 2763 \nL 2978 1819 \nL 1425 1819 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-2\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- B -->\n    <g transform=\"translate(80.337502 92.769231) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-41\" d=\"M 563 0 \nL 2266 0 \nC 3363 0 3825 538 3825 1241 \nC 3825 1972 3316 2372 2881 2400 \nL 2881 2444 \nC 3288 2553 3644 2825 3644 3422 \nC 3644 4103 3184 4656 2213 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 525 \nL 1156 2113 \nL 2281 2113 \nC 2878 2113 3253 1713 3253 1247 \nC 3253 844 2975 525 2250 525 \nL 1156 525 \nz\nM 1156 2613 \nL 1156 4131 \nL 2200 4131 \nC 2803 4131 3075 3813 3075 3409 \nC 3075 2928 2681 2613 2181 2613 \nL 1156 2613 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-41\"/>\n    </g>\n   </g>\n   <g id=\"text_4\">\n    <!-- C -->\n    <g transform=\"translate(176 258.461538) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-49\" d=\"M 2447 -63 \nC 3400 -63 4163 519 4325 1466 \nL 3731 1466 \nC 3600 831 3056 488 2447 488 \nC 1613 488 959 1134 959 2325 \nC 959 3519 1609 4169 2447 4169 \nC 3053 4169 3600 3828 3731 3191 \nL 4325 3191 \nC 4159 4150 3391 4719 2447 4719 \nC 1253 4719 381 3803 381 2325 \nC 381 850 1253 -63 2447 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-49\"/>\n    </g>\n   </g>\n   <g id=\"text_5\">\n    <!-- (9x + 12)° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(154.745547 101.893773) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-5a8\" d=\"M 681 2191 \nC 681 1278 956 325 1488 -578 \nL 2034 -578 \nC 1497 531 1253 1363 1253 2191 \nC 1253 3103 1550 4250 2034 5234 \nL 1488 5234 \nC 1019 4463 681 3206 681 2191 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-3e3\" d=\"M 203 0 \nL 853 0 \nL 1372 784 \nC 1528 1022 1634 1234 1741 1431 \nC 1856 1234 1972 1022 2125 784 \nL 2638 0 \nL 3291 0 \nL 2066 1763 \nL 3234 3494 \nL 2591 3494 \nL 2147 2816 \nC 1984 2569 1878 2344 1766 2134 \nC 1644 2344 1525 2569 1366 2816 \nL 931 3494 \nL 275 3494 \nL 1431 1794 \nL 203 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-601\" d=\"M 1853 797 \nL 2381 797 \nL 2381 2059 \nL 3625 2059 \nL 3625 2556 \nL 2381 2556 \nL 2381 3816 \nL 1853 3816 \nL 1853 2556 \nL 609 2556 \nL 609 2059 \nL 1853 2059 \nL 1853 797 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-5a9\" d=\"M 300 -578 \nL 847 -578 \nC 1369 309 1653 1263 1653 2191 \nC 1653 3203 1316 4466 847 5234 \nL 300 5234 \nC 784 4250 1081 3103 1081 2191 \nC 1081 1388 853 563 300 -578 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-5a8\"/>\n     <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(36.46875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-3e3\" transform=\"translate(98.484375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(153.078125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-601\" transform=\"translate(181.203125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(247.359375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(275.484375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-541\" transform=\"translate(316.15625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-5a9\" transform=\"translate(377.140625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(413.609375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pa81e292df9\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ }
+]
