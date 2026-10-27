@@ -1,0 +1,58 @@
+[
+ {
+  "section": "math",
+  "skill_category": "Geometry and Trigonometry",
+  "skill_subcategory": "Circles",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "In the figure shown, O is the center of a circle and sector AOB has radius r centimeters, where 0 < r < 15. The central angle of the sector is (15 - r)/r radians and is less than π radians. The area of the sector, in square centimeters, is numerically equal to the perimeter of the sector, in centimeters. What is the area of the sector, in square centimeters?",
+  "answer_a": "10",
+  "answer_b": "18",
+  "answer_c": "25",
+  "answer_d": "50",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that the radius is r centimeters and the central angle is (15 - r)/r radians. The arc length is r * (15 - r)/r = 15 - r centimeters, so the perimeter of the sector is 2r + (15 - r) = r + 15 centimeters. The area of the sector is (1/2)r^2 * (15 - r)/r = r(15 - r)/2 square centimeters. Since the area is numerically equal to the perimeter, r(15 - r)/2 = r + 15. Multiplying both sides by 2 and rearranging gives r^2 - 13r + 30 = 0, or (r - 3)(r - 10) = 0, so r = 3 or r = 10. If r = 3, the central angle is (15 - 3)/3 = 4 radians, which is greater than π radians, so r = 3 is rejected. Therefore, r = 10, the central angle is 0.5 radians, and the area of the sector is (1/2)(10^2)(0.5) = 25 square centimeters.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the radius of the sector, not its area.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the area of the sector for the rejected solution r = 3, which gives a central angle of 4 radians, greater than π radians.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from using r^2 * θ = 100(0.5) for the area of the sector and omitting the factor of 1/2.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "geometry",
+  "visual_data": {
+   "shape": "circle",
+   "radius": 10,
+   "radius_label": "r",
+   "center_label": "O",
+   "points": [
+    {
+     "angle": 0,
+     "label": "A"
+    },
+    {
+     "angle": 28.65,
+     "label": "B"
+    }
+   ],
+   "segments": [
+    {
+     "from": "O",
+     "to": "A",
+     "label": ""
+    },
+    {
+     "from": "O",
+     "to": "B",
+     "label": ""
+    }
+   ],
+   "central_angle": {
+    "from": 0,
+    "to": 28.65,
+    "label": "θ"
+   }
+  },
+  "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-27T00:54:13.099642</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 180 144 \nL 282.461538 144 \nL 282.457859 143.131628 \nL 282.446819 142.263319 \nL 282.428422 141.395134 \nL 282.402666 140.527137 \nL 282.369556 139.659389 \nL 282.329092 138.791953 \nL 282.281278 137.924891 \nL 282.226118 137.058265 \nL 282.163615 136.192138 \nL 282.093773 135.326571 \nL 282.016598 134.461628 \nL 281.932096 133.59737 \nL 281.840272 132.733859 \nL 281.741132 131.871157 \nL 281.634685 131.009326 \nL 281.520938 130.148429 \nL 281.399898 129.288526 \nL 281.271576 128.429681 \nL 281.135978 127.571953 \nL 280.993117 126.715406 \nL 280.843001 125.8601 \nL 280.685642 125.006097 \nL 280.521051 124.153458 \nL 280.349239 123.302245 \nL 280.17022 122.452519 \nL 279.984005 121.60434 \nL 279.790609 120.75777 \nL 279.590045 119.912869 \nL 279.382327 119.069699 \nL 279.167471 118.228319 \nL 278.945492 117.388791 \nL 278.716406 116.551174 \nL 278.480229 115.715528 \nL 278.236978 114.881914 \nL 277.986672 114.050392 \nL 277.729327 113.221021 \nL 277.464962 112.39386 \nL 277.193596 111.56897 \nL 276.91525 110.74641 \nL 276.629941 109.926238 \nL 276.337693 109.108513 \nL 276.038524 108.293295 \nL 275.732457 107.480641 \nL 275.419513 106.670611 \nL 275.099716 105.863261 \nL 274.773088 105.058651 \nL 274.439653 104.256839 \nL 274.099434 103.457881 \nL 273.752456 102.661835 \nL 273.398744 101.868758 \nL 273.038323 101.078707 \nL 272.671219 100.29174 \nL 272.297459 99.507912 \nL 271.917069 98.72728 \nL 271.530078 97.949899 \nL 271.136511 97.175827 \nL 270.736399 96.405117 \nL 270.329768 95.637827 \nL 269.91665 94.87401 \nz\n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: #2563eb; opacity: 0.12; stroke: #2563eb; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <path d=\"M 180 144 \nL 282.461538 144 \n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_2\">\n    <defs>\n     <path id=\"m1a48b7eba0\" d=\"M 0 2 \nC 0.530406 2 1.03916 1.789267 1.414214 1.414214 \nC 1.789267 1.03916 2 0.530406 2 0 \nC 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 \nC 1.03916 -1.789267 0.530406 -2 0 -2 \nC -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 \nC -1.789267 -1.03916 -2 -0.530406 -2 0 \nC -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 \nC -1.03916 1.789267 -0.530406 2 0 2 \nz\n\" style=\"stroke: #0f1f3d\"/>\n    </defs>\n    <g clip-path=\"url(#pa52a3c9b04)\">\n     <use xlink:href=\"#m1a48b7eba0\" x=\"180\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_3\">\n    <g clip-path=\"url(#pa52a3c9b04)\">\n     <use xlink:href=\"#m1a48b7eba0\" x=\"282.461538\" y=\"144\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_4\">\n    <g clip-path=\"url(#pa52a3c9b04)\">\n     <use xlink:href=\"#m1a48b7eba0\" x=\"269.91665\" y=\"94.87401\" style=\"fill: #0f1f3d; stroke: #0f1f3d\"/>\n    </g>\n   </g>\n   <g id=\"line2d_5\">\n    <path d=\"M 180 144 \nL 282.461538 144 \n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_6\">\n    <path d=\"M 180 144 \nL 269.91665 94.87401 \n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_7\">\n    <path d=\"M 180 144 \nL 282.461538 144 \n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"line2d_8\">\n    <path d=\"M 180 144 \nL 269.91665 94.87401 \n\" clip-path=\"url(#pa52a3c9b04)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- r -->\n    <g style=\"fill: #2563eb\" transform=\"translate(231.230769 140.926154) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-356\" d=\"M 494 0 \nL 1056 0 \nL 1056 2188 \nC 1056 2659 1425 3000 1928 3000 \nC 2078 3000 2231 2975 2266 2969 \nL 2266 3534 \nC 2200 3538 2063 3544 1981 3544 \nC 1566 3544 1203 3309 1075 2956 \nL 1038 2956 \nL 1038 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-356\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- O -->\n    <g transform=\"translate(168 158) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-142\" d=\"M 2450 -63 \nC 3644 -63 4513 850 4513 2325 \nC 4513 3803 3644 4719 2450 4719 \nC 1256 4719 381 3803 381 2325 \nC 381 850 1256 -63 2450 -63 \nz\nM 2450 488 \nC 1613 488 959 1138 959 2325 \nC 959 3519 1613 4169 2450 4169 \nC 3281 4169 3934 3522 3934 2325 \nC 3934 1134 3281 488 2450 488 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-142\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- A -->\n    <g transform=\"translate(286.461538 148) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-2\" d=\"M 163 0 \nL 794 0 \nL 1244 1300 \nL 3163 1300 \nL 3628 0 \nL 4253 0 \nL 2541 4656 \nL 1853 4656 \nL 163 0 \nz\nM 1425 1819 \nL 1753 2763 \nC 1853 3050 1997 3494 2194 4181 \nC 2391 3506 2528 3075 2641 2763 \nL 2978 1819 \nL 1425 1819 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-2\"/>\n    </g>\n   </g>\n   <g id=\"text_4\">\n    <!-- B -->\n    <g transform=\"translate(272.937169 95.038347) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-41\" d=\"M 563 0 \nL 2266 0 \nC 3363 0 3825 538 3825 1241 \nC 3825 1972 3316 2372 2881 2400 \nL 2881 2444 \nC 3288 2553 3644 2825 3644 3422 \nC 3644 4103 3184 4656 2213 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 525 \nL 1156 2113 \nL 2281 2113 \nC 2878 2113 3253 1713 3253 1247 \nC 3253 844 2975 525 2250 525 \nL 1156 525 \nz\nM 1156 2613 \nL 1156 4131 \nL 2200 4131 \nC 2803 4131 3075 3813 3075 3409 \nC 3075 2928 2681 2613 2181 2613 \nL 1156 2613 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-41\"/>\n    </g>\n   </g>\n   <g id=\"text_5\">\n    <!-- θ -->\n    <g style=\"fill: #2563eb\" transform=\"translate(221.25809 136.593417) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-49c\" d=\"M 1988 -75 \nC 2975 -75 3594 813 3594 2222 \nL 3594 2434 \nC 3594 3844 2975 4731 1988 4731 \nC 1000 4731 381 3844 381 2434 \nL 381 2222 \nC 381 813 1000 -75 1988 -75 \nz\nM 950 2563 \nC 956 3631 1328 4228 1988 4228 \nC 2647 4228 3019 3631 3025 2563 \nL 950 2563 \nz\nM 1988 428 \nC 1328 428 956 1025 950 2094 \nL 3025 2094 \nC 3019 1025 2647 428 1988 428 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-49c\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pa52a3c9b04\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+ }
+]
