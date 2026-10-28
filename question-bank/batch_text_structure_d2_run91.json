@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The following text is from an article about the history of linguistics.\n\nIn the 1950s, a team of fieldworkers from the University of Leeds set out to document how English was spoken across England. They visited 313 localities and put the same questionnaire of roughly 1,300 items to an informant in each one, from the word for a farmhouse's back room to the vowel sound in \"cow.\" Because every line on the resulting maps rested on identical questions asked in every place, the maps seemed to show dialect boundaries with unprecedented precision. <u>Almost all of the informants were older men who had lived nearly their whole lives in the village where they were interviewed.</u> The maps nonetheless became a standard reference for tracing how local words and sounds had been distributed before the population movements of the twentieth century.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_a": "It points to a feature of the informant pool that narrows what the maps' precision can be taken to show.",
+  "answer_b": "It offers a further reason that the maps' dialect boundaries can be regarded as precise.",
+  "answer_c": "It explains why the fieldworkers put the same questionnaire to an informant in every locality.",
+  "answer_d": "It demonstrates that the maps are unreliable as a record of how anyone in England spoke.",
+  "correct_answer": "A",
+  "explanation": "Choice A is the best answer because the underlined sentence recasts the preceding evidence as a limit on the claim it supports. The previous sentence says the identical questionnaire made the maps seem to show boundaries \"with unprecedented precision.\" The underlined sentence then reveals that the informants were almost all older, lifelong-resident men. That means the precise lines describe the speech of one narrow group in each place, not of everyone there. The final sentence confirms this narrowed reading by describing the maps as a reference for how local speech was distributed before twentieth-century migration, rather than as a picture of English speakers in general.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect because it reverses the sentence's role. The sentence about the informants does not add support for the maps' precision; it limits what that precision can show. This is a role-reversal distractor that treats a qualifying detail as one more supporting detail.",
+  "distractor_c_explanation": "Choice C is incorrect because it assigns the underlined sentence the role of the adjacent sentence. The reason for using one questionnaire everywhere is given in the preceding sentence (identical questions made the lines comparable). The underlined sentence says nothing about why the questionnaire was standardized; it describes who the informants were.",
+  "distractor_d_explanation": "Choice D is incorrect because it overstates the sentence's role. The sentence limits whose speech the maps represent, but the final sentence says the maps still became a standard reference for pre-twentieth-century local speech, so the text does not treat them as unreliable for everyone. The words \"anyone in England\" go well beyond what the passage claims.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "The following text is adapted from a work of literary fiction.\n\nWhen the school board announced that the community orchestra would pass to a younger conductor, Marguerite Adeyemi told the committee she could not be more relieved. \"Thirty years is long enough,\" she said, laughing. \"Let someone else fight with the brass section.\" She spent the afternoon clearing her studio, stacking scores into crates for the new conductor and setting her metronome on top of them. <u>Then, kneeling on the floor, she penciled a tempo marking into the margin of the Dvořák symphony, erased it, and wrote it again more lightly.</u> When the new conductor arrived at five, Marguerite was already holding the door open, smiling, her coat buttoned to the collar.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_a": "It confirms the attitude Marguerite expressed to the committee by showing how efficiently she prepares her studio for the handover.",
+  "answer_b": "It adds a concrete detail about the studio and its contents before the new conductor arrives, helping establish where the scene takes place.",
+  "answer_c": "It hints, through a small act, at an attachment to her work that Marguerite's spoken relief does not acknowledge.",
+  "answer_d": "It foreshadows a conflict in which Marguerite will later try to reclaim her position from the new conductor.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because the underlined sentence shows Marguerite doing something she does not mention aloud. She tells the committee she is relieved and jokes about the brass section, but then she pencils a marking into a score she is giving away, erases it, and rewrites it \"more lightly.\" The careful revision of a score she will no longer conduct suggests that she still cares about how the music is performed, which contrasts with her stated relief. The final sentence, in which she smiles and holds the door with her coat buttoned, reinforces that she keeps this feeling to herself.",
+  "distractor_a_explanation": "Choice A is incorrect. The sentence does not support her stated attitude; it complicates it. Marguerite says she is relieved, but a task that is not required for packing (adjusting a tempo marking, erasing it, and rewriting it) points to lingering concern rather than efficient detachment.",
+  "distractor_b_explanation": "Choice B is incorrect. The studio is already established by the clearing of scores and the metronome in the previous sentence, and the underlined sentence does not describe the room or its contents. It describes an action by Marguerite that reveals her feelings, so its function is characterization, not setting.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. The text gives no indication of any future dispute: Marguerite is polite and smiling when the new conductor arrives, and nothing suggests she will try to take back the position. The sentence reveals what she feels now, not what will happen later, so this is an unsupported prediction.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
