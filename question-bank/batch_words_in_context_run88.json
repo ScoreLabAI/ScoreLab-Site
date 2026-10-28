@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Words in Context",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "In one neuroscience model of memory loss, chronic stress does not harm the hippocampus directly. Instead, the hormone cortisol ______ that harm: when researchers blocked cortisol receptors in stressed rats, the animals' memory performance remained intact despite the continued stress.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "answer_a": "arbitrates",
+  "answer_b": "mediates",
+  "answer_c": "alleviates",
+  "answer_d": "parallels",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because, as used in the text, \"mediates\" most nearly means serves as the intervening link through which an effect is carried. The text states that stress does not harm the hippocampus directly and that blocking cortisol receptors left memory intact despite continued stress. This indicates that the stress produces its damage only by way of cortisol, so cortisol is the pathway that transmits the harm.",
+  "distractor_a_explanation": "Choice A is incorrect. \"Arbitrates\" means to settle a dispute or pass judgment between competing parties, which is close to the everyday sense of mediating. The text describes no dispute, and cortisol is not judging anything; it is a chemical link between stress and hippocampal harm.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. \"Alleviates\" means to lessen or relieve, which would make cortisol a reducer of the harm. But blocking cortisol receptors left memory intact, which shows that cortisol helps produce the harm rather than easing it.",
+  "distractor_d_explanation": "Choice D is incorrect. \"Parallels\" means to run alongside or resemble, which would suggest that cortisol merely accompanies the harm without causing it. If that were so, blocking cortisol receptors would not have protected memory, yet it did.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

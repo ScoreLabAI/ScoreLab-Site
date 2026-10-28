@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "The following text is from an article about an engineer.\n\nCivil engineer Marisol Okafor first noticed the problem while working for a mid-sized city's water utility: roughly a fifth of the treated water vanished from aging underground mains before reaching any tap, and crews could find the leaks only by digging. Okafor attached inexpensive vibration sensors to fire hydrants and wrote software that compares each hydrant's readings with those of its neighbors, filtering out the rumble of traffic to isolate the faint hiss of escaping water. In a pilot program, the system pinpointed most leaks to within a few meters, though it still struggles to detect leaks in plastic pipes, which carry vibrations poorly.\n\nWhich choice best states the main purpose of the text?",
+  "answer_a": "To argue that cities should replace their aging water mains instead of relying on sensors to locate leaks",
+  "answer_b": "To contrast Okafor's leak-detection method with the approaches other engineers have taken to the same problem",
+  "answer_c": "To outline a utility's water-loss problem, describe Okafor's technological solution, and acknowledge a limitation of it",
+  "answer_d": "To trace how Okafor's early utility work led her to a successful career as an inventor of monitoring software",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because it accurately captures all three parts of the text. The text first presents a practical problem (about a fifth of treated water is lost to leaks that crews can find only by digging), then explains the method Okafor devised (hydrant-mounted vibration sensors and software that filters out traffic noise), and finally reports the pilot results along with a remaining shortcoming (the system \"still struggles to detect leaks in plastic pipes\").",
+  "distractor_a_explanation": "Choice A is incorrect. The text never argues that cities should replace their mains; it mentions the aging pipes only as the source of the leaks and presents Okafor's sensors as a workable response, not as an inferior alternative.",
+  "distractor_b_explanation": "Choice B is incorrect. The text describes only Okafor's method and never mentions other engineers or their approaches, so no contrast is made.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. The text mentions Okafor's job at the utility only to show where she noticed the problem; it does not trace a career path or describe her as an inventor of multiple products.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

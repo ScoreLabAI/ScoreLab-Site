@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "The following text is from an article about medieval economic history.\n\nEconomic historians have generally argued that medieval craft guilds restricted membership to protect the incomes of established masters, which left guild towns slow to adopt new techniques. <u>One silk guild in fourteenth-century Lucca ran a school that taught apprentices newly developed methods of throwing thread, and its members' output rose steadily.</u> Records from other Italian towns show guilds fining members who departed from approved methods, a practice consistent with the traditional view. Such fines appear especially often in the wool trade.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+  "answer_a": "It supplies an example of the income protection that historians say guilds sought for their established masters.",
+  "answer_b": "It explains why guilds in most Italian towns penalized members who departed from approved methods.",
+  "answer_c": "It illustrates the kind of rule-enforcing practice that was especially common among guilds in the wool trade.",
+  "answer_d": "It describes a guild whose practice runs counter to the generalization about guilds stated in the previous sentence.",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer because the underlined sentence presents a single guild that did not behave the way the previous sentence says guilds generally did. That sentence claims that guilds protected established masters and were slow to adopt new techniques. The Lucca silk guild, however, taught apprentices new methods and saw its output rise, so the underlined sentence limits the general claim by offering an exception to it.",
+  "distractor_a_explanation": "Choice A is incorrect. The Lucca guild's school taught apprentices new methods, which is the opposite of protecting established masters' incomes by resisting change, so the sentence does not support the historians' claim.",
+  "distractor_b_explanation": "Choice B is incorrect. The underlined sentence says nothing about why fines were imposed; the fines are mentioned only afterward, and the Lucca guild's school is not offered as a reason for them.",
+  "distractor_c_explanation": "Choice C is incorrect. The text says fines were especially common in the wool trade, but the underlined sentence concerns a silk guild that encouraged new techniques, not a rule-enforcing practice.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
