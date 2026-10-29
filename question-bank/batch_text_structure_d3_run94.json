@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The following text is adapted from a work of literary fiction.\n\nEvery dusk the owner of the salt pans walked the rakers' rows with a notebook, and every dusk Revathi ended her shift an hour before he came. She did not go home. <u>She crossed to the boy's section, filled in the furrows he had cut too deep, and drew the wet crust back into even ridges.</u> When the owner arrived, he read out the day's tally and nodded at the straight lines, and Revathi was already on the path to the sheds, wiping brine from her forearms. The notebook had two columns that season, hands to keep and hands to let go. She had never asked which column held the boy's name.\n\nWhich choice best states the function of the underlined portion in the text as a whole?",
+  "answer_a": "It shows Revathi taking pride in her own precision, since she cannot leave the boy's rows unfinished once her shift has ended.",
+  "answer_b": "It conveys Revathi's resentment of the boy, whose careless raking forces her to do extra labor after her own shift ends.",
+  "answer_c": "It shows Revathi quietly repairing the boy's work so that the owner's evaluation will not count his mistakes against him.",
+  "answer_d": "It shows Revathi altering the pans so that the owner will credit the straight lines to her and keep her on for the next season.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because the underlined portion reveals Revathi's motive through what she does rather than through anything she says. She stays after her shift and repairs the boy's rows, specifically the furrows \"he had cut too deep,\" in the hour before the owner arrives. The later details complete the inference: the owner inspects with a notebook that sorts workers into \"hands to keep\" and \"hands to let go,\" and he praises the straight lines without knowing who made them. Together these details show that Revathi is quietly covering for the boy's errors so they will not cost him his job.",
+  "distractor_a_explanation": "Choice A is incorrect. Revathi does finish the boy's uneven rows, but the text ties this to the hour before the owner's inspection and to the notebook's \"hands to let go\" column, and she leaves before anyone can notice her precision. Nothing in the text suggests she is acting out of pride in her own work.",
+  "distractor_b_explanation": "Choice B is incorrect. The boy's too-deep furrows and Revathi's extra labor after her shift are real details, but nothing in the text suggests resentment. She never complains, she acts in secret, and the closing sentence points to concern for the boy's standing rather than irritation at him.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. Revathi is concerned with what the owner sees in the pans, but she leaves before he arrives, so he cannot connect the straight lines to her. The notebook detail concerns the boy's name, not hers, and nothing suggests she seeks credit or fears for her own place.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
