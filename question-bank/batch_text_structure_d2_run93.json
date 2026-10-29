@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The following text is from a work of literary fiction.\n\nDae-ho's brother arrived at the print shop a little after nine, snow still melting on his shoulders. \"Coffee's fresh,\" Dae-ho said, and went on feeding paper into the press. His brother poured a cup and drifted toward the shelf above the ink cabinet, where a tin of peppermints sat beside the stapler. It was the kind their mother had carried in her coat pockets. <u>Dae-ho crossed the room, slid the tin behind a stack of unopened invoices, and turned up the radio.</u> A voice began listing roads closed north of the city, and for a while neither man spoke.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+  "answer_a": "It shows Dae-ho protecting a family keepsake because he fears his brother intends to claim it.",
+  "answer_b": "It shows Dae-ho expressing resentment of his brother's late arrival by ignoring the shop's paperwork.",
+  "answer_c": "It shows Dae-ho steering attention away from a reminder of their mother.",
+  "answer_d": "It shows Dae-ho trying to repair a rift with his brother by supplying a neutral distraction.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The text establishes that the tin is the kind their mother carried and that Dae-ho's brother drifts toward it. Dae-ho then hides the tin and turns up the radio, so that the sound of the news fills the room, and afterward neither man speaks. Together, these actions show him deflecting an emotionally loaded reminder instead of acknowledging it.",
+  "distractor_a_explanation": "Choice A is incorrect. Dae-ho does hide the tin, but nothing in the text suggests his brother wants to take it; the brother only moves toward the shelf. The radio, which fills the silence, also shows that Dae-ho is avoiding conversation, not guarding an object.",
+  "distractor_b_explanation": "Choice B is incorrect. Dae-ho greets his brother with fresh coffee, which does not suggest resentment, and the text never mentions lateness as a grievance. The invoices are only a place to hide the tin, not a statement about the visit.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. The text gives no indication of a prior argument or rift between the brothers. Dae-ho's actions are prompted by the brother's approach to the tin, not by any conflict, and hiding the tin does nothing to repair a relationship.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
