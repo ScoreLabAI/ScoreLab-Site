@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Cross-Text Connections",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Text 1\nIn the closing lines of the poem \"Last Jar,\" the speaker, having catalogued her late neighbor's pantry, sets one jar of quince preserves \"unopened on the sill, where the afternoon can reach it.\" The sill, a boundary between house and street, may suggest that the speaker wants the jar noticed by passersby; yet the jar remains sealed. It seems to me that the speaker is, on balance, unable to accept the neighbor's death, and that sealing the jar is a way of refusing the finality that tasting it would confirm. The light that \"reaches\" the glass cannot, after all, reach what is inside.\n\nText 2\nThe jar left \"where the afternoon can reach it\" is, I think, the poem's most carefully placed image, and the sill does seem to mark a boundary of some kind. Still, the speaker's catalogue of the pantry is exact and unhurried, and she reads each label aloud without flinching. One reading is that the sealed jar may be less a denial than a deferral: a portion of the neighbor's labor that the speaker, having already acknowledged the loss, chooses to keep until she is ready to taste it. The light on the glass could then signal patience rather than evasion.\n\nBased on the texts, how would the author of Text 2 most likely respond to Text 1's claim about the speaker's attitude toward the neighbor's death?",
+  "answer_a": "By arguing that the speaker's unhurried cataloguing shows she has fully accepted the death, so leaving the jar sealed carries no emotional significance in the poem.",
+  "answer_b": "By suggesting that the sealed jar may reflect a choice the speaker makes after acknowledging the death, not an inability to acknowledge it.",
+  "answer_c": "By granting that the speaker is refusing the finality of the death, while suggesting that the light on the glass shows the refusal is temporary and she will eventually open the jar.",
+  "answer_d": "By agreeing that the speaker wants the jar noticed by passersby, but proposing that this wish shows the speaker has come to terms with the neighbor's death.",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer. Both authors treat the sealed jar, the sill, and the light on the glass as significant images, but they differ about what the jar reveals of the speaker's attitude. Text 1 claims the speaker is \"unable to accept the neighbor's death\" and that sealing the jar is \"a way of refusing the finality.\" Text 2 notes that the speaker catalogues the pantry \"without flinching\" and offers a reading in which the sealed jar \"may be less a denial than a deferral,\" kept by a speaker who has \"already acknowledged the loss.\" Text 2's author would therefore likely respond by suggesting that the sealed jar may reflect a choice made after acknowledging the death rather than an inability to acknowledge it.",
+  "distractor_a_explanation": "Choice A is incorrect. Text 2 does cite the speaker's unhurried cataloguing as evidence of acceptance, but Text 2 calls the jar \"the poem's most carefully placed image\" and offers a reading in which it signals patience. Its author would not say the jar is without significance, and the hedged \"may\" and \"could\" in Text 2 do not support the claim that acceptance is fully shown.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. Text 2 does suggest the speaker may eventually taste the jar (\"until she is ready\"), but it does not grant Text 1's premise that the speaker is refusing finality. Text 2 describes the jar as \"less a denial than a deferral,\" so this choice borrows Text 1's claim of refusal and combines it with Text 2's idea of waiting.",
+  "distractor_d_explanation": "Choice D is incorrect. The idea that the speaker wants the jar noticed by passersby comes from Text 1, not Text 2. Text 2 says only that the sill \"does seem to mark a boundary of some kind\" and never says the jar is meant to be seen from the street, so this choice attributes Text 1's reading of the sill to Text 2.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
