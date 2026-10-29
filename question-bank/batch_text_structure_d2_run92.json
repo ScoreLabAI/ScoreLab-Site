@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Text Structure and Purpose",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Antarctic icefish are the only known adult vertebrates whose blood carries no hemoglobin, the protein that gives the blood of most vertebrates its red color. Icefish blood is pale and nearly clear, and it holds only about a tenth as much oxygen as the blood of their red-blooded relatives. <u>Seawater close to freezing dissolves far more oxygen than warmer water does, and the icefish's sluggish, low-energy way of living keeps its own demand for oxygen small.</u> Comparisons with those relatives have also shown that icefish hearts are several times larger and push a much greater volume of blood through the body with each beat.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_a": "It gives a specific instance of the general claim made in the first sentence about vertebrate blood.",
+  "answer_b": "It proposes an explanation for the trait that the final sentence then shows to be mistaken.",
+  "answer_c": "It identifies conditions in the fish's surroundings and physiology under which the unusual trait described in the preceding sentences is workable.",
+  "answer_d": "It presents a finding about red-blooded relatives that the final sentence is meant to qualify.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because the underlined sentence supplies the conditions that make the puzzle in the first two sentences intelligible. Those sentences establish that icefish blood carries very little oxygen, which would seem to threaten survival. The underlined sentence explains that near-freezing seawater holds a great deal of dissolved oxygen and that the icefish's low-energy lifestyle keeps its oxygen needs small, so the small supply is enough. The final sentence then adds a further, separate factor, the enlarged heart, rather than rejecting the underlined explanation.",
+  "distractor_a_explanation": "Choice A is incorrect. The first sentence's general claim is that hemoglobin gives most vertebrates' blood its red color, and icefish are described as an exception. The underlined sentence does not offer a case that exemplifies that claim; it explains how the exceptional fish copes with low oxygen capacity, which is a mechanism, not an example.",
+  "distractor_b_explanation": "Choice B is incorrect. The final sentence describes larger hearts and greater blood flow, which adds to the account of how icefish cope. It does not show the cold-water and low-demand explanation to be mistaken, so the text does not treat the underlined sentence as an explanation that gets refuted.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. The underlined sentence concerns the icefish's own environment and oxygen demand, not a finding about red-blooded relatives, and the final sentence extends the icefish's coping strategy rather than qualifying anything in the underlined sentence.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
