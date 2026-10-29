@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Craft and Structure",
+  "skill_subcategory": "Cross-Text Connections",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "Text 1\nAcross the Varenne plain in medieval northern Europe, market towns founded between 1100 and 1300 lie at strikingly regular intervals, with most standing about 20 kilometers from their nearest neighbor. Economic historian Lena Ostrowski attributes this pattern to the limits of travel. A farmer hauling grain or livestock on foot or by ox cart could reach a market and return home within a single day only if the trip was about 10 kilometers each way. Towns founded much farther apart, Ostrowski argues, would have left outlying villages without access to a market, while towns founded much closer together would have divided a limited customer base and failed.\n\nText 2\nHistorian Kofi Anand notes the same regular spacing of Varenne towns but doubts that it arose from the daily routines of farmers. Surviving royal charters from the period grant each new town the exclusive right to hold a market and forbid any rival market within a stated radius, typically 20 kilometers. Anand contends that rulers drew these radii to protect the tolls collected by existing towns, so the spacing is a product of the law rather than a reflection of how far peasants could travel in a day.\n\nBased on the texts, how would Anand (Text 2) most likely respond to Ostrowski's explanation in Text 1?",
+  "answer_a": "By presenting further evidence that the distance farmers could walk in a day determined where towns were founded",
+  "answer_b": "By arguing that legal restrictions, not travel limits, best account for the towns' regular spacing",
+  "answer_c": "By questioning whether the Varenne towns were actually founded at regular intervals from one another",
+  "answer_d": "By shifting to the separate question of why neighboring towns held their markets on different days of the week",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because Text 2 accepts the pattern described in Text 1 (the \"same regular spacing\") but offers a competing cause for it. Anand points to royal charters that forbade rival markets within a set radius, typically 20 kilometers, and concludes that the spacing is \"a product of the law rather than a reflection of how far peasants could travel in a day.\" This directly challenges Ostrowski's travel-limits explanation.",
+  "distractor_a_explanation": "Choice A is incorrect. Text 2 does not support Text 1's explanation; Anand states that the spacing is not a reflection of how far peasants could travel in a day, so he would not offer further evidence for the walking-distance account.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. Text 2 says Anand \"notes the same regular spacing,\" so he accepts that the pattern exists. His disagreement is about its cause, not about whether the towns are regularly spaced.",
+  "distractor_d_explanation": "Choice D is incorrect. Text 2 never discusses the days of the week on which markets were held. It addresses the same phenomenon as Text 1, the spacing of towns, so it does not shift to an unrelated question."
+ }
+]
