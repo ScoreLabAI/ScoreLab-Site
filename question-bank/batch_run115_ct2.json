@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Textual)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Soft-robotics engineer Imani Teague claims that the heaviest load a pneumatic gripper can hold before an object slips is governed by the stiffness of its fingertips rather than by the texture of their surfaces. To evaluate this claim, Teague's team fitted a single gripper with fingertips of four types: soft or stiff silicone, each either smooth or finely ridged. Each fingertip type gripped the same steel block while weights were added to the block in 5-gram increments, and the team recorded the heaviest load, in grams, that the type held without slipping.\n\nWhich finding, if true, would most directly weaken Teague's claim?",
+  "answer_a": "The soft smooth and soft ridged fingertips held 405 grams and 400 grams, respectively, whereas the stiff smooth and stiff ridged fingertips held 180 grams and 175 grams, respectively.",
+  "answer_b": "The soft smooth and stiff smooth fingertips held 405 grams and 400 grams, respectively, whereas the soft ridged and stiff ridged fingertips held 180 grams and 175 grams, respectively.",
+  "answer_c": "The soft smooth and soft ridged fingertips held 395 grams and 405 grams, respectively, whereas the stiff smooth and stiff ridged fingertips held 175 grams and 185 grams, respectively.",
+  "answer_d": "The soft smooth and soft ridged fingertips held 405 grams and 390 grams, respectively, whereas the stiff smooth and stiff ridged fingertips held 180 grams and 165 grams, respectively.",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because it describes a result in which the load a fingertip held tracked its surface texture and not its stiffness, which directly contradicts Teague's claim. In Choice B, both smooth fingertips held about 400 grams (405 and 400), regardless of whether they were soft or stiff, while both ridged fingertips held only about 180 grams (180 and 175), again regardless of stiffness. Because fingertips of the same texture performed alike despite differing in stiffness, the result would indicate that texture, not stiffness, governs the load held.",
+  "distractor_a_explanation": "Choice A is incorrect. The two soft fingertips held about 400 grams and the two stiff fingertips held about 180 grams, so the load held varied with stiffness while texture made almost no difference (the 5-gram gap within each pair is just one weighing increment). This is the pattern Teague's claim predicts, so it would support the claim rather than weaken it. It uses the same four values as the correct choice but attaches them to the wrong factor.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. Ridged fingertips held 10 grams more than smooth fingertips of the same stiffness, but that difference is small next to the gap of roughly 220 grams between soft fingertips (395 and 405 grams) and stiff fingertips (175 and 185 grams). Load still varies almost entirely with stiffness, so this result would support the claim, not weaken it.",
+  "distractor_d_explanation": "Choice D is incorrect. Smooth fingertips held 15 grams more than ridged fingertips at each stiffness, but that difference is small next to the gap of roughly 225 grams between soft fingertips (405 and 390 grams) and stiff fingertips (180 and 165 grams). Load still varies mainly with stiffness, so this result would support the claim, not weaken it.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
