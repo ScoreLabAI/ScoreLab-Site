@@ -1,0 +1,116 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A textile conservator at a regional museum tested a new protective coating intended to slow fading in historic fabric reproductions. She prepared 120 coated and 120 uncoated reproduction samples, exposed all of them to the same intense lamp light for the same period, and recorded how many from each group passed a standardized fade test. She hypothesized that the coating makes a reproduction more likely to pass the fade test regardless of the fiber it is made from.\n\nWhich choice most effectively uses data from the table to weaken the conservator's hypothesis?",
+  "answer_a": "Silk samples with the coating were more likely to pass the fade test than silk samples without it.",
+  "answer_b": "Across both fibers combined, coated samples were more likely to pass the fade test than uncoated samples.",
+  "answer_c": "Wool samples with the coating were less likely to pass the fade test than wool samples without it.",
+  "answer_d": "Uncoated silk samples were more likely to pass the fade test than uncoated wool samples.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The hypothesis claims the coating raises the chance of passing for every fiber, so to weaken it a choice must show a fiber for which the coating did not help. Pass rates are passing samples divided by samples tested. For wool, coated samples passed at 9/30 = 30%, while uncoated wool samples passed at 36/90 = 40%, so the coating lowered the pass rate for wool. That is a direct counterexample to the claim that the coating helps regardless of fiber. The combined totals (81/120 = 67.5% coated vs. 57/120 = 47.5% uncoated) look favorable only because most coated samples were silk, which passes more often anyway.",
+  "distractor_a_explanation": "Choice A is incorrect. This is accurate (72/90 = 80% coated vs. 21/30 = 70% uncoated for silk), but it supports the hypothesis for one fiber instead of challenging it. It does not address whether the coating helps every fiber.",
+  "distractor_b_explanation": "Choice B is incorrect. This is accurate (67.5% vs. 47.5%) and is the pattern that makes the hypothesis look strong, but it is a pooled comparison that hides the fiber-level results. It supports the hypothesis rather than weakening it.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is accurate (70% vs. 40%), but it compares two fibers within the uncoated group, which says nothing about whether the coating changes the likelihood of passing. It concerns the wrong comparison.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Fiber",
+    "Finish",
+    "Samples tested",
+    "Samples passing fade test"
+   ],
+   "rows": [
+    [
+     "Silk",
+     "Coated",
+     "90",
+     "72"
+    ],
+    [
+     "Silk",
+     "Uncoated",
+     "30",
+     "21"
+    ],
+    [
+     "Wool",
+     "Coated",
+     "30",
+     "9"
+    ],
+    [
+     "Wool",
+     "Uncoated",
+     "90",
+     "36"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "Fisheries biologist Imani Strand tagged migrating salmon at the base of five fish ladders (stepped channels that let fish climb past dams and weirs) on one river and then recorded how many tagged fish at each ladder completed the climb to the top. Strand argues that the ladder that passed the greatest number of tagged fish is not the ladder at which a tagged fish was most likely to complete the climb.\n\nWhich choice most effectively uses data from the table to support Strand's argument?",
+  "answer_a": "Dunmore Rapids tagged more fish than Brisk Falls did, and more tagged fish completed the climb at Dunmore Rapids than at Brisk Falls.",
+  "answer_b": "Alder Weir tagged more fish than Brisk Falls did, and more tagged fish completed the climb at Alder Weir than at Brisk Falls.",
+  "answer_c": "Elk Narrows tagged the fewest fish and had the fewest tagged fish complete the climb of any ladder, which made it the least favorable site for the climb.",
+  "answer_d": "Corrin Dam passed more tagged fish than any other ladder, yet a tagged fish was less likely to complete the climb there than at Dunmore Rapids, which passed fewer.",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer. Strand's argument is that the ladder with the most completions (a raw count) is not the ladder where an individual fish was most likely to succeed. The completion counts are 312, 36, 341, 105, and 180, so Corrin Dam passed the most fish. Likelihood depends on completions out of tagged fish: Alder Weir 312/480 = 65%, Elk Narrows 36/90 = 40%, Corrin Dam 341/620 = 55%, Brisk Falls 105/150 = 70%, Dunmore Rapids 180/240 = 75%. Dunmore Rapids has a higher likelihood than Corrin Dam even though it passed far fewer fish, so Corrin Dam's large count comes from its large number of tagged fish rather than from favorable odds.",
+  "distractor_a_explanation": "Choice A is incorrect. The statement is true (240 > 150 tagged; 180 > 105 completed), but it compares two ladders neither of which passed the most fish. Both the count and the likelihood (75% vs. 70%) are higher at Dunmore Rapids, so the comparison does not show that a large count fails to indicate a high likelihood.",
+  "distractor_b_explanation": "Choice B is incorrect. Both statements are true (480 > 150 tagged; 312 > 105 completed), but they compare only raw counts. Alder Weir's higher count reflects the fact that it tagged more fish; its likelihood of completion (65%) is actually lower than Brisk Falls' (70%). The choice never addresses the ladder that passed the most fish, so it does not support the argument.",
+  "distractor_c_explanation": "Choice C is incorrect. The statement about counts is true (Elk Narrows has the smallest numbers), but it concerns the smallest ladder, not the one that passed the most fish. It shows a small count going with a low likelihood (40%), which is the reverse of the mismatch Strand describes. The claim that it was the 'least favorable' site is also not what the argument is about.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Ladder",
+    "Tagged fish",
+    "Tagged fish that completed the climb"
+   ],
+   "rows": [
+    [
+     "Alder Weir",
+     "480",
+     "312"
+    ],
+    [
+     "Elk Narrows",
+     "90",
+     "36"
+    ],
+    [
+     "Corrin Dam",
+     "620",
+     "341"
+    ],
+    [
+     "Brisk Falls",
+     "150",
+     "105"
+    ],
+    [
+     "Dunmore Rapids",
+     "240",
+     "180"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]
