@@ -1,0 +1,173 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Sociolinguist Imke Vaarala studies how bilingual speakers move between their two languages in everyday talk. She and her team recorded conversations at market stalls in four towns and counted every instance in which a speaker changed from one language to the other partway through a conversation. Vaarala concluded that bilingual speakers in Pellar mix their two languages more heavily than bilingual speakers in the other three towns do. The table shows, for each town, the hours of conversation recorded, the number of language switches counted, and each town's percentage of all switches recorded across the four towns.\n\nWhich choice best describes data from the table that support Vaarala's conclusion?",
+  "answer_a": "Mirov's recorded conversation was 4 hours shorter than Doran's, and Mirov's count of language switches was only 3 lower than Doran's.",
+  "answer_b": "Pellar accounted for the smallest percentage of all language switches recorded, at 16%, of the four towns.",
+  "answer_c": "Each of the other three towns was recorded for at least 14 more hours than Pellar, but none logged more than 54 more switches than Pellar.",
+  "answer_d": "Pellar's 66 language switches were more than half as many as the 120 recorded at Doran, the town with the most switches.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because each other town has at least 14 more hours of recorded conversation than Pellar but at most 54 more switches, which is too few to match Pellar's switching relative to the amount of conversation recorded. Pellar has 12 hours and 66 switches. Doran has 30 hours (18 more) and 120 switches (54 more); Kesk has 28 hours (16 more) and 99 switches (33 more); Mirov has 26 hours (14 more) and 117 switches (51 more). So each rival has at least 14 more hours than Pellar (at least 26 hours in all) and at most 54 more switches (at most 120 in all). Even the most favorable pairing of those limits, 120 switches over 26 hours, is only about 4.6 switches per hour, below Pellar's 5.5 (66 divided by 12). Checking each rival directly: Doran 120/30 = 4.0, Kesk 99/28 is about 3.5, and Mirov 117/26 = 4.5, all below 5.5. Because Pellar's switching per hour of conversation exceeds that of all three other towns, the data support Vaarala's conclusion that bilingual speakers in Pellar mix their languages more heavily.",
+  "distractor_a_explanation": "Choice A is incorrect because it is a true but insufficient statement (true but insufficient pattern) that compares only two non-target towns, Mirov and Doran, and says nothing about Pellar. The statement is accurate, since 30 minus 26 is 4 hours and 120 minus 117 is 3 switches, but it cannot show that Pellar's speakers mix their languages more heavily than those in all three other towns.",
+  "distractor_b_explanation": "Choice B is incorrect because although it accurately reports a value from the table, that value is on the wrong base for this conclusion. The 16% figure is accurate, but it is Pellar's share of all switches across the four towns. A small share of the total is what would be expected of the town with the least recorded conversation, and it does not show how heavily Pellar's speakers mix their languages within the conversations that were recorded. If anything, taken alone, it points the other way.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect because it is true but insufficient: 66 is indeed more than half of 120, and Doran's 120 is the largest count in the table. But it compares raw counts and ignores that Pellar's conversations were recorded for 12 hours while Doran's were recorded for 30. Pellar has fewer switches than Doran in total, so this comparison alone does not support the claim that Pellar's speakers switch more heavily.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Town",
+    "Recorded conversation (hours)",
+    "Language switches",
+    "Percent of all switches"
+   ],
+   "rows": [
+    [
+     "Pellar",
+     "12",
+     "66",
+     "16%"
+    ],
+    [
+     "Doran",
+     "30",
+     "120",
+     "30%"
+    ],
+    [
+     "Kesk",
+     "28",
+     "99",
+     "25%"
+    ],
+    [
+     "Mirov",
+     "26",
+     "117",
+     "29%"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "In 2021, the Tern Harbor ferry authority overhauled its schedules, adding sailings, shifting departure times, and installing real-time arrival displays at the terminals. Transit analyst Ilse Marchetti reviewed ridership on the authority's four routes in the years before and after the overhaul. She concludes that the overhaul transformed the Pelican Island route more than it transformed any of the other three. The table shows weekday ridership for each route in 2019 and 2023, along with each route's share of the combined increase across all four routes.\n\nWhich choice best describes data from the table that support Marchetti's conclusion?",
+  "answer_a": "Harbor Line and Northgate each gained 1,800 weekday riders between 2019 and 2023, more than either of the other two routes gained, and together they accounted for 60% of the combined increase across all four routes.",
+  "answer_b": "Pelican Island's weekday ridership in 2023 was more than double its ridership in 2019, while no other route's ridership in 2023 reached one and a half times its ridership in 2019.",
+  "answer_c": "Pelican Island accounted for 15% of the combined increase across all four routes, a smaller share than any other route accounted for.",
+  "answer_d": "Pelican Island's weekday ridership in 2023 was 1,700, the lowest of the four routes, and Pelican Island gained fewer riders between 2019 and 2023 than any other route did.",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because it states data from the table that support Marchetti's conclusion that the overhaul transformed the Pelican Island route more than the other three routes. Pelican Island's weekday ridership rose from 800 in 2019 to 1,700 in 2023, which is more than double. No other route came close to doubling: Harbor Line rose from 4,800 to 6,600 (1.375 times its 2019 ridership), Bayside from 3,500 to 5,000 (about 1.43 times), and Northgate from 6,200 to 8,000 (about 1.29 times). Because the four routes started from very different ridership levels, a comparison of each route's 2023 ridership with its own 2019 ridership shows how far the overhaul changed that route, and by that comparison Pelican Island changed the most.",
+  "distractor_a_explanation": "Choice A is incorrect because it is true but does not support the conclusion about Pelican Island. Harbor Line and Northgate did each gain 1,800 riders and together account for 30% + 30% = 60% of the combined increase, but those are large raw gains and large shares for routes that already carried 4,800 and 6,200 riders in 2019. The choice says nothing about Pelican Island, and large totals on big routes do not show that the overhaul transformed any particular route more than the others.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect because it is true but does not support the conclusion. Pelican Island's 15% in the share column is accurate, but that column divides each route's gain by the combined gain of all four routes, so it compares routes' contributions to the system-wide total rather than showing how much the overhaul changed Pelican Island's own ridership. A route's share of the combined increase reflects only the size of its raw gain, and it provides no evidence that Pelican Island was transformed more than the others; if anything it points the other way.",
+  "distractor_d_explanation": "Choice D is incorrect because it is true but does not support the conclusion. Pelican Island's 2023 ridership of 1,700 is indeed the lowest of the four routes (the others are 6,600, 5,000, and 8,000), and its gain of 900 riders is indeed smaller than Harbor Line's 1,800, Bayside's 1,500, and Northgate's 1,800. But these facts describe the route's small size and its small raw gain, and a low ridership figure and a small raw gain do not show how much the overhaul changed the route compared with the others; if anything, a reader taking them at face value would be led away from Pelican Island.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Route",
+    "Average weekday riders, 2019",
+    "Average weekday riders, 2023",
+    "Share of combined increase across all routes (%)"
+   ],
+   "rows": [
+    [
+     "Harbor Line",
+     "4,800",
+     "6,600",
+     "30"
+    ],
+    [
+     "Bayside",
+     "3,500",
+     "5,000",
+     "25"
+    ],
+    [
+     "Northgate",
+     "6,200",
+     "8,000",
+     "30"
+    ],
+    [
+     "Pelican Island",
+     "800",
+     "1,700",
+     "15"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "Wildlife ecologist Marisol Adeyemi-Cruz wanted to learn where in Tamsin Reserve red foxes are easiest to detect. She left motion-triggered cameras in four sectors of the reserve and counted the photographs in which a fox appeared. The table shows, for each sector, the number of camera-nights the cameras operated, the number of fox photographs they recorded, and each sector's percent of all fox photographs from the study. Adeyemi-Cruz concluded that foxes were easier to detect in the burned ridge sector than in any of the other three sectors.\n\nWhich choice best describes data from the table that support the researcher's conclusion?",
+  "answer_a": "The burned ridge's 32 photographs came from 120 camera-nights, whereas the pine plantation's 60 photographs came from 300 camera-nights.",
+  "answer_b": "The burned ridge's cameras ran fewer nights and recorded fewer fox photographs than the cameras at any other sector did.",
+  "answer_c": "The burned ridge produced 16.0 percent of all fox photographs while running only 120 camera-nights, the fewest of any sector.",
+  "answer_d": "Only at the burned ridge was the number of camera-nights smaller than four times the number of fox photographs recorded there.",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer because it states a single relationship that holds for the burned ridge and fails for every other sector, which is exactly what the conclusion requires. Four times the burned ridge's 32 photographs is 128, which is more than its 120 camera-nights. At each other sector, four times the photographs is less than the camera-nights: 4 x 50 = 200 is less than 260 at the meadow, 4 x 60 = 240 is less than 300 at the pine plantation, and 4 x 58 = 232 is less than 240 at the riverbank. So the burned ridge needed, on average, fewer than four camera-nights to produce a fox photograph, while every other sector needed more than four. That means the burned ridge's cameras were the most productive for the time they operated, even though the burned ridge recorded the fewest photographs in total.",
+  "distractor_a_explanation": "Choice A is incorrect because it is true but insufficient. The burned ridge's 32 photographs in 120 camera-nights do compare favorably with the pine plantation's 60 photographs in 300 camera-nights, but the statement says nothing about the meadow or the riverbank. The riverbank, with 58 photographs in 240 camera-nights, is close enough that the claim that the burned ridge was best of the four cannot be established from a comparison with the pine plantation alone.",
+  "distractor_b_explanation": "Choice B is incorrect because it is true but does not support the conclusion. The burned ridge did have the fewest camera-nights (120) and the fewest fox photographs (32), but having smaller totals in both columns is compatible with the burned ridge doing either better or worse than another sector once the two columns are set against each other. The statement never relates photographs to camera-nights, so it does not support the conclusion.",
+  "distractor_c_explanation": "Choice C is incorrect because it relies on the wrong base. The 16.0 percent figure is the burned ridge's share of all fox photographs, and it is the smallest share of any sector, so it does not by itself show how productive the burned ridge's cameras were, and the choice never sets this share against the burned ridge's share of camera-nights. The fact that the burned ridge ran the fewest camera-nights (120) is true but only explains why its share is small; it does not show that its photographs came more readily than the other sectors' did.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Sector",
+    "Camera-nights",
+    "Fox photographs",
+    "Percent of all fox photographs"
+   ],
+   "rows": [
+    [
+     "Burned ridge",
+     "120",
+     "32",
+     "16.0%"
+    ],
+    [
+     "Meadow",
+     "260",
+     "50",
+     "25.0%"
+    ],
+    [
+     "Pine plantation",
+     "300",
+     "60",
+     "30.0%"
+    ],
+    [
+     "Riverbank",
+     "240",
+     "58",
+     "29.0%"
+    ]
+   ]
+  },
+  "visual_svg": null
+ }
+]
