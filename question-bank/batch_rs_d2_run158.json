@@ -1,0 +1,26 @@
+[
+  {
+    "section": "reading_writing",
+    "skill_category": "Expression of Ideas",
+    "skill_subcategory": "Rhetorical Synthesis",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "While researching a topic, a student has taken the following notes:\n\n• The Veltri Quarter Players is a street-theater company founded in 2009.\n• The Okanda Street Ensemble is a street-theater company founded in 2014.\n• The Veltri Players rehearse each piece for twelve weeks before performing it.\n• The Okanda Ensemble rehearses each piece for about four weeks before performing it.\n• Both companies mark their playing areas with chalk lines on the pavement rather than building a stage.\n• The Okanda Ensemble uses \"forum staging,\" in which audience members may halt a scene and replace an actor.\n\nThe student wants to emphasize a similarity between the two companies, presenting the companies to an audience unfamiliar with them. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "answer_a": "Founded in 2014, the Okanda Street Ensemble, which marks its playing areas with chalk lines just as the Veltri Quarter Players, another street-theater company, do, lets audience members halt a scene and replace an actor.",
+    "answer_b": "Both street-theater companies, the Veltri Quarter Players (founded in 2009) and the Okanda Street Ensemble (founded in 2014), mark their playing areas with chalk lines rather than building a stage.",
+    "answer_c": "The Veltri Quarter Players (founded in 2009) and the Okanda Street Ensemble (founded in 2014) are street-theater companies that each rehearse a piece before performing it, the first for twelve weeks and the second for about four.",
+    "answer_d": "The Veltri Quarter Players and the Okanda Street Ensemble, which uses forum staging, both mark their playing areas with chalk lines rather than building a stage.",
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer because it meets every part of the goal. It emphasizes a similarity: its main clause states that the two companies mark their playing areas with chalk lines rather than building a stage, which matches the note that both companies do this. It also presents the companies to an unfamiliar audience: it names each company, says what kind of company each is (\"street-theater companies\"), and gives each founding year, all without relying on any term the audience would need explained.",
+    "distractor_a_explanation": "Choice A is incorrect. It mentions the shared use of chalk lines, but only inside a subordinate clause (\"which marks its playing areas with chalk lines just as the Veltri Quarter Players ... do\"). The main clause foregrounds a feature of only one company, that it lets audience members halt a scene and replace an actor, so the similarity is mentioned in passing rather than emphasized.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. The wording \"each rehearse a piece before performing it, the first for twelve weeks and the second for about four\" sounds parallel, and it does present both companies clearly. But the point of the sentence is the gap between twelve weeks and about four, which is a difference, not a similarity.",
+    "distractor_d_explanation": "Choice D is incorrect. Its main clause does emphasize the shared chalk-line practice, but it never says what kind of companies these are, and it uses the term \"forum staging\" without explaining it. An audience unfamiliar with the companies would not learn that they are street-theater companies and would not understand what forum staging is.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  }
+]

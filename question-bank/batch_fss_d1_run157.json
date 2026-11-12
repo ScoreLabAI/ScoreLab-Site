@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Form, Structure, and Sense",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "Hydrographers resurveying Brennock Shoal compared fresh soundings of the seabed with a single chart drawn in 1902, and ______ that the main channel is several meters deeper than was recorded.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "its findings suggest",
+  "answer_b": "their findings suggests",
+  "answer_c": "their findings suggest",
+  "answer_d": "its findings suggests",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The convention being tested is pronoun-antecedent agreement together with subject-verb agreement. The pronoun in the blank must refer back to the entity that produced the findings. Hydrographers carried out the resurvey and compared the new soundings with the old chart, so the hydrographers are the ones whose findings indicate that the main channel is deeper than was recorded. Because \"hydrographers\" is plural, the possessive pronoun must be the plural \"their,\" even though the singular noun \"chart\" is closer to the blank. The subject of the verb is \"findings,\" which is plural, so the verb must be the plural \"suggest.\" \"Their findings suggest\" is plural on both counts.",
+  "distractor_a_explanation": "Choice A is incorrect. The singular pronoun \"its\" could only refer to a singular noun such as \"chart,\" but a chart drawn in 1902 did not produce any findings; it is the very record the resurvey corrected. The findings belong to the hydrographers who resurveyed the shoal, and because \"hydrographers\" is plural, the pronoun must be the plural \"their.\" The verb \"suggest\" does correctly agree with the plural subject \"findings,\" so the error here is the pronoun alone.",
+  "distractor_b_explanation": "Choice B is incorrect. The plural pronoun \"their\" correctly refers to the hydrographers, but the verb \"suggests\" is singular and does not agree with its plural subject, \"findings.\" The error here is subject-verb agreement alone.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect for two reasons. The singular pronoun \"its\" does not agree in number with the plural antecedent \"hydrographers\" (a chart did not produce the findings), and the singular verb \"suggests\" does not agree with the plural subject \"findings.\" Both the pronoun and the verb are wrong.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
