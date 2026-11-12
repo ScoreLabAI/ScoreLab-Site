@@ -1,0 +1,26 @@
+[
+  {
+    "section": "reading_writing",
+    "skill_category": "Expression of Ideas",
+    "skill_subcategory": "Transitions",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "By 1931, the Verlund Postal Service sorted nearly all of its urban mail with a keyboard-operated machine, and a single operator could route several thousand letters an hour. The machine's output was checked only at the end of each shift, when a supervisor sampled a few bundles for errors. ______ the service had relied on clerks who read every address by eye and slotted each letter into a pigeonhole, and it had audited each clerk's work bundle by bundle until 1928. The shift from auditing every item to auditing a sample marked a change in what the service meant by reliability.\n\nWhich choice completes the text with the most logical transition?",
+    "answer_a": "Subsequently,",
+    "answer_b": "Hence,",
+    "answer_c": "Previously,",
+    "answer_d": "Additionally,",
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because the passage describes the service's practice in 1931 first and then turns back to an earlier period. The past perfect verbs in the blank sentence (\"had relied,\" \"had audited\") and the date \"until 1928\" show that the clerk-based system came before the machine described in the first two sentences. \"Previously,\" signals this move back in time, and it sets up the final sentence's comparison between auditing every item and auditing a sample.",
+    "distractor_a_explanation": "Choice A is incorrect. \"Subsequently,\" would mean that the clerk-based system came after the machine-based sorting, but the passage dates the machine to 1931 and says the clerks' work was audited until 1928. The time order is the reverse of what this transition signals.",
+    "distractor_b_explanation": "Choice B is incorrect. \"Hence,\" signals that the sentence states a result of what came before it, but the earlier clerk-based system cannot be a consequence of the later machine. The cause-and-effect relationship runs in the opposite direction, if it exists at all.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. \"Additionally,\" would present the sentence as one more fact about the same period, such as another feature of the machine system. The blank sentence instead describes a different, earlier system, so it does not simply add to the earlier sentences.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  }
+]
