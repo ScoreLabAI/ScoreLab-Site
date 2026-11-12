@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Expression of Ideas",
+  "skill_subcategory": "Transitions",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "Theorists who model costly traits, such as toxins or heavy armor, stress that a trait's cost is not a fixed property of the trait itself but a property of the trait within a particular energy budget. In lineages whose budgets run in surplus, a costly trait is effectively subsidized: the energy it consumes would otherwise go unspent, so selection has little reason to remove it even when it seldom pays off. ______ in lineages whose budgets are stretched to the limit, every unit the trait consumes is taken from growth or reproduction, and a trait that seldom pays off is quickly purged.\n\nWhich choice completes the text with the most logical transition?",
+  "answer_a": "Consequently,",
+  "answer_b": "Conversely,",
+  "answer_c": "In other words,",
+  "answer_d": "Similarly,",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because the blank sentence describes the reverse of the situation in the previous sentence, with the reverse result. The previous sentence concerns lineages with energy budgets in surplus, where a trait's cost is effectively absorbed, so selection \"has little reason to remove\" a trait that seldom pays off. The blank sentence concerns lineages whose budgets are \"stretched to the limit,\" where every unit the trait consumes is taken from growth or reproduction, so a trait that seldom pays off is \"quickly purged.\" The budget condition is opposite, and so is the outcome for the trait (retained versus eliminated). \"Conversely,\" signals exactly this kind of inverse relation between two cases, and it also illustrates the opening sentence's point that a trait's cost depends on the budget it sits within.",
+  "distractor_a_explanation": "Choice A is incorrect. \"Consequently,\" would signal that the situation in the blank sentence results from the one before it. But the two sentences describe separate groups of lineages, one with surplus budgets and one with stretched budgets. Neither condition causes the other, and the elimination of a costly trait in the second group does not follow from the trait being tolerated in the first.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. \"In other words,\" would signal that the blank sentence restates the previous sentence in different terms, as a reader might assume when both sentences discuss how budgets affect a trait's cost. But the blank sentence describes a different kind of lineage (stretched budgets) and a different result (the trait is purged rather than tolerated), so it adds a separate case instead of rephrasing the earlier one.",
+  "distractor_d_explanation": "Choice D is incorrect. \"Similarly,\" would signal that the blank sentence describes a parallel situation with a like outcome, as a reader might assume because both sentences concern how budgets shape the fate of a costly trait. But the previous sentence says that selection has little reason to remove the trait, while the blank sentence says that the trait is quickly purged. The conditions and the outcomes both run in opposite directions, so the relation is not one of similarity.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
