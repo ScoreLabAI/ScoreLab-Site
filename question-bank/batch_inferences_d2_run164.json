@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Inferences",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Historians of the Skelmoor Cooperative's cheese cellar have long held that the notches cut into each wheel's rim recorded how far the cheese had ripened. Yet nearby Penvar's cellar, which held one dairy's cheeses in a cave of the same temperature as Skelmoor's and on the same ripening schedule, put no notches on its wheels. Meanwhile, Skelmoor's nine member households shelved their wheels together in shared rows, each household cutting a pattern of its own into its wheels, and only members' carriers ever entered the cellar. The keeper's ledger places each wheel by shelf and row and lists its turning dates, but it never mentions notches. Notches were cut once, at first brining, and renewed each spring only where brine had worn them smooth, each household paying for the work on its own wheels. These details suggest that the notches most likely served\n\nWhich choice most logically completes the text?",
+  "answer_a": "to tell the keeper how far each wheel had ripened, since wheels in the same cave aged at different rates.",
+  "answer_b": "to show which household each wheel belonged to, since the wheels sat mingled together on shared shelves.",
+  "answer_c": "to help the keeper find a particular wheel among the rows, since the shared shelves held many similar wheels.",
+  "answer_d": "to deter outsiders from removing wheels from the cellar, since the households paid to keep the marks legible.",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer because it is the function that fits all of the details. Skelmoor's nine member households shelved their wheels together in shared rows, so wheels belonging to different households were mixed. Each household cut a pattern of its own into its wheels, and each paid to renew the notches on its own wheels, which makes sense if the marks are what let a household recognize its cheeses. Penvar held cheeses from a single dairy, so there was no need to tell owners apart, and Penvar used no notches.",
+  "distractor_a_explanation": "Choice A is incorrect because the notches could not track ripening. They were cut once at first brining and renewed only where brine had worn them smooth, so they never changed as a wheel aged, and the keeper's ledger records turning dates, not notches. The claim that wheels in the same cave aged at different rates is also never stated in the passage.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect because the passage gives the keeper another means of locating wheels: the ledger places each wheel by shelf and row. And because each pattern belonged to a household rather than to a single wheel, the notches could not identify one particular wheel anyway.",
+  "distractor_d_explanation": "Choice D is incorrect because it is undercut by who had access to the cellar. The passage says only members' carriers ever entered it, so outsiders were not in a position to remove wheels. Households paying to renew the notches fits the idea of protecting property but not specifically of guarding it against outsiders.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
