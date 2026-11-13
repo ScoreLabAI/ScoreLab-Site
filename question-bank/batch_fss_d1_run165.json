@@ -1,0 +1,26 @@
+[
+  {
+    "section": "reading_writing",
+    "skill_category": "Standard English Conventions",
+    "skill_subcategory": "Form, Structure, and Sense",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "In 1974, the designer and chief engineer of the Khalvari Aqueduct, Dilnoza Rahimova, ______ the Tashvel Medal for structural innovation, a distinction that no engineer in Central Asia had earned before her.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "answer_a": "were awarded",
+    "answer_b": "was awarded",
+    "answer_c": "has been awarded",
+    "answer_d": "being awarded",
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The convention being tested is subject-verb agreement and verb tense. Although the subject is introduced as \"the designer and chief engineer,\" the single article \"the\" and the appositive name \"Dilnoza Rahimova\" show that both roles belong to one person (the later \"her\" confirms this), so the subject is singular and requires a singular verb. The time marker \"In 1974\" places the event at a specific point in the past, so the simple past passive \"was awarded\" is correct.",
+    "distractor_a_explanation": "Choice A is incorrect because the plural verb \"were awarded\" doesn't agree in number with the singular subject. The phrase \"the designer and chief engineer,\" with a single \"the\" and a single name in apposition, names one person who holds two roles, so a singular verb is required.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect because the present perfect \"has been awarded\" is used for actions connected to the present, and it can't be paired with the specific past time reference \"In 1974.\" The simple past is required.",
+    "distractor_d_explanation": "Choice D is incorrect because \"being awarded\" is a nonfinite participle phrase, not a finite verb. Used here, it leaves the subject without a main verb, which results in a sentence fragment."
+  }
+]
