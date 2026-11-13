@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Form, Structure, and Sense",
+  "difficulty": 1,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "The Velkhov Philological Society, whose members had catalogued the dialect's verb endings for decades, was reluctant to revise ______ official classification of those endings, ratified in 1904, until a rival survey exposed several gaps.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "their",
+  "answer_b": "its",
+  "answer_c": "his or her",
+  "answer_d": "it's",
+  "correct_answer": "B",
+  "explanation": "Choice B is the best answer. The convention being tested is pronoun-antecedent agreement. The pronoun in the blank refers to the subject of the sentence, \"The Velkhov Philological Society,\" a collective noun that names a single institution, as the singular verb \"was\" confirms. The words between the commas (\"whose members had catalogued the dialect's verb endings for decades\") are a relative clause that modifies the Society and does not replace it as the antecedent. The classification that was \"ratified in 1904\" and described as \"official\" belongs to the Society as a body, so the singular possessive pronoun \"its\" is needed.",
+  "distractor_a_explanation": "Choice A is incorrect. \"Their\" is plural and would agree with \"members,\" the nearest noun, but the antecedent is the singular collective noun \"Society\" (the verb \"was\" is singular). The sentence also says the classification was \"official\" and \"ratified,\" so it belongs to the institution and not to its individual members. The pronoun does not agree in number with its antecedent.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. \"His or her\" is a singular pronoun for one person of unspecified gender, and it would fit a single member. The antecedent is the Society, an institution and not a person, so the pronoun does not match the antecedent in type. It would also treat an official classification ratified by the Society as one member's private property.",
+  "distractor_d_explanation": "Choice D is incorrect. \"It's\" is a contraction of \"it is\" or \"it has,\" not a possessive pronoun. Reading it in the sentence gives \"was reluctant to revise it is official classification,\" which makes no sense; the possessive form \"its\" is needed to show that the classification belongs to the Society."
+ }
+]

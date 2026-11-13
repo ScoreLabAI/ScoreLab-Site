@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Form, Structure, and Sense",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "That the copyists of the Daravine scriptoria altered dozens of marginal glosses in the surviving commentaries on the Thessil grammar to reconcile conflicting dialect forms ______ that later readers treated the work as a living reference rather than a fixed authority.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "suggest",
+  "answer_b": "to suggest",
+  "answer_c": "suggesting",
+  "answer_d": "suggests",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer. The convention being tested is subject-verb agreement with a noun-clause subject. The sentence begins with \"That the copyists ... altered dozens of marginal glosses ... to reconcile conflicting dialect forms,\" and this entire clause is the subject of the main verb. A noun clause counts as a single, singular subject, so the main verb must be a singular finite form. \"Suggests\" supplies that verb and takes the clause \"that later readers treated the work as a living reference\" as its object.",
+  "distractor_a_explanation": "Choice A is incorrect because \"suggest\" is a plural verb form that doesn't agree in number with the singular noun-clause subject. It agrees only with the plural noun \"forms\" that sits immediately before the blank, which is inside the subject clause and is not the subject of the sentence.",
+  "distractor_b_explanation": "Choice B is incorrect because \"to suggest\" is an infinitive, not a finite verb. With it, the long \"That ...\" clause would have no main verb, and the sentence would be a fragment.",
+  "distractor_c_explanation": "Choice C is incorrect because \"suggesting\" is a participle, not a finite verb. With it, the long \"That ...\" clause would have no main verb, and the sentence would be a fragment.",
+  "distractor_d_explanation": ""
+ }
+]
