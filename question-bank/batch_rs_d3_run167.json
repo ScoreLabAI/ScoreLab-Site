@@ -1,0 +1,26 @@
+[
+  {
+    "section": "reading_writing",
+    "skill_category": "Expression of Ideas",
+    "skill_subcategory": "Rhetorical Synthesis",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "While researching a topic, a student has taken the following notes:\n\n• In 2017, the planetary scientist Ilsabet Marrowen hypothesized that the night side of a tidally locked planet acts as a cold trap, freezing atmospheric gases out of the air.\n• Marrowen's hypothesis predicts that the night side of such a planet holds markedly less atmospheric gas than its day side.\n• The Kelvard Array team observed eleven tidally locked rocky planets that orbit red dwarf stars.\n• Seven of the eleven planets have thin atmospheres, and on each of these seven the night side holds markedly less atmospheric gas than the day side.\n• The other four planets have thick atmospheres, and on each of these four the night side holds about as much atmospheric gas as the day side.\n• The team attributes the difference to circulation: a thick atmosphere carries heat to the night side, which keeps gases from freezing out there.\n\nThe student wants to present the team's findings as a qualification of, rather than a refutation of, Marrowen's hypothesis. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "answer_a": "The Kelvard Array team's observations contradict Marrowen's hypothesis: although the night side of each of seven thin-atmosphere planets holds markedly less gas than the day side, the four thick-atmosphere planets show no such difference.",
+    "answer_b": "The Kelvard Array team's observations are consistent with Marrowen's hypothesis only for the seven planets with thin atmospheres, where the night side holds markedly less gas than the day side, and not for the four with thick atmospheres.",
+    "answer_c": "The Kelvard Array team's observations confirm Marrowen's hypothesis, since on each of seven planets with thin atmospheres the night side holds markedly less atmospheric gas than the day side, just as the hypothesis predicts.",
+    "answer_d": "The Kelvard Array team found that the night side holds markedly less gas than the day side on seven thin-atmosphere planets but not on four thick-atmosphere planets, a difference the team attributes to heat circulation.",
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The goal is to present the findings as a qualification of Marrowen's hypothesis, which means treating the hypothesis as holding under some conditions and not others. Choice B does this: it says the observations are consistent with the hypothesis \"only\" for the seven thin-atmosphere planets, where the night side holds markedly less gas, and not for the four thick-atmosphere planets. This matches the notes, in which the predicted night-side depletion appears on the thin-atmosphere planets but not on the thick-atmosphere ones, so the hypothesis is limited in scope rather than overturned.",
+    "distractor_a_explanation": "Choice A is incorrect. It accurately reports that the thin-atmosphere planets show night-side depletion and the thick-atmosphere planets do not. However, it says the observations \"contradict\" the hypothesis, which frames the findings as a refutation. The notes show that the predicted depletion does occur on seven of the eleven planets, so the hypothesis holds under one condition; framing the findings as a contradiction presents a limit on where the hypothesis applies as if it overturned the hypothesis entirely.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. It accurately reports that the seven thin-atmosphere planets show the depletion Marrowen's hypothesis predicts. However, it says the observations \"confirm\" the hypothesis without mentioning the four thick-atmosphere planets, where the predicted depletion is absent. It presents the findings as full support, not as a qualification that limits where the hypothesis holds.",
+    "distractor_d_explanation": "Choice D is incorrect. It accurately reports both the thin-atmosphere and thick-atmosphere results, along with the team's explanation. However, it never mentions Marrowen's hypothesis, so it does not present the findings as a qualification of that hypothesis or as anything else in relation to it.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  }
+]

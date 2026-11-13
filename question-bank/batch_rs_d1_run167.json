@@ -1,0 +1,26 @@
+[
+  {
+    "section": "reading_writing",
+    "skill_category": "Expression of Ideas",
+    "skill_subcategory": "Rhetorical Synthesis",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "While researching a topic, a student has taken the following notes:\n\n• Marrel newts, amphibians of high-altitude saline ponds, continue to move and feed in pond water below -1°C, a temperature at which the blood of most amphibians would freeze.\n• A research team led by Ilse Halvane concluded that a glycoprotein in the blood plasma of Marrel newts, which binds to nascent ice crystals and inhibits their growth, is what keeps the newts' blood from freezing.\n• Marrel newts carry an unusually thick layer of subcutaneous fat, a feature that tracks the species' cold tolerance across populations.\n• The team ruled out the fat layer as a cause: newts whose fat layers had been experimentally reduced resisted freezing just as well as untreated newts.\n• Because the newts remain active beneath ice, they feed on invertebrates through the winter.\n• Newts that feed through the winter reach spring breeding with larger energy reserves.\n\nThe student wants to explain why Marrel newts remain active in subzero pond water. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "answer_a": "Marrel newts remain active in pond water below -1°C because a glycoprotein in their blood plasma binds to nascent ice crystals and inhibits their growth.",
+    "answer_b": "Marrel newts remain active in pond water below -1°C owing to a thick layer of subcutaneous fat, a feature that tracks the species' cold tolerance across populations.",
+    "answer_c": "Marrel newts remain active in pond water below -1°C, so they feed on invertebrates through the winter and reach spring breeding with larger energy reserves.",
+    "answer_d": "A glycoprotein in the blood plasma of Marrel newts binds to nascent ice crystals and inhibits their growth, according to the conclusions of a research team led by Ilse Halvane.",
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it states the phenomenon and the mechanism the notes identify as keeping the newts' blood from freezing. The notes report that Marrel newts stay active below -1°C, a temperature at which most amphibians' blood would freeze, and that the team concluded a glycoprotein in their blood plasma, which binds to nascent ice crystals and inhibits their growth, is what keeps the newts' blood from freezing. The glycoprotein therefore accounts for why the newts can remain active in subzero water. The choice links the two with \"because,\" which is the causal relation the goal requires.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. It does present a causal explanation, but the cause it names is the subcutaneous fat layer. The notes say the fat layer merely tracks cold tolerance across populations and that the team ruled it out as a cause, because newts with experimentally reduced fat resisted freezing just as well. The explanation it offers is therefore unsupported by the notes.",
+    "distractor_c_explanation": "Choice C is incorrect. The word \"so\" makes the sentence sound explanatory, but it runs in the wrong direction: it gives what follows from the newts' activity (winter feeding and larger energy reserves), not what causes the activity. The choice never says why the newts can stay active in subzero water.",
+    "distractor_d_explanation": "Choice D is incorrect. It accurately describes what the glycoprotein does and credits the team's finding, but it never says that this action is the reason the newts remain active in subzero water. The mechanism is presented in isolation, so the choice does not explain the phenomenon named in the goal."
+  }
+]
