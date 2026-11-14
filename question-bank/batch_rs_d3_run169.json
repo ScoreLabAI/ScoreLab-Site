@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Expression of Ideas",
+  "skill_subcategory": "Rhetorical Synthesis",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "While researching a topic, a student has taken the following notes:\n\n• Orrin Halbeck proposed that painted-line guides on flowers increase bee visits because the lines shorten the time a bee needs to locate the nectar opening.\n• Halbeck's proposal predicts that bees spend less time per flower at guided flowers than at unguided ones.\n• A team led by Marisol Ketteridge offered bumblebees 40 guided and 40 unguided artificial flowers that were otherwise identical and were placed in randomly assigned positions.\n• Bumblebees landed on guided flowers in 71% of their visits.\n• Bumblebees spent an average of 4.2 seconds per flower at guided flowers and 4.2 seconds per flower at unguided flowers.\n• The team measured each visit from the moment of landing to the moment of departure.\n\nThe student wants to accurately characterize what the team's findings indicate about Halbeck's proposal. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_a": "The findings refute Halbeck's proposal, since bumblebees spent an average of 4.2 seconds per flower at guided flowers and 4.2 seconds at unguided flowers rather than less time at guided ones.",
+  "answer_b": "The findings confirm Halbeck's proposal, since bumblebees landed on guided flowers in 71% of their visits, which is the outcome his proposal says guides should bring about.",
+  "answer_c": "The findings support Halbeck's explanation that guides shorten the search for nectar, since bumblebees spent no longer at guided flowers than at unguided ones, but they do not show that guides increase visits.",
+  "answer_d": "The findings support Halbeck's claim that guides increase bee visits but not his explanation for it, since bumblebees landed on guided flowers in 71% of their visits yet spent an average of 4.2 seconds per flower at both kinds.",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer because it takes the stance that all of the notes warrant. Halbeck's proposal has two parts: guides increase bee visits, and they do so by shortening the time a bee needs to find the nectar opening. The second part predicts less time per flower at guided flowers. The notes show that bumblebees landed on guided flowers in 71% of their visits, which fits the first part, but they also show an average of 4.2 seconds per flower at both guided and unguided flowers, which does not fit the predicted shorter time. The findings therefore support Halbeck's claim that guides increase visits but not his explanation for it.",
+  "distractor_a_explanation": "Choice A is incorrect. The equal 4.2-second averages do contradict the prediction that bees would spend less time at guided flowers, but that only counts against Halbeck's explanation. The notes also show that bumblebees landed on guided flowers in 71% of their visits, which is consistent with his claim that guides increase visits, so the findings do not refute the proposal as a whole.",
+  "distractor_b_explanation": "Choice B is incorrect. The 71% figure does match the outcome Halbeck's proposal describes, but the proposal also predicts less time per flower at guided flowers, and the notes show the same 4.2-second average at both kinds of flower. Because that prediction failed, the findings do not confirm the proposal as a whole.",
+  "distractor_c_explanation": "Choice C is incorrect. It is true that bees spent no longer at guided flowers than at unguided ones, but Halbeck's explanation predicts that they would spend less time at guided flowers, so equal time counts against it rather than for it. The choice also says the findings do not show that guides increase visits, yet the notes report that bumblebees landed on guided flowers in 71% of their visits.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
