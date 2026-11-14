@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Expression of Ideas",
+  "skill_subcategory": "Rhetorical Synthesis",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "While researching a topic, a student has taken the following notes:\n\n\u2022 Isaura Corrow has argued that the periodic dimming of the star Cael-12 is caused by a dust clump orbiting the star.\n\u2022 Teodor Maskell has argued that the dimming is caused by a faint companion star that periodically passes in front of Cael-12.\n\u2022 Corrow's model predicts that the dimmings will recur every 38 to 44 days; Maskell's model predicts that they will recur every 40 to 46 days.\n\u2022 A 2026 survey recorded four dimmings of Cael-12, each 42 days after the one before it.\n\u2022 A spacing of 42 days falls inside both of the predicted ranges.\n\nThe student wants to present the survey's results as leaving the dispute between Corrow and Maskell unresolved. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_a": "Because the survey's four dimmings of Cael-12 recurred every 42 days, within the 38-to-44-day range that Corrow's dust-clump model predicts, the data appear to favor Corrow over Maskell.",
+  "answer_b": "Because the survey's four dimmings of Cael-12 recurred every 42 days, within the 40-to-46-day range that Maskell's companion-star model predicts, the data appear to favor Maskell over Corrow.",
+  "answer_c": "Because the survey's four dimmings of Cael-12 recurred every 42 days, a spacing inside both Corrow's 38-to-44-day range and Maskell's 40-to-46-day range, the data cannot separate their models.",
+  "answer_d": "The survey's four dimmings of Cael-12 recurred every 42 days, adding new data to the dispute between Corrow, who proposes an orbiting dust clump, and Maskell, who proposes a passing companion star.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. It reports that the 42-day spacing of the dimmings lies inside both Corrow's predicted range (38 to 44 days) and Maskell's predicted range (40 to 46 days), and concludes that the data cannot separate the two models. Because the results fit both predictions equally well, they do not settle which researcher is right, which is exactly what the student wants to convey.",
+  "distractor_a_explanation": "Choice A is incorrect. The facts are accurate: 42 days does fall inside Corrow's 38-to-44-day range. But the choice mentions only Corrow's range and says the data favor Corrow, presenting the dispute as tilting toward one side rather than leaving it unresolved.",
+  "distractor_b_explanation": "Choice B is incorrect. The facts are accurate: 42 days does fall inside Maskell's 40-to-46-day range. But the choice mentions only Maskell's range and says the data favor Maskell, presenting the dispute as tilting toward one side rather than leaving it unresolved.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. It accurately reports the survey result and the two researchers' proposed causes, but it never relates the 42-day spacing to either researcher's prediction. It therefore takes no position on whether the results settle the dispute and does not show that the data fit both models, so it does not present the dispute as unresolved.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
