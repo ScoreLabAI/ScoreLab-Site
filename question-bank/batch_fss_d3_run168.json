@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Form, Structure, and Sense",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "Which of the three moraine ridges that surveyors first mapped beside the Tavrik Glacier's meltwater channels marks the glacier's farthest advance ______ glaciologists ever since conflicting radiocarbon dates for the ridges were published in the 1950s.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "have occupied",
+  "answer_b": "occupied",
+  "answer_c": "has been occupied",
+  "answer_d": "has occupied",
+  "correct_answer": "D",
+  "explanation": "Choice D is the best answer. The convention being tested is subject-verb agreement and verb tense. The subject of the sentence is the noun clause \"Which of the three moraine ridges ... marks the glacier's farthest advance,\" and a noun clause takes a singular verb regardless of the plural nouns (\"ridges,\" \"channels\") inside it. The phrase \"ever since ... the 1950s\" describes a situation that began in the past and continues into the present, which calls for the present perfect. The singular active \"has occupied\" does both jobs and takes \"glaciologists\" as its direct object.",
+  "distractor_a_explanation": "Choice A is incorrect because the plural verb \"have occupied\" doesn't agree in number with the singular noun-clause subject \"Which of the three moraine ridges ... marks the glacier's farthest advance.\" It agrees instead with the nearby plural nouns \"ridges\" and \"channels,\" which are not the subject.",
+  "distractor_b_explanation": "Choice B is incorrect because the simple past \"occupied\" describes a situation finished in the past, but \"ever since ... the 1950s\" signals a situation that continues up to the present, which calls for the present perfect.",
+  "distractor_c_explanation": "Choice C is incorrect because the passive \"has been occupied\" cannot take a direct object, yet the sentence supplies one, \"glaciologists.\" With the passive, \"glaciologists\" is left with no grammatical role in the sentence.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]

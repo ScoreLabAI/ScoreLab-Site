@@ -1,0 +1,26 @@
+[
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Form, Structure, and Sense",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "Until the Vellacorte cathedral archive opened to researchers in 1974, whether the town's surviving water clocks came from a single foundry or from several smaller workshops ______ historians, who had only the clocks' bronze fittings to compare.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "has divided",
+  "answer_b": "were dividing",
+  "answer_c": "divided",
+  "answer_d": "was divided",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The conventions being tested are verb tense and voice, along with subject-verb agreement. The subject of the main clause is the entire noun clause \"whether the town's surviving water clocks came from a single foundry or from several smaller workshops,\" which names a single question and therefore can't take a plural verb. The fronted clause \"Until the Vellacorte cathedral archive opened to researchers in 1974\" places the situation entirely in the past, so the simple past is needed, and the verb must be active so that it can take \"historians\" as its direct object. The active simple past \"divided\" meets all of these requirements.",
+  "distractor_a_explanation": "Choice A is incorrect because the present perfect \"has divided\" describes a situation that continues up to the present, which conflicts with the \"Until ... in 1974\" clause that marks the situation as having ended in the past.",
+  "distractor_b_explanation": "Choice B is incorrect because \"were dividing\" is a plural verb, but the subject is a single noun clause (the whether-clause), which requires a singular verb. The plural nouns \"clocks\" and \"workshops\" near the blank are not the subject.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect because \"was divided\" is passive voice, which cannot take \"historians\" as a direct object. With the passive, \"historians\" is left with no grammatical role in the sentence.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ }
+]
